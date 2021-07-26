@@ -1,0 +1,94 @@
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 {
+    position: relative;
+    padding: 40px 30px 40px 30px;
+    border: 5px solid;
+    margin-bottom: 80px;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 .widgettitle {
+    margin: 0 0 27px 0;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 .widgettitle h5 {
+    margin: 0;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 .widgettitle h5:before {
+    display: none;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 .widgettitle h5:before {
+    margin: 0 0 20px 0;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul {
+    padding: 0;
+    list-style: none;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul li {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 15px;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    text-rendering: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 6px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul li .children {
+    margin-top: 20px;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none !important;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1 ul li a:hover {
+    color: #333333;
+}
+
+.stm_markup__sidebar_divider .stm_widget_pages_style_1:before {
+    right: -5px !important;
+    left: -5px !important;
+}
+
+.footer-widgets .stm_widget_pages_style_1 {
+    border: 0;
+}
+
+.footer-widgets .stm_widget_pages_style_1 ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-widgets .stm_widget_pages_style_1 ul li {
+    float: left;
+    width: 50%;
+}
+
+.footer-widgets .stm_widget_pages_style_1 ul li a {
+    display: block;
+    padding-right: 15px;
+    opacity: 0.6;
+}
+
+.footer-widgets .stm_widget_pages_style_1 ul li a:hover {
+    opacity: 1;
+}

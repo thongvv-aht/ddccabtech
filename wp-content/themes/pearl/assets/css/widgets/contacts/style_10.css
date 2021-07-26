@@ -1,0 +1,51 @@
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext {
+    margin-bottom: 25px;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext:before {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 74px;
+    letter-spacing: -0.60px;
+    content: attr(data-title);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext:last-child {
+    margin-bottom: 0;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2 {
+    margin-bottom: 12px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    font-size: 16px;
+    text-align: center;
+    min-width: 20px;
+    margin-right: 15px;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text a {
+    opacity: 1;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2.stm-icontext__fax {
+    margin-bottom: 12px;
+}
+
+.widget_contacts_style_10 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    display: none;
+    opacity: 1;
+}

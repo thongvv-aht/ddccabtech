@@ -1,0 +1,19 @@
+.stm_sidebar_style_13 .stm_markup__sidebar_divider .widget.widget_archive .widgettitle {
+    display: none;
+}
+
+.stm_sidebar_style_13 .stm_markup__sidebar_divider .widget.widget_archive .stm_select {
+    padding-top: 0;
+    border: 1px solid #ccc !important;
+}
+
+.stm_sidebar_style_13 .stm_markup__sidebar_divider .widget.widget_archive .stm_select .stm-select__val {
+    padding: 0 15px;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.stm_sidebar_style_13 .stm_markup__sidebar_divider .widget.widget_archive .stm_select:after {
+    right: 10px;
+    margin-top: 2px;
+}

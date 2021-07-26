@@ -1,0 +1,47 @@
+.stm_vertical_carousel__wrapper .stm_vertical_carousel {
+    display: inline-block;
+}
+
+.stm_vertical_carousel__wrapper .stm_vertical_carousel .slick-dots {
+    list-style: none;
+}
+
+.stm_vertical_carousel__wrapper .stm_vertical_carousel .slick-dots button {
+    display: none;
+}
+
+.stm_vertical_carousel__wrapper .stm_vertical_carousel__item {
+    margin-bottom: 25px;
+}
+
+.stm_vertical_carousel_style_1 {
+    position: relative;
+    padding-right: 52px;
+}
+
+.stm_vertical_carousel_style_1 .inner {
+    margin: 0 !important;
+}
+
+.stm_vertical_carousel_style_1 .slick-dots {
+    margin: -13px 0 0;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%) translateZ(0);
+}
+
+@media (max-width: 1023px) {
+    .stm_vertical_carousel_style_1 {
+        max-width: 100%;
+        padding-right: 0 !important;
+    }
+
+    .stm_vertical_carousel_style_1 .inner {
+        max-width: 100%;
+    }
+
+    .stm_vertical_carousel_style_1 .slick-dots {
+        display: none !important;
+    }
+}

@@ -1,0 +1,199 @@
+/*COLORS*/
+/*FONTS*/
+/*COLORS*/
+/*FONTS*/
+body.stm_header_offset .stm_titlebox {
+    margin-top: -92px;
+}
+
+@media (max-width: 1023px) {
+    body.stm_header_offset .stm_titlebox {
+        margin-top: 0;
+    }
+}
+
+.stm_titlebox {
+    position: relative;
+    margin-bottom: 60px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+.stm_titlebox:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.stm_titlebox__actions, .stm_titlebox__inner {
+    position: relative;
+    z-index: 15;
+}
+
+.stm_titlebox__inner {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.stm_titlebox__author {
+    margin-top: 55px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.stm_titlebox__author .stm_titlebox__author_avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stm_titlebox__author .stm_titlebox__author_name:after {
+    content: ' / ';
+}
+
+.stm_titlebox_text-right {
+    text-align: right;
+}
+
+.stm_titlebox_text-right .stm_separator {
+    margin-left: auto;
+}
+
+.stm_titlebox_text-right .stm_titlebox__actions {
+    -ms-flex-order: -1;
+    order: -1;
+    margin-right: auto;
+    margin-left: inherit !important;
+    padding-left: 0 !important;
+    padding-right: 15px;
+}
+
+.stm_titlebox_text-center {
+    text-align: center;
+}
+
+.stm_titlebox_text-center .stm_flex {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_titlebox_text-center .stm_flex_last > *:last-child:not(:first-child) {
+    margin-left: inherit;
+    padding-left: 50px;
+}
+
+.stm_titlebox_text-center .stm_separator {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 550px) {
+    .stm_titlebox {
+        padding-top: 30px;
+    }
+
+    .stm_titlebox__title.h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .stm_titlebox__inner {
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+        text-align: left;
+    }
+
+    .stm_titlebox__actions {
+        -ms-flex-order: 2;
+        order: 2;
+        padding: 0 !important;
+        margin: 30px 0 !important;
+    }
+}
+
+.stm_titlebox__overlay, .stm_titlebox__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.stm_titlebox__background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.stm_titlebox__overlay {
+    display: none;
+}
+
+.stm_transparent_header_disabled .stm_titlebox_style_3 {
+    padding: 50px 0;
+}
+
+.stm_title_box_enabled.stm_breadcrumbs_enabled .stm_titlebox {
+    margin-bottom: 20px;
+}
+
+.stm_title_box_enabled.stm_breadcrumbs_enabled .stm_titlebox_style_2 {
+    margin-bottom: 12px;
+}
+
+.stm_titlebox_style_10 {
+    margin-bottom: 80px !important;
+    padding: 60px 0 74px;
+}
+
+.stm_titlebox_style_10 .stm_titlebox__title {
+    margin-bottom: 5px;
+    text-transform: none !important;
+    color: #fff !important;
+}
+
+.stm_titlebox_style_10 .stm_titlebox__title:before {
+    display: block;
+    content: "\ec8f";
+    font-family: 'stmicons';
+    text-align: center;
+    background: linear-gradient(to right, #957029, #9b762e, #a48036, #b59446, #c4a453, #d2b461, #eace76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 13px;
+    line-height: 38px;
+    font-size: 36px;
+}
+
+.stm_titlebox_style_10 .stm_titlebox__title:after {
+    display: block;
+    content: "\e6d5";
+    font-family: 'stmicons';
+    text-align: center;
+    background: transparent !important;
+    line-height: 28px;
+    font-size: 13px;
+}
+
+.stm_titlebox_style_10 .stm_titlebox__subtitle {
+    max-width: 740px;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+@media (max-width: 1023px) {
+    .stm_titlebox_style_10.stm_titlebox_text-center .stm_titlebox__subtitle,
+  .stm_titlebox_style_10.stm_titlebox_text-center .stm_titlebox__title {
+        text-align: center;
+    }
+}

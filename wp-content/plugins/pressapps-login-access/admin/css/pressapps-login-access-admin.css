@@ -1,0 +1,211 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#login {
+  position: relative; }
+
+#login, .login form p {
+  font-size: 15px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media (max-width: 400px) {
+  #login {
+    width: 100%; } }
+
+@media (min-width: 401px) {
+  #login {
+    width: 400px; } }
+
+body.login h1 a {
+  display: none;
+  width: 100%;
+  height: auto;
+  background-size: auto;
+  font-size: 84px;
+  background-position: center; }
+  body.login h1 a:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.login form {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 40px; }
+  .login form #wp-submit {
+    text-shadow: none; }
+
+.login form .forgetmenot {
+  margin-top: 9px; }
+
+.login form .forgetmenot label, .login label {
+  font-size: 15px;
+  margin-bottom: 5px; }
+
+.login form .input, .login input[type=text], .login input[type=email] {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 18px;
+  border: none; }
+
+.login input[type=text], .login input[type=password], .login input[type=email] {
+  border: 1px solid #eeeeee; }
+
+.login #login select,
+.login #login textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  background: #fbfbfb;
+  margin-top: 5px;
+  margin-bottom: 16px; }
+
+.login #login label[for^=palo_checkbox] {
+  margin-top: 5px;
+  margin-bottom: 16px;
+  display: block; }
+
+.login #login span.checkbox {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 8px; }
+
+.login #backtoblog, .login #nav {
+  margin-left: 0;
+  text-align: center;
+  text-shadow: none;
+  font-size: 14px; }
+
+.login #backtoblog a, .login #nav a {
+  text-shadow: none;
+  text-decoration: none;
+  padding: 0 5px;
+  outline: 0;
+  opacity: 1;
+  transition: opacity .2s ease; }
+
+.login #backtoblog a:hover, .login #nav a:hover {
+  opacity: .7; }
+
+.login-action-register #nav a:hover:nth-child(2):before {
+  color: #7d7f83 !important; }
+
+.login.wp-core-ui .button-primary {
+  font-size: 14px;
+  padding: 9px 15px !important;
+  height: 46px !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: none;
+  -webkit-transition: .07s ease-in;
+  -moz-transition: .07s ease-in;
+  -o-transition: .07s ease-in;
+  transition: .07s ease-in;
+  background-image: none; }
+
+.login.wp-core-ui .button-primary:hover {
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  -webkit-transition: .07s ease-in;
+  -moz-transition: .07s ease-in;
+  -o-transition: .07s ease-in;
+  transition: .07s ease-in;
+  background-image: none;
+  opacity: .85; }
+
+.login-action-lostpassword .button {
+  float: left; }
+
+.login #login_error, .login .message, .login div.error, .login div.updated {
+  border: none;
+  box-shadow: none;
+  background: 0 0;
+  text-align: center;
+  font-weight: 300;
+  margin-left: 0;
+  margin-bottom: 20px; }
+
+#login_error {
+  margin-top: 5px; }
+
+#login_error, .login .message {
+  padding-top: 0;
+  line-height: 1.6em; }
+
+.login #login_error a {
+  clear: both;
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 1px; }
+
+.login #login_error a:hover {
+  opacity: .7; }
+
+#login .g-recaptcha {
+  margin-bottom: 15px;
+  text-align: center; }
+  #login .g-recaptcha > div > div {
+    width: 100% !important; }
+
+#palo-login-background {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+.login .palo_social_login {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 0;
+  color: #ffffff;
+  opacity: 1; }
+
+.palo_social_login:hover {
+  opacity: .8;
+  color: #ffffff;
+  cursor: pointer; }
+
+.facebook_login.palo_social_login {
+  background-color: #4867aa; }
+
+.twitter_login.palo_social_login {
+  background-color: #33ccff; }
+
+.google_login.palo_social_login {
+  background-color: #e63125; }
+
+.palo-login-alert {
+  font-size: 18px;
+  padding: 15px 10px;
+  text-align: center;
+  z-index: 999999; }
+  .palo-login-alert.palo-alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1; }
+
+.palo-hidden {
+  display: none !important; }
+
+.form-table select.palo_select {
+  min-width: 210px; }

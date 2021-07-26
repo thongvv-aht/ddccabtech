@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'stmicons';
+  src:  url('stmicons.eot?lf1vr4');
+  src:  url('stmicons.eot?lf1vr4#iefix') format('embedded-opentype'),
+    url('stmicons.ttf?lf1vr4') format('truetype'),
+    url('stmicons.woff?lf1vr4') format('woff'),
+    url('stmicons.svg?lf1vr4#stmicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="stmicon-"], [class*=" stmicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stmicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stmicon-logisticstwo-truck:before {
+  content: "\f900";
+}
+.stmicon-logisticstwo-air-freight:before {
+  content: "\f901";
+}
+.stmicon-logisticstwo-box:before {
+  content: "\f902";
+}
+.stmicon-logisticstwo-briefcase:before {
+  content: "\f903";
+}
+.stmicon-logisticstwo-clipboards:before {
+  content: "\f904";
+}
+.stmicon-logisticstwo-list:before {
+  content: "\f905";
+}
+.stmicon-logisticstwo-ship:before {
+  content: "\f906";
+}
+.stmicon-logisticstwo-team:before {
+  content: "\f907";
+}

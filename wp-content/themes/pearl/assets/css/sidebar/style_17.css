@@ -1,0 +1,221 @@
+.stm_sidebar_style_17 .stm_markup__sidebar h5,
+.stm_sidebar_style_17 .stm_markup__sidebar .widgettitle {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_testimonials_style_1 .stm_testimonials__review {
+    margin-right: 0;
+    margin-bottom: 30px;
+    letter-spacing: -0.3px;
+    padding: 29px 30px 30px !important;
+    line-height: 24px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 15px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_testimonials_style_1 .stm_testimonials__info {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_testimonials_style_1 .stm_testimonials__info h6 {
+    font-size: 12px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_testimonials_style_1 .stm_testimonials__info span {
+    font-size: 13px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_wp_widget_post_gallery_style_1 {
+    border-top: 4px solid transparent;
+    padding-top: 19px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_wp_widget_post_gallery_style_1 .widgettitle {
+    margin-bottom: 15px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .widget_tag_cloud {
+    border-top: 4px solid transparent;
+    padding-top: 28px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .widget_tag_cloud .widgettitle {
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .widget_tag_cloud .tagcloud a {
+    border: 0;
+    padding: 0 10px;
+    line-height: 31px;
+    background-color: #f6f6f6;
+    color: #111;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .widget_tag_cloud .tagcloud a:hover {
+    color: #fff;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 {
+    border-top: 4px solid transparent;
+    padding-top: 28px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 .h4 {
+    line-height: 24px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 .stm_posts_list_single {
+    width: 100%;
+    margin-bottom: 17px !important;
+    border-bottom: 1px solid #cccccc;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 .stm_posts_list_single__info {
+    margin-bottom: 7px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 .stm_posts_list_single__body h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .stm_posts_list_style_16 .stm_posts_list_single:last-child {
+    border-bottom: 0;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .mc4wp-form .mc4wp-form-fields input[type="email"]:focus {
+    border: 0;
+    background-color: #fff;
+}
+
+.stm_sidebar_style_17 .stm_markup__sidebar .mc4wp-form .mc4wp-form-fields .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 16px auto 0;
+}
+
+.stm_sidebar_style_17 .stm-footer .footer-widgets {
+    padding-bottom: 0px;
+}
+
+.stm_sidebar_style_17 .stm-footer .footer-widgets aside.widget {
+    margin-bottom: 30px;
+}
+
+.stm_sidebar_style_17 .stm-footer .widgettitle {
+    border-bottom: 1px solid #fff;
+}
+
+.stm_sidebar_style_17 .stm-footer .widgettitle h4 {
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_wp_widget_text .textwidget {
+    margin-top: -6px;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_wp_widget_text .textwidget .btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 19px;
+    padding: 12px 20px 10px;
+    border-color: #fff;
+    color: #fff !important;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_wp_widget_text .textwidget .btn:hover {
+    background-color: #111 !important;
+    border-color: #111;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_post_type_list_style_1 .stm_post_type_list__single {
+    border: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_post_type_list_style_1 .stm_post_type_list__single .stm_post_type_list__content h4 {
+    letter-spacing: 0.4px;
+    text-transform: none !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_post_type_list_style_1 .stm_post_type_list__single .stm_post_type_list__terms {
+    opacity: 0.6;
+    letter-spacing: 0.6px !important;
+    color: #fff !important;
+}
+
+.stm_sidebar_style_17 .stm-footer .widget-footer .search-form input[name="s"] {
+    border: 1px solid #cccccc;
+    min-height: 38px;
+    height: 38px;
+    padding: 5px 16px;
+    background-color: #fff;
+}
+
+.stm_sidebar_style_17 .stm-footer .widget-footer .search-form input[name="s"]:focus {
+    background-color: #fff;
+}
+
+.stm_sidebar_style_17 .stm-footer .widget-footer .search-form button[type="submit"] {
+    background: transparent !important;
+    padding: 0 21px !important;
+    font-size: 15px !important;
+    color: #999999;
+}
+
+.stm_sidebar_style_17 .stm-footer .widget-footer .search-form button[type="submit"] i {
+    position: relative;
+    right: 5px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_custom_menu_style_3 .menu {
+    margin-top: -11px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_custom_menu_style_3 .menu li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    float: none;
+    padding: 10px 0 10px 15px !important;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_custom_menu_style_3 .menu li:before {
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    font-size: 12px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_custom_menu_style_3 .menu li a {
+    display: block;
+    padding-left: 15px;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.stm_sidebar_style_17 .stm-footer .stm_custom_menu_style_3 .menu li a:hover {
+    opacity: 0.7;
+}

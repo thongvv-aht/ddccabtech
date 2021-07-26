@@ -1,0 +1,18 @@
+.stm_icon_links_style_3 a {
+    display: inline-block;
+    min-width: 0;
+    min-height: 0;
+    line-height: 18px;
+    font-size: 18px;
+    margin-right: 27px;
+    background-color: transparent !important;
+}
+
+.stm_icon_links_style_3 a:last-child {
+    margin-right: 0;
+}
+
+.stm_icon_links_style_3 a:hover {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}

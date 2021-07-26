@@ -1,0 +1,20 @@
+/*COLORS*/
+/*FONTS*/
+.stm_sliding_images.style_1 {
+    font-size: 0;
+    text-align: center;
+}
+
+.stm_sliding_images.style_1 .stm_sliding_image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 49%;
+    z-index: 20;
+}
+
+.stm_sliding_images.style_1 .stm_sliding_image__right {
+    max-width: 52%;
+    margin: 80px 0 0 -120px;
+    z-index: 10;
+}

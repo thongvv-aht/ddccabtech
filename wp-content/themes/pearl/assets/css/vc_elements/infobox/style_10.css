@@ -1,0 +1,49 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_10 {
+    display: block;
+}
+
+.stm_infobox_style_10 .stm_infobox__image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 57px;
+}
+
+.stm_infobox_style_10 .stm_infobox__image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.stm_infobox_style_10 .stm_infobox__content {
+    position: absolute;
+    right: 75px;
+    bottom: -57px;
+    width: 356px;
+    letter-spacing: 1.5px;
+    padding: 35px 50px 10px;
+}
+
+.stm_infobox_style_10 .stm_infobox__content .stm_infobox__icon {
+    position: absolute;
+    top: 25px;
+    left: -38px;
+    font-size: 56px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .stm_infobox_style_10 .stm_infobox__content {
+        position: relative;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        width: auto;
+    }
+
+    .stm_infobox_style_10 .stm_infobox__content .stm_infobox__icon {
+        display: none;
+    }
+}

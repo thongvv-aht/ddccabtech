@@ -1,0 +1,28 @@
+.btn {
+    border-width: 2px;
+    border-style: solid;
+    text-transform: none;
+    transition: all 0.3s;
+    padding: 16px 36px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.btn .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.btn:hover .btn__icon {
+    color: inherit !important;
+}
+
+.btn.btn_lg {
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.btn.btn_sm {
+    padding: 12px 32px;
+    font-size: 14px;
+}

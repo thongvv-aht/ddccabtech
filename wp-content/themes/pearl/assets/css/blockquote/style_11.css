@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*personal blog*/
+blockquote {
+    position: relative;
+    max-width: 636px;
+    padding: 12px 0 0 65px;
+    margin: 0 auto 40px;
+    border: 0;
+}
+
+blockquote p {
+    font-size: 24px;
+    line-height: 36px !important;
+}
+
+blockquote:after {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 33px;
+    content: "누" !important;
+    font-family: 'stmicons' !important;
+    font-style: normal;
+}

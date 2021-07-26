@@ -1,0 +1,58 @@
+/*PORTFOLIO*/
+.stm_buttons_style_11 .btn {
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.stm_buttons_style_11 .btn.btn_solid {
+    min-width: 160px;
+    text-align: center;
+}
+
+.stm_buttons_style_11 .btn.btn_outline span {
+    letter-spacing: 1px;
+}
+
+.stm_buttons_style_11 .btn.btn_outline:hover {
+    color: #fff !important;
+}
+
+.stm_buttons_style_11 .btn.btn_outline:hover span {
+    color: #fff !important;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth {
+    margin-bottom: 20px;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn {
+    border-width: 3px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn__icon:before {
+    position: relative;
+    left: 3px;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn span {
+    position: relative;
+    top: -2px;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn__label {
+    font-size: 14px;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn_subtitle span {
+    top: -10px;
+}
+
+.stm_buttons_style_11 .stm-button_fullwidth .btn_subtitle span.btn_subtitle_label {
+    top: -13px;
+    letter-spacing: 0;
+}

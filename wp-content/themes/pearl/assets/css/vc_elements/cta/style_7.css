@@ -1,0 +1,91 @@
+/*COLORS*/
+/*FONTS*/
+.stm_cta.style_7 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 20px 0 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.stm_cta.style_7 .stm_cta__content p {
+    padding: 0 0 20px 0;
+    width: 750px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.stm_cta.style_7 .stm_cta__link {
+    text-align: center;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid {
+    box-shadow: 0 5px 10px rgba(95, 149, 255, 0.2);
+    border-radius: 8px;
+    padding: 12px 40px 11px;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary {
+    transition: all 0.3s ease-in-out;
+    border: 0;
+    position: relative;
+    padding: 16px 43px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #000 !important;
+    color: #ffffff !important;
+    z-index: 10;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:before, .stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:after {
+    top: auto;
+    bottom: 0;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:hover {
+    color: #000000 !important;
+}
+
+.stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:hover:before, .stm_cta.style_7 .stm_cta__link .btn.btn_solid.btn_secondary:hover:after {
+    height: 50%;
+    z-index: -1;
+}
+
+@media (max-width: 550px) {
+    .stm_cta.style_7 {
+        padding: 20px 25px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_cta.style_7 .stm_cta__content {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .stm_cta.style_7 .stm_cta__link {
+        margin: 0;
+    }
+
+    .stm_cta.style_7 .stm_cta h4 {
+        line-height: 1.3;
+    }
+}

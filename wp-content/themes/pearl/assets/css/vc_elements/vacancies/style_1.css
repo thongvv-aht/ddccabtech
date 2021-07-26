@@ -1,0 +1,83 @@
+/*COLORS*/
+/*FONTS*/
+.stm_vacancies_style_1 {
+    margin-bottom: 50px;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 15px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0);
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single > div {
+    padding: 0 15px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    bottom: 0;
+    width: 5px;
+    transform: scale(0.6);
+    opacity: 0;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-top-color: transparent;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__single:hover + .stm_vacancies__single {
+    border-top-color: transparent;
+}
+
+@media (max-width: 550px) {
+    .stm_vacancies_style_1 .stm_vacancies__single {
+        display: block;
+        padding: 15px;
+    }
+
+    .stm_vacancies_style_1 .stm_vacancies__single > div {
+        padding: 5px 0;
+    }
+}
+
+.stm_vacancies_style_1 .stm_vacancies__department, .stm_vacancies_style_1 .stm_vacancies__location, .stm_vacancies_style_1 .stm_vacancies__date {
+    white-space: nowrap;
+    -ms-flex-preferred-size: 18%;
+    flex-basis: 18%;
+}
+
+.stm_vacancies_style_1 .stm_vacancies__title {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    font-weight: 700;
+}
+
+@media (max-width: 769px) and (min-width: 425px) {
+    .stm_vacancies_style_1 .stm_vacancies__title {
+        width: 25%;
+    }
+
+    .stm_vacancies_style_1 .stm_vacancies__department, .stm_vacancies_style_1 .stm_vacancies__location, .stm_vacancies_style_1 .stm_vacancies__date {
+        white-space: normal;
+    }
+}

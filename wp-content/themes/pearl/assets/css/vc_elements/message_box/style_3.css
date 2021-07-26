@@ -1,0 +1,77 @@
+.vc_message_box.stm_message_box_no-icon {
+    padding: 1em;
+}
+
+.vc_message_box span.close {
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 300;
+    color: inherit;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.vc_message_box span.close:hover {
+    color: #000;
+}
+
+.vc_message_box p {
+    margin-bottom: 0;
+}
+
+.vc_message_box {
+    background: transparent !important;
+    border: 2px solid #e8e8e8 !important;
+    font-size: 20px;
+}
+
+.vc_message_box p {
+    color: #84898b;
+}
+
+.vc_message_box .vc_message_box-icon i {
+    font-size: 24px;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-info {
+    background: #cef;
+    color: #0af;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-info i {
+    color: #0af;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-success {
+    background-color: #c9f7b2;
+    color: #61a600;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-success i {
+    color: #61a600;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-warning {
+    background-color: #fff2b2;
+    color: #f90;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-warning i {
+    color: #f90;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-danger {
+    background-color: #ffd9d9;
+    color: #f00;
+}
+
+.vc_message_box.vc_message_box-solid.vc_color-danger i {
+    color: #f00;
+}
+
+.vc_message_box.stm_message_box_has_close_button {
+    padding-right: 40px;
+}

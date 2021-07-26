@@ -1,0 +1,33 @@
+/*COLORS*/
+/*FONTS*/
+.stm_project_details_style_3 {
+    border: 3px solid #000;
+    padding: 34px 34px 43px;
+}
+
+.stm_project_details_style_3 h4 {
+    margin-bottom: 30px;
+}
+
+.stm_project_details_style_3 .stm_project_details__table {
+    width: 100%;
+}
+
+.stm_project_details_style_3 .stm_project_details__single {
+    margin-bottom: 14px;
+}
+
+.stm_project_details_style_3 .stm_project_details__single:last-child {
+    margin-bottom: 0;
+}
+
+.stm_project_details_style_3 .stm_project_details__label {
+    text-transform: uppercase;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.stm_project_details_style_3 .stm_project_details__value {
+    font-size: 14px;
+    font-weight: 400;
+}

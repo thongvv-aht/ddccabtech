@@ -1,0 +1,377 @@
+.stm_single_stm_events .stm_markup__content .stm_single_event__info {
+    position: relative;
+    max-width: 375px;
+    padding: 50px 30px 30px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__info > div:not(.stm_single_event__overlay) {
+    position: relative;
+    z-index: 15;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__title {
+    margin: -11px 0 23px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__thumbnail {
+    margin-bottom: 40px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__address #gmap {
+    height: 450px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__addr, .stm_single_stm_events .stm_markup__content .stm_single_event__date {
+    padding-left: 45px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__addr .__icon, .stm_single_stm_events .stm_markup__content .stm_single_event__date .__icon {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__addr h4, .stm_single_stm_events .stm_markup__content .stm_single_event__date h4 {
+    margin-bottom: 0;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__form {
+    margin: 40px 0;
+    padding: 35px 50px 35px;
+    background-color: #eeeff2;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__form .btn {
+    padding: 16px 30px 15px !important;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__form .btn span:before, .stm_single_stm_events .stm_markup__content .stm_single_event__form .btn span:after {
+    z-index: 0;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__form .btn em {
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__panel {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background: transparent !important;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__panel .stm_single_event__categories span {
+    font-family: inherit;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__panel .stm_single_event__categories a {
+    padding: 6px 10px;
+    margin-right: 6px;
+    background-color: #eeeeee;
+    font-size: 14px;
+    color: #595959 !important;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__panel .stm_single_event__categories a:hover {
+    color: #ffffff !important;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__share {
+    margin: 0 0 0 auto !important;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__share .stm_share {
+    margin-bottom: 0;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__share a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0;
+    font-size: 16px;
+    color: #778084;
+}
+
+@media (max-width: 570px) {
+    .stm_single_stm_events .stm_markup__content .stm_single_event__share {
+        padding-left: 0;
+        margin: 10px 0 0;
+    }
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__actions .btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.stm_single_stm_events .stm_markup__content .stm_single_event__categories i {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+    transform: rotate(90deg);
+}
+
+.stm_single_event_map_included {
+    position: relative;
+}
+
+.stm_single_event_map_included .stm_single_event__info {
+    position: absolute !important;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.stm_single_event_map_included .stm_single_event__info h4 {
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.stm_single_event_map_included .stm_single_event__info .icon_27px {
+    font-size: 18px;
+}
+
+.stm_single_event_map_included .stm_single_event__info p {
+    font-size: 14px;
+}
+
+.stm_single_event_map_included .stm_single_event__info .stm_single_event__addr,
+    .stm_single_event_map_included .stm_single_event__info .stm_single_event__date {
+    padding-left: 35px;
+}
+
+.stm_single_event_map_included .stm_single_event__info .stm_single_event__addr i.wtc,
+      .stm_single_event_map_included .stm_single_event__info .stm_single_event__date i.wtc {
+    color: #ffffff !important;
+}
+
+.stm_single_stm_events .stm_single_event_map_ {
+    margin-bottom: 20px !important;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info {
+    padding: 20px 0 0;
+    max-width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__overlay {
+    display: none;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__date,
+    .stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__addr {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    font-size: 14px;
+    color: #505050;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__date h4,
+      .stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__addr h4 {
+    display: none;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__date i,
+      .stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__addr i {
+    font-size: 18px;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__addr {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.stm_single_stm_events .stm_single_event_map_ .stm_single_event__info .stm_single_event__date {
+    padding-left: 30px;
+}
+
+.stm_single_event__calendar {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.stm_single_event__calendar .atcb-link {
+    display: none;
+}
+
+.stm_single_event__calendar .addtocalendar {
+    position: absolute;
+    padding: 10px 0;
+    top: 105%;
+    left: 1px;
+    right: 1px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item a:before {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:first-child a:before {
+    content: "\f271";
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:nth-child(2) a:before {
+    content: "\f1a0";
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:nth-child(3) a:before {
+    top: -2px;
+    content: "\f003";
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:nth-child(4) a:before {
+    content: "\f0ed";
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:last-child a {
+    margin-bottom: 0;
+}
+
+.stm_single_event__calendar .addtocalendar .atcb-list .atcb-item:last-child a:before {
+    content: "\f19e";
+}
+
+.stm_single_event__calendar.active .addtocalendar {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.stm_single_event__calendar.active span {
+    color: #ffffff;
+}
+
+.stm_single_event__calendar.active span:before, .stm_single_event__calendar.active span:after {
+    height: 50% !important;
+    opacity: 1 !important;
+}
+
+.stm_single_event_part-label {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    margin-left: 13px;
+    padding: 16px 20px;
+    border: 2px solid #ccc;
+    font-style: italic;
+}
+
+.stm_single_event_part-label:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: #fff;
+    border: 2px solid transparent;
+    border-bottom-color: #ccc;
+    border-left-color: #ccc;
+}
+
+@media (max-width: 1025px) and (min-width: 992px) {
+    .stm_single_stm_events .stm_single_event__share .stm_share {
+        margin-top: 4px !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .stm_single_stm_events .stm_markup__content .stm_single_event__share .stm_share {
+        margin-top: 4px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_single_event_map_included .stm_single_event__info {
+        position: static !important;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+    .stm_single_event__calendar {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .stm_single_stm_events .stm_markup__content .stm_single_event__panel .stm_single_event__categories {
+        margin-bottom: 20px;
+    }
+
+    .stm_single_stm_events .stm_markup__content .stm_single_event__panel .stm_single_event__categories a {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    .stm_single_stm_events .stm_markup__content .stm_single_event__share {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .stm_single_event__form {
+        padding: 30px 15px !important;
+    }
+
+    .stm_single_event__form .btn_loading {
+        margin: 15px 0 0 !important;
+    }
+}

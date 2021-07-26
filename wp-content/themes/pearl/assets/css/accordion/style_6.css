@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels {
+    position: relative;
+    padding-left: 30px;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a {
+    padding: 12px 20px !important;
+    text-transform: none !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a .vc_tta-title-text {
+    font-size: 20px;
+    line-height: 1.3em;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a .vc_tta-controls-icon {
+    position: absolute;
+    left: -20px;
+    top: 18px;
+    opacity: 1;
+    transition: 0.3s ease;
+    transform: rotate(0deg) translateZ(0);
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a .vc_tta-controls-icon:before {
+    display: none;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a .vc_tta-controls-icon:after {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    font-style: normal;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-body {
+    padding: 5px 20px 20px;
+    border: 0 !important;
+}
+
+.stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-title > a .vc_tta-controls-icon {
+    top: 22px;
+    transform: rotate(90deg);
+}
+
+@media (max-width: 550px) {
+    .stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels {
+        padding-left: 0;
+    }
+
+    .stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-controls-icon {
+        display: none;
+    }
+
+    .stm_accordions_style_6 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body {
+        padding-top: 15px !important;
+    }
+}

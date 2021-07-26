@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/*Default widgets*/
+.stm_sidebar_style_14 .site-content .widget {
+    margin-bottom: 30px;
+}
+
+.stm_sidebar_style_14 .site-content .widget .widgettitle {
+    margin-bottom: 18px;
+}
+
+.stm_sidebar_style_14 .site-content .widget .widgettitle h5 {
+    text-transform: none;
+    font-size: 18px;
+}
+
+.stm_sidebar_style_14 .site-content .widget .widgettitle h5:after {
+    display: inline-block;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 {
+    padding-top: 56px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    border-width: 5px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 h5 {
+    margin-bottom: 36px;
+    text-transform: none;
+    font-size: 30px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 h5:after {
+    display: none;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 ul li {
+    margin-bottom: 18px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 ul li:last-child {
+    margin-bottom: 10px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.stm_widget_categories.style_2 ul li a:before {
+    content: "󙀁" !important;
+    font-family: 'stmicons' !important;
+    font-weight: 400;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 9px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_search .search-form input[name="s"] {
+    border: 1px solid #d9d9d9;
+    height: 55px;
+    background-color: transparent !important;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_search .search-form button {
+    background: transparent !important;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_search .search-form button i {
+    color: #000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_archive .stm_select select {
+    border: 1px solid #d9d9d9;
+    height: 53px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_archive .stm_select:after {
+    color: #000 !important;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_tag_cloud {
+    margin-bottom: 20px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_tag_cloud .tagcloud a {
+    line-height: 18px;
+    padding: 5px 11px !important;
+    border-color: #d9d9d9;
+    margin: 0 10px 10px 0;
+    border-radius: 0;
+    color: #000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_tag_cloud .tagcloud a:hover {
+    color: #ffffff;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_meta ul li:before {
+    top: 10px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_entries .widgettitle {
+    margin-bottom: 14px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_entries ul li:before {
+    display: none;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_entries ul li a {
+    padding: 0;
+    margin-bottom: 4px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_entries ul li a:after {
+    display: none;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_entries ul li .post-date {
+    padding: 0;
+    top: 0;
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_recent_comments ul li:before {
+    top: 12px;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table {
+    margin-bottom: 0;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table caption {
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.20px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table caption:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 75px;
+    height: 2px;
+    margin: 15px 0 15px 32px !important;
+    background-color: #000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table thead tr th {
+    background: #fafafa !important;
+    color: #000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table tbody tr td {
+    border: 0;
+    padding: 3px 2px;
+    font-size: 14px;
+    color: #000;
+}
+
+.stm_sidebar_style_14 .site-content .widget.widget_calendar table tbody tr:first-child td {
+    padding-top: 7px;
+}
+
+@media (max-width: 1024px) {
+    .widget {
+        margin-bottom: 40px !important;
+    }
+}

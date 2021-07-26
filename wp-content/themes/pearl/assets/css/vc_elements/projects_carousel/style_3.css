@@ -1,0 +1,207 @@
+/*COLORS*/
+/*FONTS*/
+.stm_projects_carousel__title {
+    margin-right: 30px;
+}
+
+.stm_projects_carousel__title a {
+    text-decoration: none !important;
+}
+
+.stm_projects_carousel__item {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+}
+
+.stm_projects_carousel__item img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__btn {
+    bottom: 25px;
+    opacity: 1;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__name {
+    bottom: 90px;
+    opacity: 1;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay i {
+    opacity: 1;
+}
+
+.stm_projects_carousel__custom_image i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 28px;
+    opacity: 0;
+}
+
+.stm_projects_carousel__btn {
+    position: absolute;
+    left: 33px;
+    bottom: 10px;
+    opacity: 0;
+    font-weight: 700;
+}
+
+.stm_projects_carousel__name {
+    position: absolute;
+    left: 33px;
+    bottom: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    width: 70%;
+    opacity: 0;
+}
+
+.stm_projects_carousel__overlay {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+}
+
+.stm_projects_carousel {
+    padding: 110px 0 0 !important;
+    position: relative;
+  /*Tabs*/
+}
+
+.stm_projects_carousel__overlay {
+    left: -5px;
+    right: -5px;
+}
+
+.stm_projects_carousel__item {
+    overflow: hidden;
+    padding: 0;
+}
+
+.stm_projects_carousel__item img {
+    transform: scale(1.02);
+    transition: all .3s ease;
+}
+
+.stm_projects_carousel__item:hover img {
+    transform: scale(1);
+}
+
+.stm_projects_carousel_dark {
+    padding: 37px 15px 60px;
+}
+
+.stm_projects_carousel__entry {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+    .stm_projects_carousel__entry {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+.stm_projects_carousel__entry_shadow {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.stm_projects_carousel__tabs {
+    margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+    .stm_projects_carousel__tabs {
+        margin-left: 0 !important;
+    }
+}
+
+.stm_projects_carousel__tab {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stm_projects_carousel__tab a {
+    display: block;
+    padding: 14px 17px;
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.stm_projects_carousel__tab a.active {
+    opacity: 1 !important;
+}
+
+.stm_projects_carousel .owl-dots {
+    display: none !important;
+}
+
+.stm_projects_carousel .owl-controls {
+    position: absolute;
+    top: -110px;
+    right: 0;
+    left: auto;
+    display: block;
+}
+
+.stm_projects_carousel .owl-controls .owl-nav {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin: 0 -5px;
+}
+
+.stm_projects_carousel .owl-controls .owl-nav .owl-prev, .stm_projects_carousel .owl-controls .owl-nav .owl-next {
+    position: static;
+    display: block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-width: 1px;
+}
+
+.stm_projects_carousel .owl-controls .owl-nav .owl-prev:before, .stm_projects_carousel .owl-controls .owl-nav .owl-next:before {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.stm_layout_restaurant .stm_projects_carousel__carousels {
+    margin: 0;
+    padding-top: 88px;
+}
+
+.stm_layout_restaurant .stm_projects_carousel__name,
+.stm_layout_beauty .stm_projects_carousel__name,
+.stm_layout_medicall .stm_projects_carousel__name,
+.stm_layout_healthcoach .stm_projects_carousel__name,
+.stm_layout_rental .stm_projects_carousel__name,
+.stm_layout_church .stm_projects_carousel__name {
+    line-height: 1.2em;
+    font-size: 16px !important;
+}

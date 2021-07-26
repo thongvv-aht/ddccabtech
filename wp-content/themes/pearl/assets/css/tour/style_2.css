@@ -1,0 +1,53 @@
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab, .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-list .vc_tta-tab {
+    padding: 19px 0;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab a, .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-list .vc_tta-tab a {
+    display: block;
+    padding: 7px 20px 5px !important;
+    background-color: transparent !important;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text, .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text {
+    padding: 0 !important;
+    line-height: 1 !important;
+    min-height: 0 !important;
+    border: 0 !important;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab.vc_active, .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-tabs-list .vc_tta-tab.vc_active {
+    background-color: transparent !important;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab {
+    padding: 19px 0;
+    position: relative;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab:not(:first-child):before {
+    content: '';
+    position: absolute;
+    left: 23px;
+    right: 0;
+    top: 0;
+    border-top: 2px solid #e1e4eb;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab a {
+    border-left: 3px solid #e1e4eb;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list .vc_tta-tab.vc_active {
+    background-color: transparent !important;
+}
+
+.stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-panels .vc_tta-panel .vc_tta-panel-body {
+    padding-left: 50px;
+}
+
+@media (max-width: 1023px) {
+    .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-panels .vc_tta-panel .vc_tta-panel-body, .stm_tour_style_2 .vc_tta-tabs.vc_tta-tabs-position-right .vc_tta-panels .vc_tta-panel .vc_tta-panel-body {
+        display: none;
+        padding: 0 !important;
+    }
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_testimonials {
+    margin: 0 -15px;
+}
+
+.stm_testimonials .owl-controls, .stm_testimonials__item {
+    margin: 0 15px;
+}
+
+.stm_testimonials_list_style {
+    margin: 0;
+}
+
+.stm_testimonials_style_4 {
+    margin-bottom: 30px;
+}
+
+.stm_testimonials_style_4 .owl-dots {
+    margin-top: 20px;
+}
+
+.stm_testimonials_style_4 .owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+.stm_testimonials_style_4 .owl-dots .owl-dot span {
+    display: none;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__review {
+    position: relative;
+    background: #eeeff2;
+    padding: 25px 30px 60px;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 23px 0;
+    font-weight: 300;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__review:after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 65px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 0;
+    border-color: #eeeff2 transparent transparent transparent;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__review:before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 47px;
+    line-height: 39px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.stm_testimonials_style_4 .stm_testimonials__meta {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__meta_align-center {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__avatar {
+    max-width: 58px;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__avatar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__avatar_rounded img {
+    border-radius: 50%;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__avatar img {
+    width: auto !important;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__info {
+    margin-left: 16px;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__info h6 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.stm_testimonials_style_4 .stm_testimonials__info span {
+    display: block;
+    margin-top: -6px;
+    font-size: 13px;
+}

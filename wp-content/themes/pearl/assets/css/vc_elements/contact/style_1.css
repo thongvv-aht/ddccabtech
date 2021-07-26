@@ -1,0 +1,39 @@
+/*COLORS*/
+/*FONTS*/
+.stm_layout_portfolio .stm_contact__image {
+    position: relative;
+    top: 10px;
+}
+
+.stm_contact_style_1 {
+    margin-bottom: 25px;
+}
+
+.stm_contact_style_1:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.stm_contact_style_1 .stm_contact__image {
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 15px;
+}
+
+.stm_contact_style_1 .stm_contact__info {
+    overflow: hidden;
+}
+
+.stm_contact_style_1 .stm_contact__job {
+    margin: -3px 0 16px;
+    font-size: 13px;
+}
+
+.stm_contact_style_1 .stm_contact__row {
+    margin-bottom: 5px;
+}
+
+.stm_contact_style_1 h5 {
+    margin-top: -2px;
+}

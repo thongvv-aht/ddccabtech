@@ -1,0 +1,44 @@
+.stm_buttons_style_16 .btn {
+    letter-spacing: 1.175px;
+    padding: 20px 34px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    border-width: 3px;
+}
+
+.stm_buttons_style_16 .btn.btn_icon-right.btn_solid {
+    padding-right: 60px !important;
+}
+
+.stm_buttons_style_16 .btn.btn_icon-right .btn__label {
+    margin-right: 26px;
+}
+
+.stm_buttons_style_16 .btn.btn_icon-right .btn__icon {
+    right: 10px;
+}
+
+.stm_buttons_style_16 .btn.btn_icon-left .btn__label {
+    margin-left: 26px;
+}
+
+.stm_buttons_style_16 .btn.btn_icon-left .btn__icon {
+    left: 17px;
+}
+
+.stm_buttons_style_16 .btn_outline.btn_icon-left.btn_icon-bg .btn__icon {
+    left: 0 !important;
+    border-radius: 30px 0 0 30px;
+    height: 60px;
+    margin-top: 1px;
+}
+
+.stm_buttons_style_16 .btn_outline.btn_icon-right.btn_icon-bg .btn__icon {
+    right: 0;
+    border-radius: 0 30px 30px 0;
+    height: 60px;
+    margin-top: 1px;
+}

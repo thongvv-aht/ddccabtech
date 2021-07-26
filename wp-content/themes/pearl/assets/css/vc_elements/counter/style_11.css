@@ -1,0 +1,43 @@
+/*COLORS*/
+/*FONTS*/
+.stm-counter_style_11 .stm-counter__icon {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+    font-size: 40px;
+}
+
+.stm-counter_style_11 .stm-counter__value {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.stm-counter_style_11 .stm-counter__affix {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.stm-counter_style_11 .stm-counter__prefix {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.stm-counter_style_11 .stm-counter__label {
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.stm-counter_style_11 .stm-counter__description {
+    line-height: 24px;
+    font-size: 14px;
+    color: inherit !important;
+}
+
+.stm-counter_style_11.stm_icon_gradient i {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

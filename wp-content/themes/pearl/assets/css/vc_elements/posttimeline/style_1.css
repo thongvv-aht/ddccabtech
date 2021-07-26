@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_posttimeline_style_1 .stm_posttimeline__heading > .row {
+    margin: 0;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post {
+    display: block;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post_image {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post_image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: #fff;
+    z-index: 20;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post_image:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 65px;
+    height: 65px;
+    margin: -32px 0 0 -32px;
+    border-radius: 50%;
+    color: #fff !important;
+    text-align: center;
+    font-size: 34px;
+    line-height: 63px;
+    opacity: 0;
+    z-index: 25;
+}
+
+@media (max-width: 992px) {
+    .stm_posttimeline_style_1 .stm_posttimeline__post_image {
+        display: block;
+    }
+
+    .stm_posttimeline_style_1 .stm_posttimeline__post_image img {
+        width: 100%;
+    }
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post h5 {
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post h5:before {
+    display: none !important;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post p {
+    opacity: 0.7;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post:hover p {
+    opacity: 1;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post:hover .stm_posttimeline__post_image:before {
+    opacity: 1;
+}
+
+.stm_posttimeline_style_1 .stm_posttimeline__post:hover .stm_posttimeline__post_image:after {
+    opacity: 0.7;
+}
+
+@media (max-width: 1023px) {
+    .stm_posttimeline_style_1 .stm_posttimeline__heading {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .stm_posttimeline_style_1 .col-sm-6:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+.stm_circle_divider {
+    position: relative;
+    height: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -15px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.stm_circle_divider__col {
+    width: 25%;
+    padding: 0 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm_circle_divider__col:first-child .stm_circle_divider_big {
+    left: -8px;
+}
+
+.stm_circle_divider__col:not(:first-child) span:nth-child(2) {
+    margin-left: -31px;
+}
+
+.stm_circle_divider__col:not(:first-child) .stm_circle_divider_big {
+    position: relative;
+    left: -23px;
+}
+
+.stm_circle_divider__col:nth-child(4) span:last-child {
+    margin-right: 47px;
+}
+
+.stm_circle_divider span {
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #7c7c7c;
+    border-radius: 50%;
+}
+
+.stm_circle_divider span.stm_circle_divider_big {
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 0;
+}
+
+.stm_circle_divider span:last-child {
+    margin-right: 31px;
+}
+
+.stm_circle_divider .stm_circle_divider_big_alone {
+    position: absolute;
+    right: -8px;
+    top: 0;
+    margin-right: 15px !important;
+}
+
+.stm_layout_artist .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_charity .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_healthcoach .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_logistics .stm_posttimeline_style_1 .stm_posttimeline__post h3 {
+    text-transform: none !important;
+}
+
+.stm_layout_artist .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_charity .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_beauty .stm_posttimeline_style_1 .stm_posttimeline__post h3 {
+    font-size: 20px;
+}
+
+.stm_layout_artist .stm_posttimeline_style_1 .stm_posttimeline__post h6:after,
+.stm_layout_charity .stm_posttimeline_style_1 .stm_posttimeline__post h6:after,
+.stm_layout_beauty .stm_posttimeline_style_1 .stm_posttimeline__post h6:after {
+    display: none !important;
+}
+
+.stm_layout_restaurant .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_medicall .stm_posttimeline_style_1 .stm_posttimeline__post h3,
+.stm_layout_rental .stm_posttimeline_style_1 .stm_posttimeline__post h3 {
+    font-size: 20px;
+}

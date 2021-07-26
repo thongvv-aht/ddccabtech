@@ -1,0 +1,101 @@
+.btn {
+    padding: 15px 30px;
+    text-transform: none;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 600;
+    line-height: 16px;
+    border-width: 2px;
+}
+
+.btn_shadow {
+    box-shadow: 0 10px 20px 0 rgba(132, 107, 61, 0.3);
+}
+
+.btn_xs {
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.btn__icon {
+    top: -1px;
+    bottom: -1px;
+}
+
+.btn .btn__icon {
+    font-size: 18px;
+}
+
+.btn_icon-right .btn__icon {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn_icon-right .btn__icon:before {
+    position: relative;
+    left: -10px;
+    right: auto;
+}
+
+.btn_icon-left .btn__icon {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.btn_icon-left .btn__icon:before {
+    position: relative;
+    right: -1px;
+}
+
+.btn.btn_outline.btn_xs {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.btn.btn_outline:hover {
+    color: #fff !important;
+}
+
+textarea {
+    min-height: 80px !important;
+}
+
+.widget.widget-default.widget_search .search-form button {
+    border-radius: 0;
+}
+
+button[type="submit"]:not(.btn),
+input[type="submit"]:not(.btn) {
+    padding: 10px 36px;
+    text-transform: none;
+    font-size: 16px;
+    border-radius: 99px;
+    font-weight: 400;
+}
+
+.stm-button_fullwidth .btn_outline.btn_outline.btn_fullwidth {
+    border-width: 2px;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.stm-button_fullwidth .btn_outline.btn_outline.btn_fullwidth:hover {
+    color: #fff !important;
+}
+
+.stm-button_fullwidth .btn_outline.btn_outline.btn_fullwidth .btn__label {
+    display: block;
+    margin: -4px 0 0;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.stm-button_fullwidth .btn_outline.btn_outline.btn_fullwidth .btn_subtitle_label {
+    opacity: 0.75;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

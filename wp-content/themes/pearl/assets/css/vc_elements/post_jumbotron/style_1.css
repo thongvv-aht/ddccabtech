@@ -1,0 +1,113 @@
+.stm_post_jumbotron_style_1 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.stm_post_jumbotron_style_1:hover .title {
+    transform: translateY(-2px);
+}
+
+.stm_post_jumbotron_style_1:hover .info {
+    transform: translateY(2px);
+}
+
+.stm_post_jumbotron_style_1 > a {
+    display: block;
+    padding: 160px 16.667% 95px;
+    position: relative;
+    z-index: 10;
+}
+
+.stm_post_jumbotron_style_1 .title {
+    transition: all .7s ease;
+    font-size: 45px;
+    line-height: 1.11;
+    font-weight: bold;
+    margin-bottom: 55px;
+    color: #fff;
+}
+
+.stm_post_jumbotron_style_1 .overlay {
+    transition: all .7s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.stm_post_jumbotron_style_1 .background-image {
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.stm_post_jumbotron_style_1 .info {
+    transition: all 1s ease;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+.stm_post_jumbotron_style_1 .info__item {
+    margin-right: 20px;
+}
+
+.stm_post_jumbotron_style_1 .info__item i {
+    margin-right: 5px;
+}
+
+.stm_post_jumbotron_style_1 .categories .category {
+    border-radius: 11px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 1.1px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.stm_post_jumbotron_style_1 .categories .category:first-child {
+    margin-top: 0;
+}
+
+.stm_post_jumbotron_style_1 .comments .stmicon-magazine-comment {
+    position: relative;
+    top: 2px;
+}
+
+@media (max-width: 550px) {
+    .stm_post_jumbotron_style_1 a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .stm_post_jumbotron_style_1 .info {
+        padding: 0 15px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_post_jumbotron_style_1 .info .info__item {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}

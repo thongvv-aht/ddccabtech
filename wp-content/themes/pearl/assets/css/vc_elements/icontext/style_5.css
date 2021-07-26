@@ -1,0 +1,32 @@
+/*COLORS*/
+/*FONTS*/
+.stm_icontext {
+    vertical-align: top;
+}
+
+.stm_icontext a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.stm_icontext__text {
+    vertical-align: top;
+}
+
+.stm_icontext__text span {
+    display: block;
+    overflow: hidden;
+}
+
+.stm_icontext__icon {
+    float: left;
+}
+
+.stm_icontext_style_5 .stm_icontext__text {
+    font-weight: 400;
+}
+
+.stm_icontext_style_5 .stm_icontext__icon {
+    position: relative;
+    top: 5px;
+}

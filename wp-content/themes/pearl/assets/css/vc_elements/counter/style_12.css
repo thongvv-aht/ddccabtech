@@ -1,0 +1,60 @@
+/*COLORS*/
+/*FONTS*/
+.stm-counter_style_12 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 165px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.4s;
+    padding: 25px 15px 20px;
+    text-align: center;
+}
+
+.stm-counter_style_12:hover {
+    top: -10px;
+    box-shadow: 0 15px 30px rgba(40, 117, 128, 0.21);
+}
+
+.stm-counter_style_12 .stm-counter__icon {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.stm-counter_style_12 .stm-counter__value {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stm-counter_style_12 .stm-counter__affix {
+    font-size: 25px;
+}
+
+.stm-counter_style_12 .stm-counter__prefix {
+    font-size: 25px;
+}
+
+.stm-counter_style_12 .stm-counter__label {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.stm-counter_style_12.stm_icon_gradient i {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

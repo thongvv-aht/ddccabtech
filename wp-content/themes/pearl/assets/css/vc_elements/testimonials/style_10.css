@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_testimonials {
+    margin: 0 -15px;
+}
+
+.stm_testimonials .owl-controls, .stm_testimonials__item {
+    margin: 0 15px;
+}
+
+.stm_testimonials_list_style {
+    margin: 0;
+}
+
+.stm_testimonials_style_10 {
+    text-align: center;
+}
+
+.stm_testimonials_style_10 .stm_testimonials__review {
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    max-width: 970px;
+    color: #ffffff;
+}
+
+.stm_testimonials_style_10 .stm_testimonials__info h6 {
+    font-family: inherit !important;
+    line-height: 18px;
+    text-transform: none !important;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.stm_testimonials_style_10 .stm_testimonials__info h6:before {
+    content: '—';
+    margin-right: 5px;
+    display: inline-block;
+    background-color: transparent !important;
+}
+
+.stm_testimonials_style_10 .stm_testimonials__avatar {
+    width: 100px;
+    margin: 0 auto 20px;
+}
+
+.stm_testimonials_style_10 .stm_testimonials__avatar img {
+    border-radius: 50%;
+}
+
+.stm_testimonials_style_10 .title_sep {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.stm_testimonials_style_10 .title_sep .title_sep__icon {
+    line-height: 1;
+}
+
+.stm_testimonials_style_10 .title_sep .title_sep__icon:before {
+    content: "\e6d4";
+    font-family: stmicons;
+    font-size: 40px;
+}
+
+.stm_testimonials_style_10 .title_sep:after, .stm_testimonials_style_10 .title_sep:before {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #000;
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.stm_testimonials_style_10 .title_sep:before {
+    margin-right: 30px;
+}
+
+.stm_testimonials_style_10 .title_sep:after {
+    margin-left: 30px;
+}
+
+.stm_testimonials_style_10 .owl-dots {
+    text-align: center;
+}
+
+.stm_testimonials_style_10 .owl-dots .owl-dot {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 0 11px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+}
+
+.stm_testimonials_style_10 .owl-dots .owl-dot.active {
+    width: 10px;
+    height: 10px;
+}
+
+.stm_testimonials__title {
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+.circle_progress_wr .circle_progress > div {
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle_progress_wr .circle_progress > div .info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle_progress_wr .circle_progress > div .info .value {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.circle_progress_wr .circle_progress > div .info .value i {
+    font-style: normal;
+}
+
+.circle_progress_wr .circle_progress > div .info .title {
+    font-size: 13px;
+    line-height: 13px;
+    color: #808080;
+    text-align: center;
+}

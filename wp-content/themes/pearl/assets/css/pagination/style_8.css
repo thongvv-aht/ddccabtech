@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav {
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-prev,
+  .stm_pagination_style_8 .owl-controls .owl-nav .owl-next {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-prev:before,
+    .stm_pagination_style_8 .owl-controls .owl-nav .owl-next:before {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-prev:hover:before,
+    .stm_pagination_style_8 .owl-controls .owl-nav .owl-next:hover:before {
+    color: #fff !important;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-prev {
+    right: 42px;
+    left: auto;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-prev:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-next {
+    right: 0;
+}
+
+.stm_pagination_style_8 .owl-controls .owl-nav .owl-next:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_pagination_style_8 ul.page-numbers {
+    margin-top: 30px;
+}
+
+.stm_pagination_style_8 ul.page-numbers li {
+    margin-right: 8px;
+}
+
+.stm_pagination_style_8 ul.page-numbers li:last-child {
+    margin-right: 0;
+}
+
+.stm_pagination_style_8 ul.page-numbers li .page-numbers {
+    display: block;
+    min-width: 47px;
+    min-height: 47px;
+    line-height: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+.stm_pagination_style_8 ul.page-numbers li .page-numbers:hover {
+    color: #fff !important;
+}
+
+.stm_pagination_style_8 ul.page-numbers li .page-numbers.current {
+    background: transparent !important;
+    color: inherit !important;
+}
+
+.stm_pagination_style_8 ul.page-numbers li .page-numbers.next {
+    text-indent: 1px;
+}

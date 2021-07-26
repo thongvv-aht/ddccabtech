@@ -1,0 +1,146 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+.owl-controls .owl-dots {
+    margin: 0 -7.5px;
+}
+
+.owl-controls .owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 2px 7.5px;
+    background-color: transparent !important;
+}
+
+.owl-controls .owl-dots .owl-dot span {
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid;
+    opacity: .5;
+}
+
+.owl-controls .owl-dots .owl-dot span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.owl-controls .owl-dots .owl-dot.active {
+    background-color: transparent !important;
+}
+
+.owl-controls .owl-dots .owl-dot.active span {
+    opacity: 1;
+}
+
+.owl-controls .owl-dots .owl-dot.active span:after {
+    width: 12px;
+    height: 12px;
+}
+
+ul.page-numbers {
+    position: relative;
+    margin: 15px 0 40px 0;
+    padding: 30px 0 0 6px;
+    text-align: center;
+}
+
+ul.page-numbers:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: none;
+    margin: 0 5px;
+}
+
+ul.page-numbers li:last-child {
+    margin-right: 0;
+}
+
+ul.page-numbers li:first-child {
+    margin-left: 0;
+}
+
+ul.page-numbers .page-numbers {
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #222;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+ul.page-numbers .page-numbers:not(.current):hover {
+    color: #fff;
+}
+
+ul.page-numbers .page-numbers .fa {
+    font-size: 12px;
+}
+
+ul.page-numbers .page-numbers.next, ul.page-numbers .page-numbers.prev {
+    border-radius: 99px;
+    font-size: 20px;
+    padding: 0;
+    line-height: 44px;
+}
+
+@media (max-width: 1024px) {
+    .stm_testimonial__carousel .owl-nav {
+        display: none !important;
+    }
+}

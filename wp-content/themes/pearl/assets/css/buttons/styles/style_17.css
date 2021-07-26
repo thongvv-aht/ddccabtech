@@ -1,0 +1,45 @@
+.stm_buttons_style_17 .btn {
+    padding: 20px 28px 18px;
+    text-transform: uppercase;
+    border-width: 2px !important;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.stm_buttons_style_17 .btn:hover {
+    color: #fff !important;
+}
+
+.stm_buttons_style_17 .btn .btn__icon {
+    top: 0;
+    bottom: 0;
+    right: -2px;
+}
+
+.stm_buttons_style_17 .btn.btn_left.btn_icon-right {
+    padding-right: 66px !important;
+    padding-left: 22px !important;
+}
+
+.stm_buttons_style_17 .btn.btn_left.btn_icon-left {
+    padding-left: 66px !important;
+    padding-right: 22px !important;
+}
+
+.stm_buttons_style_17 .btn.btn_icon-left .btn__icon {
+    left: -2px;
+}
+
+.stm_buttons_style_17.stm_form_style_2 [type=submit],
+.stm_buttons_style_17.stm_form_style_2 .stm_wpcf7_submit {
+    line-height: 41px !important;
+    text-transform: uppercase !important;
+    padding: 0 28px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+
+.stm_buttons_style_17.stm_form_style_2 [type=submit]:after,
+  .stm_buttons_style_17.stm_form_style_2 .stm_wpcf7_submit:after {
+    display: none;
+}

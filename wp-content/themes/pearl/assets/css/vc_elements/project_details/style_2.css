@@ -1,0 +1,40 @@
+/*COLORS*/
+/*FONTS*/
+.stm_project_details_style_2 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.stm_project_details_style_2 .stm_project_details__table {
+    display: table;
+    width: 100%;
+}
+
+.stm_project_details_style_2 .stm_project_details__single {
+    display: table-row;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+}
+
+.stm_project_details_style_2 .stm_project_details__single:nth-child(even) {
+    background: transparent;
+}
+
+.stm_project_details_style_2 .stm_project_details__label {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 7px 10px;
+    width: 30%;
+    font-weight: 900;
+}
+
+.stm_project_details_style_2 .stm_project_details__value {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 10px;
+    text-align: right;
+    width: 80%;
+    font-weight: 400;
+    opacity: 0.7;
+}

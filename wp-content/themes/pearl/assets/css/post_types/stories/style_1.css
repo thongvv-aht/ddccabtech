@@ -1,0 +1,87 @@
+.stm_single_stm_stories .comments-title, .stm_single_stm_stories .comment-reply-title {
+    font-size: 30px;
+}
+
+.stm_single_stm_stories .personal-result-photo-inner {
+    position: relative;
+    min-height: 526px;
+    text-align: center;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.stm_single_stm_stories .personal-result-photo-inner .result-photo {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50%;
+}
+
+.stm_single_stm_stories .personal-result-photo-inner .result-photo_after {
+    position: relative;
+    margin: 16% 0 0 -6%;
+    z-index: 10;
+}
+
+.stm_single_stm_stories .personal-result-photo-inner .result-photo-inner {
+    padding: 18px;
+    border: 2px solid #ececec;
+    background: #ffffff;
+}
+
+.stm_single_stm_stories .personal-result-photo-inner .result-photo__caption {
+    padding: 30px 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+    .stm_single_stm_stories .personal-result-photo-inner {
+        white-space: normal;
+    }
+
+    .stm_single_stm_stories .personal-result-photo-inner .result-photo {
+        max-width: 100%;
+    }
+
+    .stm_single_stm_stories .personal-result-photo-inner .result-photo_after {
+        margin: 15px 0 0;
+    }
+}
+
+.stm_single_stm_stories ._share .stm_share a {
+    width: 36px;
+    height: 36px;
+    background: #ededed;
+    color: #778084;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.stm_single_stm_stories ._share .stm_share a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.stm_single_stm_stories ._share .stm_share a.stm_share_facebook:hover {
+    background-color: #627aad;
+}
+
+.stm_single_stm_stories ._share .stm_share a.stm_share_twitter:hover {
+    background-color: #4D9ED8;
+}
+
+.stm_single_stm_stories ._share .stm_share a.stm_share_linkedin:hover {
+    background-color: #2F75AE;
+}
+
+.stm_single_stm_stories ._share .stm_share a.stm_share_google-plus:hover {
+    background-color: #DB4437;
+}
+
+.stm_single_stm_stories ._share .stm_share a.stm_share_pinterest:hover {
+    background-color: #BE1626;
+}

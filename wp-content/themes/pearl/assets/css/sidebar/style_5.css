@@ -1,0 +1,122 @@
+.stm-footer {
+    padding: 58px 0 0;
+}
+
+.stm-footer .footer-widgets .widget .widgettitle {
+    margin-bottom: 30px;
+}
+
+.stm-footer .footer-widgets .widget .widgettitle h4 {
+    font-family: inherit;
+    text-transform: none !important;
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.stm-footer .footer-widgets .widget.stm_wp_widget_text p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.stm-footer .footer-widgets .widget.stm_wp_widget_text .stm-socials {
+    margin-top: 13px;
+}
+
+.stm-footer .footer-widgets .widget.stm_widget_pages ul li {
+    margin-bottom: 17px;
+}
+
+.stm-footer .footer-widgets .widget.stm_widget_pages ul li a {
+    position: relative;
+    padding-left: 10px;
+    line-height: 16px;
+    font-size: 15px;
+}
+
+.stm-footer .footer-widgets .widget.stm_widget_pages ul li a:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.stm-footer .footer-widgets .widget.widget_contacts .widget_contacts_inner {
+    padding-right: 10px;
+}
+
+.stm-footer .footer-widgets .widget.widget_contacts .stm-icontext__phone {
+    margin-bottom: 10px;
+}
+
+.stm-footer .footer-widgets .widget.widget_contacts .stm-icontext__icon {
+    display: none;
+}
+
+.stm-footer .footer-widgets .widget.widget_contacts .stm-icontext__text a {
+    border-bottom: 1px solid transparent;
+}
+
+.stm-footer .footer-widgets .widget.widget_contacts .stm-icontext__text a:hover {
+    border-bottom-color: #fff;
+}
+
+.stm-footer .footer-widgets .stm-socials a {
+    opacity: 0.5;
+}
+
+.stm-footer .footer-widgets .stm-socials a:hover {
+    opacity: 1;
+}
+
+.site-content .widget {
+    margin-bottom: 45px;
+}
+
+.site-content .widget:last-child {
+    margin-bottom: 0;
+}
+
+.widget .widgettitle h5 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: none;
+}
+
+.stm-footer__bottom {
+    padding: 30px 0;
+    border: 0 !important;
+    color: #888;
+    font-size: 15px;
+}
+
+.stm-footer__bottom .stm_bottom_copyright {
+    font-family: inherit !important;
+}
+
+.widget.widget_meta ul li::before,
+.widget.widget_archive ul li::before {
+    top: 11px;
+}
+
+.widget ul li::before, .widget ol li::before {
+    top: 13px;
+}
+
+.stm_widget_search .widget.widget_search .search-form button {
+    border-radius: 0 !important;
+}
+
+.widget_tag_cloud .tagcloud a {
+    line-height: 1;
+    color: #778084;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding: 11px 10px;
+    margin: 0 4px 8px 4px;
+}

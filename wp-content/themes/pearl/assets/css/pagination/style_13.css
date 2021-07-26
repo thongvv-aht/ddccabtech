@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+ul.page-numbers {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #d9d9d9;
+}
+
+ul.page-numbers li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4px;
+}
+
+ul.page-numbers li:first-child {
+    margin-left: 0;
+}
+
+ul.page-numbers li .page-numbers {
+    min-width: 40px;
+    min-height: 40px;
+    line-height: 1;
+    height: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    color: #808080;
+}
+
+ul.page-numbers li .page-numbers:after {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 33px;
+    font-style: normal;
+}
+
+ul.page-numbers li .page-numbers:not(.current):hover {
+    color: #000 !important;
+}
+
+ul.page-numbers li .page-numbers.current {
+    color: #000;
+    background-color: transparent;
+}
+
+ul.page-numbers li .page-numbers.current:before {
+    content: "";
+    position: absolute;
+    top: -31px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+ul.page-numbers li .page-numbers.next {
+    padding: 0 4px;
+    font-size: 20px;
+    color: #000;
+}
+
+ul.page-numbers li .page-numbers.next i {
+    margin-top: 2px;
+    margin-left: 12px;
+}
+
+ul.page-numbers li .page-numbers.next i:before {
+    content: "󙀇" !important;
+    font-family: 'stmicons' !important;
+}
+
+ul.page-numbers li .page-numbers.next:hover i {
+    color: #808080;
+}
+
+ul.page-numbers li .page-numbers.prev {
+    padding: 0 4px;
+    font-size: 20px;
+    color: #000;
+}
+
+ul.page-numbers li .page-numbers.prev i {
+    margin-top: 2px;
+    margin-right: 12px;
+}
+
+ul.page-numbers li .page-numbers.prev i:before {
+    content: "󙀆" !important;
+    font-family: 'stmicons' !important;
+}
+
+ul.page-numbers li .page-numbers.prev:hover i {
+    color: #808080;
+}

@@ -1,0 +1,35 @@
+jQuery(document).ready(function () {
+	jQuery('.btn_outline').attr('target', '_blank');
+	/* HUBSPOT - REQUEST A QUOTE */
+	if (jQuery('.frm-request-a-quote-content').length) {
+		jQuery('.frm-request-a-quote-content').parent().addClass('frm-request-a-quote');
+	}
+	
+	jQuery(document).on('click', 'form.frm-request-a-quote .wpcf7-submit', function(e) {
+		e.preventDefault();
+		
+		var res = "";
+		var x = "";
+		x = jQuery("form.frm-request-a-quote").serializeArray(); 
+		jQuery.each(x, function (i, field) {
+				res += i > 0 ? "&" : "";
+				res += field.name + "=" + field.value;
+		});
+		
+		res += "&name="+ 'Request a Quote';
+		res += "&url="+ jQuery('form.frm-request-a-quote').attr('action');
+		
+		jQuery.ajax({
+			type: 'POST',
+			url: '/hubspot/request-a-quote.php',
+			data: res,
+			success: function(data) {
+				jQuery("form.frm-request-a-quote").submit();
+			},
+			error: function() {
+				alert('An error occurred.');
+			}
+		});
+	});
+	/* end HUBSPOT - REQUEST A QUOTE */
+});

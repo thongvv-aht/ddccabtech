@@ -1,0 +1,34 @@
+/*COLORS*/
+/*FONTS*/
+.stm_history_style_2 .stm_history__item {
+    margin-bottom: 45px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_history_style_2 .stm_history__year {
+    line-height: 36px;
+    font-size: 24px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+@media (max-width: 550px) {
+    .stm_history_style_2 .stm_history__year {
+        display: block;
+        border-right: 0;
+    }
+}
+
+.stm_history_style_2 .stm_history__title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+    text-transform: none;
+}
+
+.stm_history_style_2 .stm_history__title:after, .stm_history_style_2 .stm_history__title:before {
+    display: block !important;
+}

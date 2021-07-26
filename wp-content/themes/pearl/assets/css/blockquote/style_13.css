@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Magazine*/
+blockquote {
+    position: relative;
+    padding: 55px 90px 55px 115px;
+    margin: 0 auto 28px;
+    font-style: normal;
+    border: 0;
+    background-color: #f1f2f3;
+}
+
+blockquote p {
+    line-height: 38px !important;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+blockquote footer {
+    display: block;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 27px;
+}
+
+blockquote:before {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    font-size: 33px;
+    content: "󱔂" !important;
+    font-family: 'stmicons' !important;
+    font-style: normal;
+}
+
+@media (max-width: 550px) {
+    blockquote {
+        padding: 25px 15px 25px 50px !important;
+    }
+
+    blockquote:before {
+        font-size: 20px;
+        left: 10px;
+        top: 35px;
+    }
+}

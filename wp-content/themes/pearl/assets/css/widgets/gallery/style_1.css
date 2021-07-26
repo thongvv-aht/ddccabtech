@@ -1,0 +1,45 @@
+/*COLORS*/
+/*FONTS*/
+.stm_widget_media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    margin: -15px -7.5px 0;
+}
+
+.stm_widget_media__single {
+    display: block;
+    width: 33.333%;
+    padding: 15px 7.5px 0;
+}
+
+@media (max-width: 1024px) {
+    .stm_widget_media__single img {
+        width: 100%;
+    }
+}
+
+.stm_wp_widget_post_gallery_style_1 .stm_widget_media__single {
+    position: relative;
+}
+
+.stm_wp_widget_post_gallery_style_1 .stm_widget_media__single:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 15px;
+    right: 7px;
+    left: 7px;
+    background-color: #000;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.stm_wp_widget_post_gallery_style_1 .stm_widget_media__single:hover:after {
+    opacity: 0.5;
+}

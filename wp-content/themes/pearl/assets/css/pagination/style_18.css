@@ -1,0 +1,100 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+.stm_pagination_style_18 ul.page-numbers {
+    position: relative;
+    margin: 0 0 40px 0;
+}
+
+.stm_pagination_style_18 ul.page-numbers:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.stm_pagination_style_18 ul.page-numbers li {
+    margin: 0 11px 0 0;
+}
+
+.stm_pagination_style_18 ul.page-numbers .page-numbers {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.stm_pagination_style_18 ul.page-numbers .page-numbers .fa {
+    font-size: 12px;
+}
+
+.stm_pagination_style_18 ul.page-numbers .page-numbers.prev {
+    padding-top: 6px;
+    padding-right: 5px;
+}
+
+.stm_pagination_style_18 ul.page-numbers .page-numbers.current {
+    color: #fff;
+}
+
+.stm_pagination_style_18 ul.page-numbers .page-numbers:hover {
+    color: #fff;
+}
+
+.stm_pagination_style_18 .owl-dots {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.stm_pagination_style_18 .owl-dots .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px !important;
+    transition: all 0.3s;
+    border-radius: 50%;
+    background-color: transparent !important;
+    border: 1px solid #999999;
+    cursor: pointer;
+}
+
+.stm_pagination_style_18 .owl-dots .owl-dot.active {
+    background-color: #999999 !important;
+}

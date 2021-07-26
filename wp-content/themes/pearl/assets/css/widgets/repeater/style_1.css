@@ -1,0 +1,13 @@
+.widget_repeater_style_1 {
+    padding: 0 50px;
+}
+
+.widget_repeater_style_1 .widget_repeater__row {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.widget_repeater_style_1 .widget_repeater__row_item {
+    -ms-flex: 45%;
+    flex: 45%;
+}

@@ -1,0 +1,285 @@
+.services_price_list .service__badge_container .service__badge_placeholder {
+    display: none;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul, .services_price_list_style_3.services_price_list_list .services_pills_container > ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li {
+    display: inline-block;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li a, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li a {
+    display: block;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li a:after, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li a:after {
+    content: '';
+    display: block;
+    margin: 13px 100% 0;
+    border-bottom: 1px solid;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li:hover a:after, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li:hover a:after {
+    margin: 13px 0 0;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li.active a, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li.active a {
+    color: #232323 !important;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li.active a:hover, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li.active a:hover {
+    background-color: transparent !important;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li.active a:after, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li.active a:after {
+    margin: 13px 15px 0;
+}
+
+.services_price_list_style_3.services_price_list_tabs .services_pills_container > ul > li:not(.active) a:hover, .services_price_list_style_3.services_price_list_list .services_pills_container > ul > li:not(.active) a:hover {
+    background-color: transparent !important;
+}
+
+.services_price_list_style_3 .service__badge_container {
+    margin-bottom: 24px;
+}
+
+.services_price_list_style_3 .service__badge_container .service__badge_placeholder {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.services_price_list_style_3 .service__badge_container .service__badge_placeholder:before, .services_price_list_style_3 .service__badge_container .service__badge_placeholder:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-top: 1px solid;
+}
+
+.services_price_list_style_3 .service__badge_container .service__badge_placeholder:before {
+    margin-right: 20px;
+}
+
+.services_price_list_style_3 .service__badge_container .service__badge_placeholder:after {
+    margin-left: 20px;
+}
+
+.services_price_list_style_3 .service__badge_container.has_badge .service__badge {
+    font-weight: bold;
+    background-color: transparent !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services_price_list_style_3 .service__badge_container.has_badge .service__badge:before, .services_price_list_style_3 .service__badge_container.has_badge .service__badge:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-top: 1px solid;
+}
+
+.services_price_list_style_3 .service__badge_container.has_badge .service__badge:before {
+    margin-right: 20px;
+}
+
+.services_price_list_style_3 .service__badge_container.has_badge .service__badge:after {
+    margin-left: 20px;
+}
+
+.services_price_list_style_3 .service__image {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    overflow: hidden;
+    height: 450px;
+}
+
+.services_price_list_style_3 .service__image .stm_price_list__image {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services_price_list_style_3 .service__image:hover .stm_price_list__image {
+    transform: rotate(4deg) scale(1.1);
+}
+
+.services_price_list_style_3 .service__cost {
+    white-space: nowrap;
+}
+
+.services_price_list_style_3 .service__tab.active {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.services_price_list_style_3 .service__tab_item {
+    position: relative;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.services_price_list_style_3 .service__tab_item.tab_item_has_image .service__cost {
+    white-space: nowrap;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transform: rotate(45deg) translate(-50%, -50%);
+    transform-origin: top left;
+}
+
+.services_price_list_style_3 .service__tab_item.tab_item_has_image .service__cost > span {
+    color: #ffffff !important;
+    transform: rotate(-45deg);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.services_price_list_style_3 .service__tab_item_body {
+    background-color: #fff;
+    padding: 10px 10%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.services_price_list_style_3 .service__dots {
+    display: none;
+}
+
+.services_price_list_style_3 .service__name {
+    font-family: inherit !important;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.services_price_list_style_3 .service__name:before, .services_price_list_style_3 .service__name:after {
+    display: none !important;
+}
+
+.services_price_list_style_3 .service__text {
+    font-size: 14px;
+    color: #232323;
+}
+
+.services_price_list_style_3 .tab-content {
+    padding-bottom: 18px;
+}
+
+.services_price_list_style_3.services_price_list_list .services__tab_heading {
+    display: none;
+}
+
+.services_price_list_style_3.services_price_list_list .services_pills_container > ul > li.active a:hover {
+    background-color: transparent !important;
+}
+
+@media (min-width: 1200px) {
+    .services_price_list_style_3 .service__tab_item:nth-child(4n - 5) .service__image, .services_price_list_style_3 .service__tab_item:nth-child(4n - 4) .service__image {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .services_price_list_style_3 .service__tab_item:nth-child(4n - 5) .service__tab_item_body, .services_price_list_style_3 .service__tab_item:nth-child(4n - 4) .service__tab_item_body {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .services_price_list_style_3 .service__tab_item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .services_price_list_style_3 .service__tab_item .service__image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .services_price_list_style_3 .service__tab_item:nth-child(2n) .service__image {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .services_price_list_style_3 .service__tab_item:nth-child(2n) .service__tab_item_body {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+@media (max-width: 550px) {
+    .services_price_list_style_3 .service__tab_item {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .services_price_list_style_3 .service__tab_item .service__image {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        height: 450px;
+    }
+
+    .services_price_list_style_3 .service__tab_item .service__tab_item_body {
+        -ms-flex-order: 1;
+        order: 1;
+        height: 450px;
+        width: 100%;
+    }
+
+    .services_price_list_style_3 .service__tab_item:nth-child(2n) .service__image {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .services_price_list_style_3 .service__tab_item:nth-child(2n) .service__tab_item_body {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .services_price_list_style_3 .service__header h6 {
+        font-size: 28px !important;
+    }
+}

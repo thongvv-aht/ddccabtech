@@ -1,0 +1,11 @@
+/*COLORS*/
+/*FONTS*/
+.stm_taxonomy {
+    margin-bottom: 40px;
+}
+
+.stm_taxonomy.has_bg h6 {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 30px;
+}

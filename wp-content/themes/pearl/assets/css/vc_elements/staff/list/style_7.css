@@ -1,0 +1,174 @@
+/*COLORS*/
+/*FONTS*/
+/*COLORS*/
+/*FONTS*/
+ul.stm_staff__socials {
+    margin-bottom: 0;
+}
+
+ul.stm_staff__socials li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+}
+
+ul.stm_staff__socials li:last-child {
+    margin-right: 0;
+}
+
+ul.stm_staff__socials li a {
+    color: #cbcbcb;
+    display: block;
+    width: 37px;
+    height: 37px;
+    line-height: 31px;
+    border: 3px solid #cbcbcb;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    ul.stm_staff__socials li {
+        margin-right: 5px;
+    }
+}
+
+.stm_staff_container__carousel {
+    margin: 0 -15px;
+}
+
+.stm_staff_container__carousel .owl-carousel {
+    margin: 0;
+}
+
+.stm_staff_container__carousel .owl-carousel .owl-item > div {
+    width: 100%;
+    float: none;
+}
+
+@media (max-width: 769px) and (min-width: 425px) {
+    .stm_staff_container_grid .col-sm-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .stm_staff_container_grid .col-sm-6:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+@media (max-width: 425px) {
+    .stm_staff_container_grid .col-sm-6 {
+        width: 100%;
+    }
+}
+
+.stm_staff_list_style_7 {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.stm_staff_list_style_7 .stm_flex_last {
+    margin-bottom: 14px;
+}
+
+.stm_staff_list_style_7 p {
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.stm_staff_list_style_7 .stm_staff__image {
+    float: left;
+    max-width: 370px;
+}
+
+.stm_staff_list_style_7 .stm_staff__info {
+    overflow: hidden;
+    padding: 30px 30px 0;
+}
+
+.stm_staff_list_style_7 .stm_staff__info .stm_staff__name {
+    margin-bottom: 0;
+}
+
+.stm_staff_list_style_7 .stm_staff__info .stm_staff__job {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div {
+    display: inline-block;
+    margin: 0 15px 15px 0;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div a {
+    font-size: 13px;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div i.stmicon-phone {
+    position: relative;
+    top: 1px;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div i.stmicon-envelope {
+    font-size: 17px;
+    position: relative;
+    top: 3px;
+}
+
+.stm_staff_list_style_7 .stm_staff__contacts > div i.stmicon-skype {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.stm_staff_list_style_7 .stm_staff__socials {
+    margin-bottom: 25px;
+}
+
+.stm_staff_list_style_7 .stm_staff__socials li a {
+    width: auto;
+    height: auto;
+    line-height: 20px;
+    border: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 1023px) {
+    .stm_staff_list_style_7 .stm_staff__image {
+        margin-top: 30px;
+        float: none;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .stm_staff_list_style_7 .stm_flex_info {
+        width: 100%;
+    }
+
+    .stm_staff_list_style_7 .stm_staff__info {
+        text-align: center;
+    }
+
+    .stm_staff_list_style_7 .stm_staff__socials {
+        width: 100%;
+        padding: 20px 0 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_staff_list_style_7 .stm_staff__image {
+        margin-top: 0;
+    }
+
+    .stm_staff_list_style_7 .stm_staff__info {
+        padding: 30px 20px 0;
+    }
+}

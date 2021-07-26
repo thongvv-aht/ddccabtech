@@ -1,0 +1,9 @@
+.stm_icon_links_style_1 a {
+    display: inline-block;
+    min-width: 27px;
+    min-height: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}

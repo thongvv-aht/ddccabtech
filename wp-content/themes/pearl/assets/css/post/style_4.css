@@ -1,0 +1,211 @@
+.stm_loop__single_grid_style_4, .stm_loop__single_list_style_4 {
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+.stm_loop__single_grid_style_4 .stm_loop__container, .stm_loop__single_list_style_4 .stm_loop__container {
+    padding: 0 15px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__image, .stm_loop__single_list_style_4 .stm_single__image {
+    background: #fff;
+    padding: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__image img, .stm_loop__single_list_style_4 .stm_single__image img {
+    width: 100%;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__meta, .stm_loop__single_list_style_4 .stm_single__meta {
+    padding-top: 20px;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__meta a, .stm_loop__single_list_style_4 .stm_single__meta a {
+    text-decoration: none;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__meta h5, .stm_loop__single_list_style_4 .stm_single__meta h5 {
+    margin-bottom: 13px;
+    font-weight: 700 !important;
+    text-decoration: none;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__excerpt, .stm_loop__single_list_style_4 .stm_single__excerpt {
+    line-height: 24px;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__post-details, .stm_loop__single_list_style_4 .stm_single__post-details {
+    border-top: 1px solid #dedede;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__post-details > li, .stm_loop__single_list_style_4 .stm_single__post-details > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__post-details > li:first-child, .stm_loop__single_list_style_4 .stm_single__post-details > li:first-child {
+    padding-left: 0;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__post-details > li:not(:last-child), .stm_loop__single_list_style_4 .stm_single__post-details > li:not(:last-child) {
+    border-right: 1px solid #dfdfdf;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__date, .stm_loop__single_list_style_4 .stm_single__date {
+    background-color: transparent !important;
+    text-align: right;
+    -ms-flex: 70px;
+    flex: 70px;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__date:before, .stm_loop__single_list_style_4 .stm_single__date:before {
+    display: none;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__date .day, .stm_loop__single_list_style_4 .stm_single__date .day {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__date .month, .stm_loop__single_list_style_4 .stm_single__date .month {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__date .year, .stm_loop__single_list_style_4 .stm_single__date .year {
+    font-size: 12px;
+    color: #999999;
+    line-height: 17px;
+}
+
+.stm_loop__single_grid_style_4 .stm_single__content, .stm_loop__single_list_style_4 .stm_single__content {
+    -ms-flex: 100%;
+    flex: 100%;
+}
+
+@media (max-width: 1023px) {
+    .stm_loop__single_grid_style_4, .stm_loop__single_list_style_4 {
+        width: 50%;
+    }
+
+    .stm_loop__single_grid_style_4 .stm_loop__container, .stm_loop__single_list_style_4 .stm_loop__container {
+        padding: 0 15px;
+    }
+
+    .stm_loop__single_grid_style_4 .stm_single__date, .stm_loop__single_list_style_4 .stm_single__date {
+        display: none;
+    }
+
+    .stm_loop__single_grid_style_4 .stm_single__image img, .stm_loop__single_list_style_4 .stm_single__image img {
+        width: 100%;
+    }
+
+    .stm_loop__single_grid_style_4 .stm_single__post-details li, .stm_loop__single_list_style_4 .stm_single__post-details li {
+        display: block;
+        padding: 3px 0;
+        border: 0 !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_loop__single_grid_style_4, .stm_loop__single_list_style_4 {
+        width: 100%;
+    }
+}
+
+.stm_single_post_style_4 .stm_single__post-details {
+    background-color: transparent !important;
+    border-top: 0 !important;
+    border-top: 1px solid #dedede;
+    margin-bottom: 20px;
+}
+
+.stm_single_post_style_4 .stm_single__post-details ul > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.stm_single_post_style_4 .stm_single__post-details ul > li:first-child {
+    padding-left: 0;
+}
+
+.stm_single_post_style_4 .stm_single__post-details ul > li:not(:last-child) {
+    border-right: 1px solid #dfdfdf;
+}
+
+.stm_single_post_style_4 .stm_post_panel {
+    background-color: transparent !important;
+    margin-bottom: 30px;
+}
+
+.stm_single_post_style_4 .stm_post_panel .stm_single_post__tags i {
+    display: none;
+}
+
+.stm_single_post_style_4 .stm_post_panel .stm_single_post__tags a {
+    line-height: 19px;
+    display: inline-block;
+    vertical-align: top;
+    color: #999999 !important;
+    background: rgba(85, 85, 85, 0.1);
+    padding: 3px 10px;
+    margin: 0 10px 10px 0 !important;
+    border-radius: 3px;
+    font-size: 13px !important;
+    text-decoration: none;
+}
+
+.stm_single_post_style_4 .stm_post_panel .stm_single_post__tags a:hover {
+    color: #fff !important;
+}
+
+.stm_single_post_style_4 .stm_author_box {
+    background-color: #fff6ef;
+    padding: 30px;
+}
+
+.stm_single_post_style_4 .stm_author_box .stm_author_box__name {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.stm_single_post_style_4 .stm_author_box .stm_author_box__name strong {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+}
+
+@media (max-width: 1023px) {
+    .stm_single_post_style_4 .stm_single__post-details ul li {
+        display: block;
+        padding: 3px 0;
+        border: 0 !important;
+    }
+
+    .stm_single_post_style_4 .stm_post_panel .stm_single_event__share {
+        margin: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stm_single_post_style_4 .stm_single_event__share {
+        width: 100%;
+        padding-left: 0 !important;
+    }
+}

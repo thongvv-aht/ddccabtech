@@ -1,0 +1,495 @@
+.services_price_list .service__badge_container .service__badge_placeholder {
+    display: none;
+}
+
+.services_price_list_style_2 {
+    border-style: solid;
+    border-color: #000;
+    border-width: 0 1px 1px 1px;
+    padding-top: 30px;
+}
+
+.services_price_list_style_2.services_price_list_list {
+    border: none;
+}
+
+.services_price_list_style_2.services_price_list_list .services_pills_container:after, .services_price_list_style_2.services_price_list_list .services_pills_container:before {
+    display: none !important;
+}
+
+.services_price_list_style_2.services_price_list_list .tab_item_has_image .service__badge_container {
+    position: absolute;
+    z-index: 15;
+    left: 0;
+    top: 0;
+}
+
+.services_price_list_style_2.services_price_list_list .stm_price_list__image {
+    width: 100%;
+    height: 100%;
+}
+
+.services_price_list_style_2.services_price_list_list .service__tab_item {
+    -ms-flex: 100%;
+    flex: 100%;
+    padding: 0;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: relative;
+}
+
+.services_price_list_style_2.services_price_list_list .service__image {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    margin-right: 30px;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    cursor: pointer;
+}
+
+.services_price_list_style_2.services_price_list_list .service__image a {
+    display: block;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services_price_list_style_2.services_price_list_list .service__image a:before {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.services_price_list_style_2.services_price_list_list .service__image a:after {
+    content: "\f065";
+    opacity: 0;
+    font-family: FontAwesome;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    color: #fff;
+    font-size: 25px;
+}
+
+.services_price_list_style_2.services_price_list_list .service__image a:hover:before, .services_price_list_style_2.services_price_list_list .service__image a:hover:after {
+    opacity: 1;
+}
+
+.services_price_list_style_2.services_price_list_list .service__tab_item_body {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading {
+    font-size: 55px !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 30px 0 40px;
+    line-height: 1;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading:after, .services_price_list_style_2.services_price_list_list .services__tab_heading:before {
+    content: '';
+    margin-bottom: 0;
+    margin-top: 0 !important;
+    display: block;
+    -ms-flex: 50%;
+    flex: 50%;
+    border-bottom: 1px solid #000;
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading:before {
+    margin-right: 40px !important;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading:after {
+    margin-left: 40px !important;
+}
+
+.services_price_list_style_2.services_price_list_list .services_pills_container {
+    margin-bottom: 50px !important;
+}
+
+.services_price_list_style_2.services_price_list_list .services_pills_container > ul > li {
+    margin-bottom: 10px !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs, .services_price_list_style_2.services_price_list_list {
+    margin-top: 30px;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container, .services_price_list_style_2.services_price_list_list .services_pills_container {
+    margin-top: -60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container:after, .services_price_list_style_2.services_price_list_tabs .services_pills_container:before, .services_price_list_style_2.services_price_list_list .services_pills_container:after, .services_price_list_style_2.services_price_list_list .services_pills_container:before {
+    content: '';
+    margin-bottom: 0;
+    margin-top: 30px;
+    display: block;
+    -ms-flex: 5%;
+    flex: 5%;
+    border-bottom: 1px solid #000;
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container:before, .services_price_list_style_2.services_price_list_list .services_pills_container:before {
+    margin-right: 20px !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container:after, .services_price_list_style_2.services_price_list_list .services_pills_container:after {
+    margin-left: 20px !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul, .services_price_list_style_2.services_price_list_list .services_pills_container > ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li {
+    display: inline-block;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li a, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li a {
+    display: block;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    position: relative;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li a:after, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li a:after {
+    content: '';
+    display: block;
+    margin: 13px 100% 0;
+    border-bottom: 1px solid;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li:hover a:after, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li:hover a:after {
+    margin: 13px 0 0;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li.active a, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li.active a {
+    color: #232323 !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li.active a:hover, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li.active a:hover {
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li.active a:after, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li.active a:after {
+    margin: 13px 15px 0;
+}
+
+.services_price_list_style_2.services_price_list_tabs .services_pills_container > ul > li:not(.active) a:hover, .services_price_list_style_2.services_price_list_list .services_pills_container > ul > li:not(.active) a:hover {
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_has_button {
+    border-bottom: 0;
+}
+
+.services_price_list_style_2.services_price_list_has_button .services_price_list__button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    margin-top: 12px;
+}
+
+.services_price_list_style_2.services_price_list_has_button .services_price_list__button:after, .services_price_list_style_2.services_price_list_has_button .services_price_list__button:before {
+    content: '';
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_has_button .services_price_list__button:before {
+    margin-right: 30px;
+}
+
+.services_price_list_style_2.services_price_list_has_button .services_price_list__button:after {
+    margin-left: 30px;
+}
+
+.services_price_list_style_2.services_price_list_has_title .services_pills_container:before, .services_price_list_style_2.services_price_list_has_title .services_pills_container:after {
+    display: none;
+}
+
+.services_price_list_style_2.services_price_list_has_title .services_price_list__heading {
+    position: relative;
+    margin-bottom: 42px;
+    top: -60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services_price_list_style_2.services_price_list_has_title .services_price_list__heading:after, .services_price_list_style_2.services_price_list_has_title .services_price_list__heading:before {
+    content: '';
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background-color: transparent !important;
+}
+
+.services_price_list_style_2.services_price_list_has_title .services_price_list__heading:before {
+    margin-right: 30px;
+}
+
+.services_price_list_style_2.services_price_list_has_title .services_price_list__heading:after {
+    margin-left: 30px;
+}
+
+.services_price_list_style_2 .service__badge {
+    display: block !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 0 5px;
+    height: 100%;
+    border-radius: 0 5px 0 5px;
+    line-height: 1;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.services_price_list_style_2 .service__badge_container {
+    display: inline-block;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    height: 22px;
+    margin-bottom: 6px;
+    margin-left: -10px;
+}
+
+.services_price_list_style_2 .service__image {
+    max-width: 80px;
+}
+
+.services_price_list_style_2 .service__header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    line-height: 1;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.services_price_list_style_2 .service__cost {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    padding-left: 10px;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.services_price_list_style_2 .service__tabs {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.services_price_list_style_2 .service__tab.active {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+
+.services_price_list_style_2 .service__tab_item {
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    width: 33.3%;
+    padding: 0 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.services_price_list_style_2 .service__dots {
+    -ms-flex: 1 1 80%;
+    flex: 1 1 80%;
+    z-index: 5;
+}
+
+.services_price_list_style_2 .service__dots .separator_dots {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: auto;
+    border-bottom: 1px dashed #000;
+}
+
+.services_price_list_style_2 .service__name {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 0;
+    max-width: 90%;
+    padding-right: 5px;
+    position: relative;
+    z-index: 10;
+    white-space: nowrap;
+    line-height: 1;
+    font-family: inherit !important;
+    letter-spacing: 0.32px !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services_price_list_style_2 .service__name:before, .services_price_list_style_2 .service__name:after {
+    display: none !important;
+}
+
+.services_price_list_style_2 .service__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.services_price_list_style_2 .tab-content {
+    padding-bottom: 18px;
+}
+
+.services_price_list_style_2.services_price_list_list .tab-content .tab-pane {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.services_price_list_style_2.services_price_list_list .service__tab {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading {
+    -ms-flex: 100%;
+    flex: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.services_price_list_style_2.services_price_list_list .services__tab_heading:after {
+    content: '';
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 24px;
+    height: 2px;
+}
+
+.services_price_list_style_2.services_price_list_list .services_pills_container > ul > li.active a:hover {
+    background-color: transparent !important;
+}
+
+@media (max-width: 1023px) {
+    .services_price_list_style_2 .services_pills_container > ul > li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .services_price_list_style_2 .service__tab_item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .services_price_list_style_2 .service__tab_item {
+        -ms-flex: 100%;
+        flex: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .services_price_list_style_2 {
+        border: 0;
+    }
+
+    .services_price_list_style_2 .service__tab {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .services_price_list_style_2 .service__tab_item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .services_price_list_style_2 .service__header {
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .services_price_list_style_2 .service__name {
+        white-space: normal;
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
+    }
+
+    .services_price_list_style_2 .service__dots {
+        display: none;
+    }
+
+    .services_price_list_style_2 .services_price_list__heading:before, .services_price_list_style_2 .services_price_list__heading:after, .services_price_list_style_2 .services_price_list__button:before, .services_price_list_style_2 .services_price_list__button:after, .services_price_list_style_2 .services_pills_container:before, .services_price_list_style_2 .services_pills_container:after {
+        display: none !important;
+    }
+}

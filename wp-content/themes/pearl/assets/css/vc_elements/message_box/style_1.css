@@ -1,0 +1,86 @@
+.vc_message_box.stm_message_box_no-icon {
+    padding: 1em;
+}
+
+.vc_message_box span.close {
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 300;
+    color: inherit;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.vc_message_box span.close:hover {
+    color: #000;
+}
+
+.vc_message_box p {
+    margin-bottom: 0;
+}
+
+.vc_message_box.stm_message_box_style_1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1.8em 1em 1.8em 3em;
+    margin: 0 0 30px 0;
+}
+
+.vc_message_box.stm_message_box_style_1 .vc_message_box-icon {
+    top: -2px;
+}
+
+.vc_message_box.stm_message_box_style_1 .vc_message_box-icon > .fa {
+    font-size: 16px;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-info, .vc_message_box.stm_message_box_style_1.vc_color-danger, .vc_message_box.stm_message_box_style_1.vc_color-warning, .vc_message_box.stm_message_box_style_1.vc_color-success {
+    color: #777777;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_message_box-outline, .vc_message_box.stm_message_box_style_1.vc_message_box-solid-icon {
+    border-width: 4px;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-info.vc_message_box-outline, .vc_message_box.stm_message_box_style_1.vc_color-info.vc_message_box-solid-icon {
+    border-color: #99bcdb;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-danger.vc_message_box-outline, .vc_message_box.stm_message_box_style_1.vc_color-danger.vc_message_box-solid-icon {
+    border-color: #ffb3b3;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-warning.vc_message_box-outline, .vc_message_box.stm_message_box_style_1.vc_color-warning.vc_message_box-solid-icon {
+    border-color: #f9d7a3;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-success.vc_message_box-outline, .vc_message_box.stm_message_box_style_1.vc_color-success.vc_message_box-solid-icon {
+    border-color: #bee0a8;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-info.vc_message_box .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-info.vc_message_box-outline .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-info.vc_message_box-solid-icon .vc_message_box-icon {
+    color: #337ab7;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-danger.vc_message_box .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-danger.vc_message_box-outline .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-danger.vc_message_box-solid-icon .vc_message_box-icon {
+    color: #ff6868;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-warning.vc_message_box-outline .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-warning.vc_message_box-solid-icon .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-warning.vc_message_box .vc_message_box-icon {
+    color: #f3b047;
+}
+
+.vc_message_box.stm_message_box_style_1.vc_color-success.vc_message_box-outline .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-success.vc_message_box-solid-icon .vc_message_box-icon,
+  .vc_message_box.stm_message_box_style_1.vc_color-success.vc_message_box .vc_message_box-icon {
+    color: #7ec251;
+}

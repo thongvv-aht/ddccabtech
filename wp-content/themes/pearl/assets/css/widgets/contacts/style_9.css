@@ -1,0 +1,60 @@
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext {
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext:last-child {
+    margin-bottom: 0;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext_style2 {
+    margin-bottom: 24px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text {
+    padding-top: 0;
+    padding-left: 30px;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a5a5a5;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text a {
+    opacity: 1;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text a:hover {
+    color: #ffffff !important;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    text-align: left;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    font-size: 16px;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .fa {
+    font-family: fontawesome;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .fa.fa-home {
+    top: 4px;
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .fa.fa-home:before {
+    content: "\f11d";
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .fa.fa-phone-square:before {
+    content: "\f095";
+}
+
+.widget_contacts_style_9 .widget_contacts_inner .fa.fa-envelope:before {
+    content: "\f2b7";
+}

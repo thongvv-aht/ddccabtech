@@ -1,0 +1,62 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_2 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.stm_infobox_style_2:after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 5px solid #fff;
+}
+
+.stm_infobox_style_2 .stm_infobox__content_wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.stm_infobox_style_2 .stm_infobox__content {
+    background-color: transparent !important;
+    padding-top: 68px;
+}
+
+.stm_infobox_style_2 .stm_infobox__content p {
+    margin: 0 !important;
+}
+
+.stm_infobox_style_2 .stm_infobox__content .btn {
+    margin-top: 36px;
+}
+
+.stm_infobox_style_2 .stm_infobox__content .btn .btn__icon {
+    top: 0;
+    bottom: 2px;
+    color: #ffffff !important;
+}
+
+.stm_infobox_style_2:hover .stm_infobox__image img {
+    transform: scale(1.07);
+}
+
+@media (max-width: 769px) and (min-width: 425px) {
+    .stm_infobox_style_2 .stm_infobox__image img {
+        width: 100%;
+    }
+}

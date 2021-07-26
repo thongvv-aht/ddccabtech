@@ -1,0 +1,40 @@
+.stm_gallery_masonry__title {
+    margin: 0 15px 10px 0;
+}
+
+.stm_gallery_masonry__link {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+}
+
+.stm_projects_carousel__item {
+    width: 33.33%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 1;
+}
+
+.stm_projects_carousel__item .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 0;
+}
+
+[class*='stm_projects_grid'] .stm_projects_carousel__item_preloaded {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .stm_projects_grid_style_1 .stm_projects_carousel__item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_projects_grid_style_1 .stm_projects_carousel__item {
+        width: 100%;
+    }
+
+    .stm_projects_grid_style_1 .stm_projects_grid__sorting {
+        text-align: center;
+    }
+}

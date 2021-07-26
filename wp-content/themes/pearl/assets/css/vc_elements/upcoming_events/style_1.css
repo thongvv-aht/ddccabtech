@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first {
+    padding: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-size: cover !important;
+    box-shadow: 0px 15px 30px 0px rgba(17, 40, 47, 0.25);
+    height: 520px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__content {
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__info {
+    background-color: #fff;
+    padding: 41px 30px 20px 30px;
+    box-shadow: 0px 15px 30px 0px rgba(17, 40, 47, 0.25);
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__title h5 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    line-height: 1.2;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__counter-container {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__counter-container .counter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 30px 30px 15px 30px;
+    position: relative;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__counter-container .counter__value {
+    font-size: 36px;
+    -ms-flex-order: 5;
+    order: 5;
+    margin-bottom: 7px;
+    font-family: inherit !important;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__counter-container .counter__label {
+    -ms-flex-order: 10;
+    order: 10;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__counter-container .counter:not(:last-child):after {
+    content: '';
+    display: block;
+    height: 30px;
+    width: 1px;
+    background-color: #333;
+    position: absolute;
+    right: 0;
+    opacity: .3;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events__list .stm_upcoming_event__single {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events__list .stm_upcoming_event__info {
+    background-color: #f5f5f5;
+    padding: 26px 30px 28px 30px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_events__list .stm_upcoming_event__title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__link a {
+    display: inline-block;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    transition: .3s ease;
+    padding-right: 10px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__link a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 1.5px;
+    border-top: 1px solid;
+    right: 1px;
+    transition: .3s ease;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__link a:after {
+    content: "􏿶" !important;
+    font-family: 'stmicons' !important;
+    font-size: 10px;
+    right: 0;
+    transition: .3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__link a:hover {
+    padding-right: 35px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__link a:hover:before {
+    width: 20px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__date {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__date i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__date span {
+    line-height: 1;
+}
+
+.stm_upcoming_events_style_1 .stm_upcoming_event__info_footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+@media (max-width: 1023px) {
+    .stm_upcoming_events_style_1 .stm_upcoming_events_first {
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_events__list .stm_upcoming_event__title h3 {
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_upcoming_events_style_1 .stm_upcoming_events_first {
+        padding: 0 !important;
+        height: auto;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_events_first .stm_upcoming_event__content {
+        -ms-flex: auto;
+        flex: auto;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_event__content {
+        max-width: 100% !important;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_event__counter-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_event__counter .counter {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .stm_upcoming_events_style_1 .stm_upcoming_event__counter .counter__value {
+        font-size: 24px !important;
+    }
+}

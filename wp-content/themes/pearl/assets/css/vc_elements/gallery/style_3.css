@@ -1,0 +1,95 @@
+.stm_gallery_masonry__title {
+    margin: 0 15px 10px 0;
+}
+
+.stm_gallery_masonry__link {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+}
+
+.stm_projects_carousel__item {
+    width: 33.33%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 1;
+}
+
+.stm_projects_carousel__item .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 0;
+}
+
+[class*='stm_projects_grid'] .stm_projects_carousel__item_preloaded {
+    display: none;
+}
+
+.stm_projects_grid_style_3 > div.stm_flex {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_projects_grid_style_3 > div.stm_flex > div {
+    display: none;
+}
+
+.stm_projects_grid_style_3 .stm_projects_carousel__item {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.stm_projects_grid_style_3 .stm_projects_carousel__item:hover .stm_projects__meta .stm_projects__meta_terms {
+    color: #fff !important;
+}
+
+.stm_projects_grid_style_3 .stm_projects_carousel__tab a {
+    font-weight: 700;
+}
+
+.stm_projects_grid_style_3 .stm_projects__meta {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 14px;
+    padding: 20px 35px;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+.stm_projects_grid_style_3 .stm_projects__meta:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.stm_projects_grid_style_3 .stm_projects__meta .inner {
+    position: relative;
+    z-index: 15;
+}
+
+.stm_projects_grid_style_3 .stm_projects__meta .inner h5 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+.stm_projects_grid_style_3 .stm_projects__meta .inner .stm_projects__meta_terms {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.stm_projects_grid_style_3 .btn_load {
+    margin-top: -20px;
+}
+
+@media (max-width: 550px) {
+    .stm_projects_grid_style_3 .stm_projects_grid__sorting {
+        text-align: center;
+    }
+}

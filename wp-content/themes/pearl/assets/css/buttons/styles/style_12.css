@@ -1,0 +1,71 @@
+.stm_buttons_style_12 .btn {
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: auto;
+    line-height: 1;
+}
+
+.stm_buttons_style_12 .btn:hover:after {
+    animation: pearl_ripple_out .6s ease forwards;
+    border-radius: 40px;
+}
+
+.stm_buttons_style_12 .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.stm_buttons_style_12 .btn_icon-right {
+    padding-right: 45px;
+}
+
+.stm_buttons_style_12 .btn_icon-right .btn__icon {
+    width: 45px;
+    right: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+.stm_buttons_style_12 .btn_icon-right .btn__icon:before {
+    position: relative;
+}
+
+.stm_buttons_style_12 .btn_icon-left .btn__icon {
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+
+.stm_buttons_style_12 .btn_icon-left .btn__icon:before {
+    position: relative;
+    right: -2px;
+}
+
+.stm_buttons_style_12 .btn.btn_subtitle {
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.stm_buttons_style_12 .btn.btn_outline {
+    border-width: 2px;
+}
+
+.stm_buttons_style_12 .btn.btn_outline:hover {
+    color: #fff !important;
+}
+
+.stm_buttons_style_12 button[type="submit"]:not(.btn),
+.stm_buttons_style_12 input[type="submit"]:not(.btn) {
+    padding: 12px 30px 12px;
+    border-radius: 27px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.stm_buttons_style_12 .search-form button {
+    border-radius: 0;
+}

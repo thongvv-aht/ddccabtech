@@ -1,0 +1,30 @@
+.stm_vacancies_style_4 .stm_details {
+    padding: 32px 30px;
+    background: none;
+    margin-bottom: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm_vacancies_style_4 .stm_details .info {
+    padding: 0;
+}
+
+.stm_vacancies_style_4 .stm_details .info .stm_details__title {
+    color: #fff;
+}
+
+.stm_vacancies_style_4 .stm_details .info .stm_details__value {
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.stm_vacancies_style_4 .stm_details > div {
+    padding: 0 20px;
+}
+
+.stm_vacancies_style_4 .stm_flex .btn i {
+    display: none;
+}

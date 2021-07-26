@@ -1,0 +1,100 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_5 {
+    display: block;
+    text-decoration: none !important;
+}
+
+.stm_infobox_style_5 .stm_infobox__image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.stm_infobox_style_5 .stm_infobox__image img {
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.3s;
+}
+
+.stm_infobox_style_5 .stm_infobox__content {
+    position: absolute;
+    top: 50%;
+    right: 110px;
+    transform: translateY(-50%);
+    max-width: 596px;
+    padding: 53px 55px 33px;
+    background-color: #eeeff2;
+    z-index: 10;
+}
+
+.stm_infobox_style_5 .stm_infobox__content:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    height: 60%;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.3s;
+    z-index: -1;
+}
+
+.stm_infobox_style_5 .stm_infobox__content * {
+    transition: .3s ease;
+}
+
+.stm_infobox_style_5 .stm_infobox__content > * {
+    color: inherit;
+}
+
+.stm_infobox_style_5 .stm_infobox__content h5 {
+    margin-bottom: 27px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+}
+
+.stm_infobox_style_5 .stm_infobox__content h5 span {
+    font-size: 18px;
+    letter-spacing: 3.7px;
+}
+
+.stm_infobox_style_5 .stm_infobox__content p {
+    margin-bottom: 15px;
+}
+
+.stm_infobox_style_5 .stm_infobox__content p:last-child {
+    margin-bottom: 0;
+}
+
+.stm_infobox_style_5 .stm_infobox__content span,
+    .stm_infobox_style_5 .stm_infobox__content a {
+    font-size: 15px;
+}
+
+.stm_infobox_style_5:hover .stm_infobox__content span, .stm_infobox_style_5:hover .stm_infobox__content h5, .stm_infobox_style_5:hover .stm_infobox__content p {
+    color: #fff !important;
+}
+
+.stm_infobox_style_5:hover .stm_infobox__content:after {
+    height: 100%;
+}
+
+.stm_infobox_style_5:hover .stm_infobox__image img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1023px) {
+    .stm_infobox_style_5 .stm_infobox__content {
+        right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm_infobox_style_5 .stm_infobox__content {
+        position: static;
+        transform: none;
+    }
+}

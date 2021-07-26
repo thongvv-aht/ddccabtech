@@ -1,0 +1,126 @@
+/*COLORS*/
+/*FONTS*/
+.stm_iconbox__link {
+    text-decoration: none !important;
+}
+
+.stm_iconbox__icon {
+    display: block;
+}
+
+.stm_iconbox__icon-left .stm_iconbox__icon {
+    float: left;
+}
+
+.stm_iconbox__icon-right .stm_iconbox__icon {
+    float: right;
+}
+
+.stm_iconbox__icon-top .stm_iconbox__icon {
+    float: none;
+    width: auto !important;
+}
+
+.stm_iconbox__icon-center {
+    text-align: center;
+}
+
+.stm_iconbox__icon-center .stm_iconbox__icon {
+    float: none;
+    margin: 0 auto !important;
+}
+
+.stm_iconbox__text {
+    overflow: hidden;
+}
+
+.stm_iconbox__text h5:before {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.3) !important;
+    margin: 0 0 18px;
+}
+
+.stm_iconbox__text h5 p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.stm_iconbox.text-center.stm_iconbox__icon-top .stm_iconbox__icon {
+    margin: 0 auto;
+}
+
+body:not(.stm_headings_line) .stm_iconbox__text h5:before {
+    display: none;
+}
+
+.stm_iconbox_style_15 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    transition: all 0.3s;
+    padding: 0 30px;
+    border-radius: 0;
+}
+
+.stm_iconbox_style_15.stm_iconbox {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_iconbox_style_15.stm_iconbox .stm_iconbox__icon {
+    margin-top: 25px;
+    transition: all 0.3s;
+}
+
+.stm_iconbox_style_15.stm_iconbox .stm_iconbox__icon i {
+    transition: all 0.3s;
+}
+
+.stm_iconbox_style_15.stm_iconbox .stm_iconbox__text h5 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    transition: all 0.3s;
+    margin-bottom: 0;
+}
+
+.stm_iconbox_style_15.stm_iconbox .stm_iconbox__text p, .stm_iconbox_style_15.stm_iconbox .stm_iconbox__text span {
+    transition: all 0.3s;
+}
+
+.stm_iconbox_style_15.text-center .stm_iconbox__text h5 {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_iconbox_style_15.text-right .stm_iconbox__text h5 {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.stm_iconbox_style_15.stm_iconbox__icon-center .stm_iconbox__icon {
+    margin: 25px auto 0 !important;
+}
+
+.stm_iconbox_style_15.stm_iconbox__icon-right .stm_iconbox__icon {
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.stm_iconbox_style_15.stm_iconbox__icon-left .stm_iconbox__icon {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+    .stm_iconbox_style_15 {
+        margin: 15px;
+    }
+}

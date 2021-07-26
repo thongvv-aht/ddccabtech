@@ -1,0 +1,57 @@
+/*COLORS*/
+/*FONTS*/
+.stm_services_style_10 .stm_services__icon {
+    font-size: 50px;
+    margin-bottom: 25px;
+    padding: 2px;
+}
+
+.stm_services_style_10 .stm_services__icon:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin: 0 0 0 -14px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.stm_services_style_10 .stm_services__title {
+    margin-bottom: 17px;
+}
+
+.stm_services_style_10 .stm_services__title a {
+    line-height: 36px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.stm_services_style_10 .stm_services__title a:hover {
+    text-decoration: none;
+}
+
+.stm_services_style_10 .stm_services__content {
+    color: #777777;
+    letter-spacing: 0;
+}
+
+.stm_services_style_10 .stm_loop__grid {
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1023px) {
+    .stm_services_style_10 .stm_loop__grid {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_services_style_10 .stm_loop__grid {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+}

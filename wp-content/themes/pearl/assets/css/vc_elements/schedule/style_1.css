@@ -1,0 +1,231 @@
+/*COLORS*/
+/*FONTS*/
+.stm_schedule_style_1 {
+    margin-bottom: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.stm_schedule_style_1 .events_lessons_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.stm_schedule_style_1 .event_lesson_tabs {
+    min-width: 25%;
+}
+
+.stm_schedule_style_1 .event_lesson_tabs a {
+    display: block;
+    padding: 24px 33px 18px;
+    text-decoration: none !important;
+    border-bottom: 7px solid transparent;
+}
+
+.stm_schedule_style_1 .event_lesson_tabs a dfn {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.3px;
+}
+
+.stm_schedule_style_1 .event_lesson_tabs a span {
+    display: block;
+    padding-top: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #010101;
+}
+
+.stm_schedule_style_1 .event_lesson_info {
+    -ms-flex-order: 2;
+    order: 2;
+    display: none;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 100%;
+    padding-top: 49px;
+    padding-left: 14px;
+    list-style: none;
+}
+
+.stm_schedule_style_1 .event_lesson_info_time_loc {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #010101;
+}
+
+.stm_schedule_style_1 .event_lesson_info_time_loc .event_lesson_info_times {
+    margin-right: 25px;
+}
+
+.stm_schedule_style_1 .event_lesson_info_time_loc i {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap {
+    position: relative;
+    padding-bottom: 19px;
+    margin-bottom: 8px;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap:before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    bottom: 14px;
+    left: 12px;
+    width: 1px;
+    background-color: #dddddd;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content {
+    margin: 0 0 0 62px;
+    padding-bottom: 25px;
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title {
+    text-transform: uppercase;
+    padding: 15px 0 0;
+    letter-spacing: 0.50px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_description {
+    line-height: 22px;
+    padding: 8px 0;
+    font-size: 13px;
+    color: #222222;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 -25px;
+    padding: 0;
+    width: 100%;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 25px;
+    width: 33.333333%;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_thumbnail {
+    max-width: 40px;
+    margin-right: 14px;
+    float: left;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_thumbnail img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_name {
+    font-weight: 700;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_name a {
+    color: #222222;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_name a:hover {
+    text-decoration: none;
+}
+
+.stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_description {
+    color: #010101;
+}
+
+.stm_schedule_style_1 .event_lesson_info li:last-child .event_lesson_info_content_wrap {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.stm_schedule_style_1 .event_lesson_info li:last-child .event_lesson_info_content_wrap:before {
+    display: none;
+}
+
+.stm_schedule_style_1 .event_lesson_info li:last-child .event_lesson_info_content_wrap .event_lesson_info_content {
+    border-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .stm_schedule_style_1 .event_lesson_tabs a {
+        padding: 15px 0;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_schedule_style_1 .event_lesson_info {
+        padding: 20px 0 0;
+    }
+
+    .stm_schedule_style_1 .event_lesson_tabs a {
+        padding: 15px 0;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_time_loc {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_time_loc .event_lesson_info_location,
+      .stm_schedule_style_1 .event_lesson_info_time_loc .event_lesson_info_times {
+        display: block;
+        width: 100%;
+        margin: 7.5px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_schedule_style_1 .event_lesson_tabs {
+        width: 100%;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li {
+        width: 100% !important;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_content_wrap .event_lesson_info_content {
+        margin-left: 0 !important;
+    }
+
+    .stm_schedule_style_1 .event_lesson_info_content_wrap:before {
+        display: none !important;
+    }
+}

@@ -1,0 +1,115 @@
+/*COLORS*/
+/*FONTS*/
+.stm_services_style_9 .stm_loop__grid {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.stm_services_style_9 .stm_loop__grid a {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    padding: 48px 25px 35px 35px;
+}
+
+.stm_services_style_9 .stm_loop__grid a:hover {
+    box-shadow: 0px 20px 30px 0px rgba(7, 66, 61, 0.1);
+    transform: translateY(-1px);
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__icon {
+    color: #fff;
+    font-size: 70px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: 115px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__content {
+    margin-right: 10px;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__content p:last-child {
+    margin-bottom: 0;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__content h2 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__content h2.mtc {
+    transition: .3s ease;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_services__content h2:before {
+    display: none !important;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_service__image {
+    overflow: hidden;
+}
+
+.stm_services_style_9 .stm_loop__grid .stm_service__image img {
+    transition: transform 0.88s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.stm_services_style_9 .stm_loop__grid:hover .stm_services__content h5.mtc {
+    color: #fff !important;
+}
+
+.stm_services_style_9 .stm_loop__grid:hover img {
+    transform: scale(1.15);
+}
+
+.stm_services_style_9 .stm_loop__grid:hover .stm_services__content:after {
+    height: 100%;
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .stm_services_style_9 .stm_loop__grid {
+        width: 50%;
+    }
+
+    .stm_services_style_9 .stm_loop__grid .stm_service__image {
+        position: relative;
+        height: 100%;
+        display: block;
+        max-width: 83%;
+        overflow: hidden;
+    }
+
+    .stm_services_style_9 .stm_loop__grid .stm_services__content {
+        width: 55%;
+        height: 80%;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .stm_services_style_9 .stm_loop__grid {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .stm_services_style_9 .stm_loop__grid a {
+        display: block;
+    }
+
+    .stm_services_style_9 .stm_loop__grid .stm_services__content {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}

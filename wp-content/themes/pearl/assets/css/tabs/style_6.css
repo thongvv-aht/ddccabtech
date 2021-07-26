@@ -1,0 +1,86 @@
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-container {
+    overflow: visible;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: visible;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab {
+    position: relative;
+    margin: 0 38px;
+    font-family: inherit;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab:before {
+    display: none;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab a {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab a .vc_tta-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text {
+    display: block;
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 1;
+    margin: 0;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text:before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    margin: 10px 0 0;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-tabs-list .vc_tta-tab a:before {
+    display: none;
+}
+
+.stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-panels-container {
+    margin: 0;
+    padding: 80px 0 0;
+}
+
+@media (max-width: 767px) {
+    .stm_tabs_style_6 .vc_tta.vc_tta-tabs.vc_general .vc_tta-panels-container {
+        padding-top: 0;
+    }
+}
+
+.stm_tabs_style_6 .vc_tta-panel a {
+    color: #ffffff;
+}
+
+.stm_tabs_style_6 .vc_tta-panel a i, .stm_tabs_style_6 .vc_tta-panel a span {
+    color: #ffffff;
+}
+
+.stm_tabs_style_6 .vc_tta-panel a i {
+    margin-top: 12px;
+    display: inline-block !important;
+    vertical-align: top;
+}

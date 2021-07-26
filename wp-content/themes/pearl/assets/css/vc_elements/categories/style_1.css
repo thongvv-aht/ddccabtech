@@ -1,0 +1,34 @@
+.stm_categories_style_1 .stm_categories_single {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    min-height: 58px;
+    overflow: hidden;
+}
+
+.stm_categories_style_1 .stm_categories_single .mtc {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    transition: .3s ease;
+    text-transform: uppercase;
+    background: #fff;
+    z-index: 20;
+}
+
+.stm_categories_style_1 .stm_categories_single:hover .mtc {
+    color: #fff !important;
+}
+
+.stm_categories_style_1 .stm_categories_single:hover img {
+    transform: scale(1.15) translateX(0);
+}
+
+.stm_categories_style_1 .stm_categories_single img {
+    transition: .3s ease;
+    transform: scale(1.15) translateX(-8px);
+}

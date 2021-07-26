@@ -1,0 +1,29 @@
+.stm_buttons_style_8 .btn {
+    padding: 13px 38px;
+}
+
+.stm_buttons_style_8 .btn_outline {
+    padding: 11px 34px;
+    border-width: 3px;
+}
+
+.stm_buttons_style_8 .btn_lg {
+    padding: 18px 66px;
+}
+
+.stm_buttons_style_8 .btn_lg.btn_outline {
+    padding: 16px 62px;
+}
+
+.stm_buttons_style_8 .btn_icon-left .btn__icon {
+    text-indent: 1em;
+}
+
+.stm_buttons_style_8 .btn .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.stm_buttons_style_8 .btn.btn_icon-bg.btn_icon-left .btn__icon {
+    text-indent: 0;
+}

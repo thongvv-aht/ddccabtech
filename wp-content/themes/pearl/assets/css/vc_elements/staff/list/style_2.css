@@ -1,0 +1,180 @@
+.stm_staff_container_list .stm_staff_list_style_2 {
+    padding: 0;
+    margin-bottom: 30px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__name {
+    font-size: 18px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__job {
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__info {
+    position: relative;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border: 1px solid #e6e6e6;
+    border-left: 0;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__info-inner {
+    padding: 25px 30px 10px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__image {
+    position: relative;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__image img {
+    width: 100%;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__links {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials li {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 5px 0;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials a {
+    border: 0;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials a:hover .fa-facebook {
+    background-color: #3a5897;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials a:hover .fa-twitter {
+    background-color: #00aced;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials a:hover .fa-linkedin {
+    background-color: #0077b5;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials a:hover .fa-google-plus {
+    background-color: #db4437;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials i {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    background: #d9d9d9;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials i:before {
+    line-height: 32px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials i:hover {
+    color: #fff;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__contacts {
+    font-size: 14px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__contacts .stm_staff__contact {
+    white-space: nowrap;
+    line-height: 30px;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__contacts .stm_staff__contact i {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2 .stm_staff__contacts .stm_staff__contact i:before {
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2:hover {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+    border-color: transparent;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2:hover .stm_staff__socials {
+    opacity: 1;
+}
+
+.stm_staff_container_list .stm_staff_list_style_2:hover .stm_staff__links {
+    opacity: 1;
+}
+
+@media (max-width: 550px) {
+    .stm_staff_container_list .stm_staff_list_style_2.stm_staff {
+        display: block;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__image {
+        width: 100%;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__info {
+        border: 1px solid #ccc;
+        border-top: 0;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__links {
+        position: static;
+        opacity: 1;
+        transform: none;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__links > ul {
+        text-align: center;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__contacts {
+        margin-bottom: 15px;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials {
+        display: block;
+        position: static;
+        transform: none;
+        opacity: 1;
+        display: block;
+        text-align: center;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__socials > li a {
+        display: block;
+    }
+
+    .stm_staff_container_list .stm_staff_list_style_2 .stm_staff__job {
+        margin-bottom: 20px;
+    }
+}

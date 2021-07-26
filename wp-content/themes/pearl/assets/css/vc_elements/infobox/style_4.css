@@ -1,0 +1,110 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_4 {
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: .3s ease;
+}
+
+.stm_infobox_style_4:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.stm_infobox_style_4 .stm_infobox {
+    overflow: hidden;
+}
+
+.stm_infobox_style_4 .stm_infobox__content {
+    min-height: 350px;
+    padding-bottom: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background-color: transparent !important;
+}
+
+.stm_infobox_style_4 .stm_infobox__content_wrapper {
+    position: relative;
+    z-index: 15;
+    transition: 3s ease;
+    padding: 0 40px;
+}
+
+.stm_infobox_style_4 .stm_infobox__content > * {
+    color: inherit;
+}
+
+.stm_infobox_style_4 .stm_infobox__content h1, .stm_infobox_style_4 .stm_infobox__content h2, .stm_infobox_style_4 .stm_infobox__content h3, .stm_infobox_style_4 .stm_infobox__content h4, .stm_infobox_style_4 .stm_infobox__content h5, .stm_infobox_style_4 .stm_infobox__content h6 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.stm_infobox_style_4 .stm_infobox__content p {
+    margin-bottom: 15px;
+    line-height: 24px;
+    -ms-flex-order: 10;
+    order: 10;
+    opacity: 0;
+    max-height: 0;
+    transition: .7s ease;
+    transform: translateY(30px);
+}
+
+.stm_infobox_style_4 .stm_infobox__content p:last-child {
+    margin-bottom: 0;
+}
+
+.stm_infobox_style_4 .stm_infobox__content span {
+    -ms-flex-order: 5;
+    order: 5;
+}
+
+.stm_infobox_style_4 .stm_infobox__content span,
+      .stm_infobox_style_4 .stm_infobox__content a {
+    font-size: 15px;
+}
+
+.stm_infobox_style_4:hover {
+    background-position: 50% 45%;
+    text-decoration: none;
+}
+
+.stm_infobox_style_4:hover .stm_infobox__content_wrapper p {
+    max-height: 350px;
+    opacity: 1;
+    display: block;
+    transform: translateY(0);
+}
+
+.stm_infobox_style_4:hover .stm_infobox__content_wrapper h1, .stm_infobox_style_4:hover .stm_infobox__content_wrapper h2, .stm_infobox_style_4:hover .stm_infobox__content_wrapper h3, .stm_infobox_style_4:hover .stm_infobox__content_wrapper h4, .stm_infobox_style_4:hover .stm_infobox__content_wrapper h5, .stm_infobox_style_4:hover .stm_infobox__content_wrapper h6 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1023px) {
+    .stm_infobox_style_4 {
+        margin-bottom: 30px;
+    }
+
+    .stm_infobox_style_4 .stm_infobox__content_wrapper {
+        padding: 15px;
+    }
+
+    .stm_infobox_style_4 .stm_infobox__content_wrapper p {
+        max-height: 100%;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

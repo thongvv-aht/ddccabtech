@@ -1,0 +1,241 @@
+.stm_header_style_17 .stm-header {
+    margin-bottom: -101px !important;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul {
+    margin: 0 -21px;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li:before {
+    display: none;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li a {
+    padding: 10px 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li a:hover {
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li ul {
+    top: 59px;
+    margin: 0;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li ul li {
+    padding: 10px 0;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li ul li a {
+    font-size: 14px;
+    color: #111111 !important;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li ul li a:hover {
+    color: #111111 !important;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li.stm_megamenu ul {
+    top: 50px !important;
+}
+
+.stm_header_style_17 .stm-header .stm-navigation__default ul li.stm_megamenu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li a {
+        position: relative;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li a .stm_mobile__dropdown {
+        width: 10px;
+        height: 6px;
+        top: 50%;
+        margin-top: -3px;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li a .stm_mobile__dropdown:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-width: 6px 5px 0;
+        border-style: solid;
+        border-color: #111111 transparent;
+        transition: transform .3s;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li.active > a .stm_mobile__dropdown:before {
+        transform: rotate(180deg);
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li ul {
+        padding: 0 0 0 20px !important;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li ul li {
+        padding: 0 !important;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li ul li a {
+        font-size: 13px;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li.stm_megamenu ul {
+        margin-left: 40px !important;
+    }
+
+    .stm_header_style_17 .stm-header .stm-navigation__default ul li.stm_megamenu ul li ul {
+        margin-left: 15px !important;
+    }
+}
+
+.stm_header_style_17 .stm-header .stm-header__row_center {
+    position: relative;
+    padding-bottom: 11px;
+}
+
+.stm_header_style_17 .stm-header .stm-header__row_center:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.stm_header_style_17 .stm-header .btn {
+    letter-spacing: 0;
+    padding: 4px 20px 5px;
+    border-radius: 6px;
+    line-height: 32px;
+    font-size: 13px;
+}
+
+.stm_header_style_17 .stm-header .stm-search_style_1 a {
+    border: 0;
+    padding-top: 1px;
+}
+
+.stm_header_style_17.single-stm_products .stm-header {
+    margin-bottom: 0 !important;
+}
+
+.stm_header_style_17.single-stm_products .stm-header .stm-header__row_center {
+    padding-bottom: 0;
+}
+
+.stm_header_style_17.single-stm_products .stm-header .stm-header__row_center:after {
+    display: none;
+}
+
+.stm_header_style_17.single-stm_products.stm_breadcrumbs_enabled .stm_page_bc {
+    position: relative;
+    z-index: 10;
+}
+
+.stm_header_style_17.single-stm_products.stm_breadcrumbs_enabled .stm_page_bc .stm_breadcrumbs {
+    margin-bottom: -3px;
+}
+
+.stm_header_style_17 .search-wrapper input:focus {
+    background-color: #fff;
+}
+
+.stm_header_style_17 .stm_titlebox_style_2 {
+    padding-top: 223px;
+    padding-bottom: 165px;
+}
+
+.stm_header_style_17 .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+    line-height: 70px;
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    .stm_header_style_17 .stm_titlebox_style_2 {
+        padding-top: 130px;
+    }
+
+    .stm_header_style_17 .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+        line-height: 45px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_header_style_17 .stm_titlebox_style_2 {
+        padding-top: 90px !important;
+        padding-bottom: 165px !important;
+    }
+
+    .stm_header_style_17 .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+        line-height: 45px !important;
+        font-size: 35px !important;
+    }
+}
+
+.stm_header_style_17.stm_title_box_enabled.stm_breadcrumbs_enabled .stm_titlebox_style_2 {
+    margin-bottom: 0;
+}
+
+.stm_header_style_17 .stm_breadcrumbs {
+    padding: 9px 0 4px;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.stm_header_style_17 .stm_breadcrumbs .container {
+    padding: 0;
+}
+
+.stm_header_style_17 .stm_breadcrumbs .container i {
+    padding: 0 10px;
+    font-size: 8px;
+}
+
+@media (max-width: 992px) {
+    .stm_header_style_17 .stm_breadcrumbs {
+        margin-top: 5px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .stm_header_style_17 .stm-header.active .stm-socials {
+        text-align: center;
+    }
+
+    .stm_header_style_17 .stm-header.active .stm-socials .stm-socials__icon {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .stm_header_style_17 .stm-header.active .stm-navigation__default ul li {
+        padding: 5px 0;
+    }
+
+    .stm_header_style_17 .stm-header.active .stm-navigation__default ul li a {
+        color: #111111 !important;
+    }
+
+    .stm_header_style_17 .stm-header.active .widget_search [type=submit] {
+        padding: 0 !important;
+    }
+}
+
+.stm_breadcrumbs_enabled.single-stm_products .products_title_box {
+    min-height: 820px;
+}

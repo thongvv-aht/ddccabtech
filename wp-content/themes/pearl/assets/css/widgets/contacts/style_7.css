@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.widget_contacts_style_7 .widget_contacts_inner {
+    border: 4px solid;
+    padding: 39px 48px 49px 42px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext:before {
+    display: block;
+    content: attr(data-title);
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext:last-child {
+    margin-bottom: 0;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2 {
+    margin-bottom: 23px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    font-size: 16px;
+    text-align: center;
+    min-width: 20px;
+    margin-right: 15px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text {
+    padding-top: 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text a {
+    opacity: 1;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2.stm-icontext__fax {
+    margin-bottom: 18px;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    display: none;
+    opacity: 1;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .fa-home:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .fa-phone-square:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .fa-envelope {
+    position: relative;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .fa-envelope:before {
+    font-size: 13px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_7 .widget_contacts_inner .fa-fax:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}

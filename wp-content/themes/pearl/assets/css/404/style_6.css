@@ -1,0 +1,84 @@
+/*BA*/
+/*COLORS*/
+/*FONTS*/
+#wrapper {
+    padding-bottom: 0;
+}
+
+.stm_errorpage {
+    position: relative;
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.stm_errorpage__404 {
+    position: absolute;
+}
+
+.stm_errorpage__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.stm_errorpage__inner {
+    max-width: 700px;
+    padding: 0 50px 20px;
+    text-align: center;
+}
+
+.stm_errorpage__inner h1 {
+    margin-bottom: 40px;
+    font-size: 230px;
+    line-height: 230px;
+}
+
+.stm_errorpage__inner h2 {
+    line-height: 1.1em;
+}
+
+.stm_errorpage__message {
+    margin-bottom: 43px;
+}
+
+@media (max-width: 550px) {
+    .stm_errorpage__bg {
+        background-size: 140% auto;
+    }
+
+    .stm_errorpage__inner {
+        text-align: center;
+    }
+
+    .stm_errorpage__inner h1 {
+        margin-bottom: 20px;
+        font-size: 230px;
+        line-height: 230px;
+    }
+
+    .stm_errorpage__inner h2 {
+        line-height: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .stm_errorpage__message {
+        margin-bottom: 20px;
+    }
+}

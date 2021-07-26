@@ -1,0 +1,179 @@
+.stm_video_list_style_2 {
+    margin-top: 30px;
+    margin-bottom: 7.5px;
+}
+
+.stm_video_list_style_2 .btn_load {
+    width: 100%;
+    border: 0 !important;
+    background-color: #e9e9ee !important;
+    text-align: center;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.stm_video_list_style_2 .btn.btn_primary.btn_outline.btn_load:hover span {
+    color: #fff !important;
+}
+
+.stm_video_list_style_2 .stm_video_list__wrapper {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+    border-left-width: 1px !important;
+    border-right-width: 1px !important;
+    padding: 0 0 57px;
+}
+
+.stm_video_list_style_2 .stm_video_list__title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: -30px;
+}
+
+.stm_video_list_style_2 .stm_video_list__title .h1 {
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.stm_video_list_style_2 .stm_video_list__title:before, .stm_video_list_style_2 .stm_video_list__title:after {
+    content: '';
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    height: 2px;
+    -ms-flex: 50%;
+    flex: 50%;
+    margin: 0 -1px;
+}
+
+.stm_video_list_style_2 .stm_video_list__title:before {
+    margin-right: 65px;
+}
+
+.stm_video_list_style_2 .stm_video_list__title:after {
+    margin-left: 65px;
+}
+
+.stm_video_list_style_2 .stm_video_list__carousel {
+    padding: 0 150px;
+}
+
+.stm_video_list_style_2 .stm_video_list__single > .play-video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.stm_video_list_style_2 .stm_video_list__single > .play-video:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 8px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 45px;
+    border-color: transparent transparent transparent #ffffff;
+    filter: drop-shadow(1px 4px 3px rgba(0, 0, 0, 0.3));
+}
+
+.stm_video_list_style_2 .stm_video_list__single > .play-video:after {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    display: block;
+    width: 135px;
+    height: 135px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+
+.stm_video_list_style_2 .stm_video_list__single > .play-video:hover:before {
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+}
+
+.stm_video_list_style_2 .stm_video_list__label {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.stm_video_list_style_2 .owl-controls .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -139px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_video_list_style_2 .owl-controls .owl-dots:before, .stm_video_list_style_2 .owl-controls .owl-dots:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    margin: 0 -1px;
+    height: 1px;
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.stm_video_list_style_2 .owl-controls .owl-dots:before {
+    margin-right: 70px;
+}
+
+.stm_video_list_style_2 .owl-controls .owl-dots:after {
+    margin-left: 70px;
+}
+
+@media (max-width: 550px) {
+    .stm_video_list_style_2 .stm_video_list__carousel {
+        padding: 0;
+    }
+
+    .stm_video_list_style_2 .stm_video_list__wrapper {
+        border: 0;
+    }
+
+    .stm_video_list_style_2 .stm_video_list__single img {
+        min-width: 100px;
+    }
+
+    .stm_video_list_style_2 .stm_video_list__label {
+        font-size: 16px;
+        min-height: 40px;
+    }
+
+    .stm_video_list_style_2 .owl-dots:before, .stm_video_list_style_2 .owl-dots:after {
+        display: none !important;
+    }
+}
+
+.stm_video_list_style_2 .no_video_image {
+    display: block;
+    min-height: 400px;
+    background-color: #0c0c0d;
+}

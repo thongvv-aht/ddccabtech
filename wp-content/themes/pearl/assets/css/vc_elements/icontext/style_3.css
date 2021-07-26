@@ -1,0 +1,52 @@
+/*COLORS*/
+/*FONTS*/
+.stm_icontext {
+    vertical-align: top;
+}
+
+.stm_icontext a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.stm_icontext__text {
+    vertical-align: top;
+}
+
+.stm_icontext__text span {
+    display: block;
+    overflow: hidden;
+}
+
+.stm_icontext__icon {
+    float: left;
+}
+
+.stm_icontext_style_3 .stm_icontext__text {
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 400;
+}
+
+.stm_icontext_style_3 .stm_icontext__icon {
+    margin: 0 0 0 15px !important;
+    float: none;
+    -ms-flex-order: 100;
+    order: 100;
+}
+
+.stm_icontext_style_3.text-right .stm_icontext__text {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 550px) {
+    .stm_icontext_style_3 {
+        margin: 0 0 15px !important;
+    }
+
+    .stm_icontext_style_3.text-right .stm_icontext__text {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}

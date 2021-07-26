@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.widget_contacts_style_11 .widget_contacts_inner .stm-icontext i {
+    min-width: 0;
+    opacity: 1;
+    margin-right: 8px;
+}
+
+.widget_contacts_style_11 .widget_contacts_inner .stm-icontext i:before {
+    content: "􏿷" !important;
+    font-family: 'stmicons' !important;
+    font-size: 19px;
+}
+
+.widget_contacts_style_11 .widget_contacts_inner .stm-socials {
+    margin-top: 25px;
+}

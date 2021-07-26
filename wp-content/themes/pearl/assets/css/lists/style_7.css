@@ -1,0 +1,46 @@
+.wpb_text_column ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.wpb_text_column ul li {
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 18px;
+}
+
+.wpb_text_column ul li:before {
+    content: '';
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    transform: rotate(50deg) skew(15deg);
+}
+
+.wpb_text_column ol {
+    padding-left: 0;
+    list-style: none;
+    counter-reset: item;
+    margin: 0 0 26px;
+}
+
+.wpb_text_column ol li {
+    margin-bottom: 9px;
+}
+
+.wpb_text_column ol li:before {
+    content: counter(item) ".";
+    counter-increment: item;
+    margin-right: 10px;
+}
+
+.stm_lists_style_1 .wpb_text_column ul.main_font li {
+    font-size: 13px;
+}
+
+.stm_lists_style_1 .wpb_text_column ul.main_font li strong {
+    margin-bottom: 15px;
+}

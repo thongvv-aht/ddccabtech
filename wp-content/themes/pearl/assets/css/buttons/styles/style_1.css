@@ -1,0 +1,8 @@
+.btn {
+    border-width: 3px;
+}
+
+.btn__icon {
+    top: -3px;
+    bottom: -3px;
+}

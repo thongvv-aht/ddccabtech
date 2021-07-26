@@ -1,0 +1,52 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_15 {
+    display: block;
+    transition: all .3s;
+    position: relative;
+}
+
+.stm_infobox_style_15 .stm_infobox__image {
+    text-align: right;
+}
+
+.stm_infobox_style_15 .stm_infobox__content_wrap {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 60px;
+}
+
+@media (max-width: 1024px) {
+    .stm_infobox_style_15 .stm_infobox__content_wrap {
+        padding-left: 20px;
+    }
+}
+
+.stm_infobox_style_15 .stm_infobox__content h2 {
+    text-transform: uppercase;
+    line-height: 38px;
+    font-size: 32px;
+    margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stm_infobox_style_15 .stm_infobox__content h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.stm_infobox_style_15 .stm_infobox__content p {
+    margin-bottom: 0;
+}
+
+.stm_infobox_style_15 .stm_infobox__content p + p {
+    margin-top: 24px;
+}

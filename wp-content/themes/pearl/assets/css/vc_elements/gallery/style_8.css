@@ -1,0 +1,96 @@
+.stm_gallery_masonry__title {
+    margin: 0 15px 10px 0;
+}
+
+.stm_gallery_masonry__link {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+}
+
+.stm_projects_carousel__item {
+    width: 33.33%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 1;
+}
+
+.stm_projects_carousel__item .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 0;
+}
+
+[class*='stm_projects_grid'] .stm_projects_carousel__item_preloaded {
+    display: none;
+}
+
+.stm_projects_grid_style_8 .stm_projects_grid__switcher {
+    display: none;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__item {
+    margin: 0 0 60px;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__item .stm_projects__thumbnail {
+    overflow: hidden;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__item .stm_projects__thumbnail img {
+    transition: 0.8s cubic-bezier(0.2, 1, 0.22, 1);
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__item .stm_projects__thumbnail:hover img {
+    transform: scale(1.1);
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__tab a {
+    position: relative;
+    padding: 0 0 10px;
+    margin-left: 70px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color: transparent !important;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__tab a:after {
+    content: '';
+    display: block;
+    margin: 9px 0 0;
+    width: 30%;
+    opacity: 0;
+    height: 2px;
+    transition: .3s ease;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__tab a:hover:after, .stm_projects_grid_style_8 .stm_projects_carousel__tab a.active:after {
+    width: 100%;
+    opacity: 1;
+}
+
+.stm_projects_grid_style_8 .stm_projects_carousel__tab:first-child a {
+    margin-left: 0;
+}
+
+.stm_projects_grid_style_8 .stm_projects__meta .inner .terms {
+    margin: 20px -10px 0;
+}
+
+.stm_projects_grid_style_8 .stm_projects__meta .inner .terms a {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 10px;
+    font-size: 11px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.stm_projects_grid_style_8 .stm_projects__meta .inner .h6 {
+    display: block;
+    margin: 20px 0 0;
+    cursor: pointer;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: -0.2px;
+}

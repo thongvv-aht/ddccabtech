@@ -1,0 +1,23 @@
+.widget_recent_comments_style_1 ul li.recentcomments {
+    font-size: 13px;
+    padding-left: 35px;
+}
+
+.widget_recent_comments_style_1 ul li.recentcomments:before {
+    content: "\f0e5";
+    border: 0;
+    color: #777777;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.widget_recent_comments_style_1 ul li.recentcomments > a {
+    color: #333;
+}

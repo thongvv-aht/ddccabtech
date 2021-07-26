@@ -1,0 +1,13 @@
+/*artist*/
+.stm_blockquote_style_8 blockquote {
+    padding: 0 0 33px;
+    margin: 0 0 41px !important;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8) !important;
+    font-style: italic;
+}
+
+.stm_blockquote_style_8 blockquote p {
+    font-size: 20px;
+    line-height: 32px;
+}

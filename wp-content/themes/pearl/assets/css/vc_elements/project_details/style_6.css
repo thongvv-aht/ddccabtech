@@ -1,0 +1,50 @@
+/*COLORS*/
+/*FONTS*/
+.stm_project_details_style_6 {
+    width: 100%;
+}
+
+.stm_project_details_style_6 .stm_project_details__table {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.stm_project_details_style_6 .stm_project_details__single {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 19px;
+    font-size: 13px;
+}
+
+.stm_project_details_style_6 .stm_project_details__single:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: -1px;
+    width: 12px;
+    height: 2px;
+    background-color: #000;
+}
+
+.stm_project_details_style_6 .stm_project_details__label {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.stm_project_details_style_6 .stm_project_details__value {
+    margin-top: -4px;
+    display: block;
+    font-weight: 400;
+}
+
+@media (max-width: 550px) {
+    .stm_project_details_style_6 .stm_project_details__single {
+        width: 100%;
+    }
+}

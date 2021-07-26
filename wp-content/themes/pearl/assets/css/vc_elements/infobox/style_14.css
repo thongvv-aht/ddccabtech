@@ -1,0 +1,67 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_14 {
+    display: block;
+    position: relative;
+    margin: 50px auto 0;
+    max-width: 261px;
+}
+
+.stm_infobox_style_14 .stm_infobox__image {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.stm_infobox_style_14 .stm_infobox__image img {
+    display: block;
+}
+
+.stm_infobox_style_14 .stm_infobox__content_wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.stm_infobox_style_14 .stm_infobox__content {
+    background-color: transparent !important;
+}
+
+.stm_infobox_style_14 .stm_infobox__content p {
+    display: none !important;
+}
+
+.stm_infobox_style_14 .stm_infobox__content .btn {
+    left: 50%;
+    bottom: 0 !important;
+    transform: translate(-50%, 0);
+    min-width: 0 !important;
+    height: 40px !important;
+    border-radius: 30px;
+    padding: 5px 20px !important;
+    font-size: 14px;
+    opacity: 0;
+}
+
+.stm_infobox_style_14 .stm_infobox__content .btn:after {
+    content: "\ec90";
+    font-family: "stmicons";
+    font-size: 10px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.stm_infobox_style_14:hover .stm_infobox__image {
+    transform: translateY(-15px);
+}
+
+.stm_infobox_style_14:hover .btn {
+    opacity: 1;
+}

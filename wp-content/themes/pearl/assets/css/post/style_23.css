@@ -1,0 +1,220 @@
+@media (min-width: 1025px) {
+    .stm_post_style_23 .stm_markup__post {
+        padding-right: 50px;
+    }
+}
+
+.stm_post_style_23.archive .stm_loop__grid, .stm_post_style_23.blog .stm_loop__grid {
+    margin: 0 -20px;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single {
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 60px;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__image, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__image {
+    margin-bottom: 24px;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__body h5, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__body h5 {
+    margin-bottom: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__info, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__info {
+    font-size: 15px;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__info .date, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__info .date {
+    color: #999999;
+}
+
+.stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__info .date i, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__info .date i {
+    margin-right: 6px;
+}
+
+@media (max-width: 580px) {
+    .stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single {
+        width: 100%;
+    }
+
+    .stm_post_style_23.archive .stm_loop__grid .stm_posts_list_single__image img, .stm_post_style_23.blog .stm_loop__grid .stm_posts_list_single__image img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single {
+    margin-bottom: 60px;
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single__image {
+    margin-bottom: 24px;
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single__body h5 {
+    margin-bottom: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single__info {
+    font-size: 15px;
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single__info .date {
+    color: #999999;
+}
+
+.stm_post_style_23 .stm_loop__list .stm_posts_list_single__info .date i {
+    margin-right: 6px;
+}
+
+.stm_post_style_23.archive .stm_breadcrumbs {
+    margin-top: -30px;
+}
+
+.single-post .stm_titlebox_style_2 {
+    padding-top: 184px;
+    padding-bottom: 164px;
+}
+
+.single-post .stm_titlebox_style_2 .stm_titlebox__inner {
+    max-width: 920px;
+}
+
+.single-post .stm_titlebox_style_2 .stm_titlebox__inner .stm_titlebox__title {
+    line-height: 55px;
+    font-size: 50px;
+}
+
+.stm_single_post_layout_23 {
+    position: relative;
+}
+
+@media (min-width: 1025px) {
+    .stm_single_post_layout_23 .stm_single_post_style_23 {
+        padding-left: 20px;
+    }
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 h2 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_single_post__content {
+    margin-top: -10px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_single_post__content h5 {
+    letter-spacing: -1px;
+    line-height: 45px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_single_post__content p {
+    line-height: 34px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details {
+    border: 0;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details_info {
+    padding-right: 30px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details_info:last-child {
+    padding-right: 0;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details_info a {
+    color: #fff;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details_info span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details.with_titlebox {
+    display: block;
+    position: absolute;
+    top: -210px;
+    left: 0;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    background-color: transparent !important;
+    font-family: inherit;
+    line-height: 26px;
+    font-weight: 300;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details.with_titlebox .stm_post_details_info {
+    padding: 0 13px;
+    font-weight: 300;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details.with_titlebox .stm_post_details_info span {
+    margin-top: 6px;
+}
+
+@media (max-width: 420px) {
+    .stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details.with_titlebox {
+        top: -280px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_details > span {
+        display: block;
+        text-align: left;
+    }
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .aligncenter,
+  .stm_single_post_layout_23 .stm_single_post_style_23 div.aligncenter {
+    margin-top: 46px;
+    margin-bottom: 40px;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_panel {
+    padding: 30px 0;
+    margin-top: 40px;
+    border-top: 2px solid #f0f0f1;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_panel .stm_single_post__tags a {
+    margin-right: 12px;
+    padding: 6px 16px;
+    border-radius: 25px;
+    background-color: #f1f2f3;
+    line-height: 24px;
+    font-size: 15px;
+    color: #565656;
+}
+
+.stm_single_post_layout_23 .stm_single_post_style_23 .stm_post_panel .stm_single_post__tags a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.stm_breadcrumbs_enabled .stm_single_post_layout_23 .stm_single_post_style_23 .with_titlebox {
+    top: -247px;
+}

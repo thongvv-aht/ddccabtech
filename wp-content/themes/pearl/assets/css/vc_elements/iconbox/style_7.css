@@ -1,0 +1,131 @@
+/*COLORS*/
+/*FONTS*/
+.stm_iconbox__link {
+    text-decoration: none !important;
+}
+
+.stm_iconbox__icon {
+    display: block;
+}
+
+.stm_iconbox__icon-left .stm_iconbox__icon {
+    float: left;
+}
+
+.stm_iconbox__icon-right .stm_iconbox__icon {
+    float: right;
+}
+
+.stm_iconbox__icon-top .stm_iconbox__icon {
+    float: none;
+    width: auto !important;
+}
+
+.stm_iconbox__icon-center {
+    text-align: center;
+}
+
+.stm_iconbox__icon-center .stm_iconbox__icon {
+    float: none;
+    margin: 0 auto !important;
+}
+
+.stm_iconbox__text {
+    overflow: hidden;
+}
+
+.stm_iconbox__text h5:before {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.3) !important;
+    margin: 0 0 18px;
+}
+
+.stm_iconbox__text h5 p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.stm_iconbox.text-center.stm_iconbox__icon-top .stm_iconbox__icon {
+    margin: 0 auto;
+}
+
+body:not(.stm_headings_line) .stm_iconbox__text h5:before {
+    display: none;
+}
+
+.stm_iconbox_style_7 {
+    position: relative;
+}
+
+.stm_iconbox_style_7.stm_iconbox__icon-left, .stm_iconbox_style_7.stm_iconbox__icon-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.stm_iconbox_style_7.stm_iconbox__icon-right .stm_iconbox__icon {
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.stm_iconbox_style_7.stm_iconbox__icon-right .stm_iconbox__text {
+    -ms-flex-order: 1;
+    order: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.stm_iconbox_style_7.stm_iconbox__icon-top {
+    text-align: center;
+}
+
+.stm_iconbox_style_7.stm_iconbox__icon-top .stm_iconbox__text {
+    display: block;
+    margin-top: 15px;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__icon {
+    margin-right: 30px;
+    text-align: center;
+    height: auto !important;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text {
+    overflow: visible;
+    display: inline-block;
+    font-size: 16px;
+    color: #999999;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text h5 {
+    margin-bottom: 10px;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text h5 span {
+    font-size: 36px;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text h4 {
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text .stm_iconbox__desc p {
+    line-height: 24px;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__text p {
+    margin-bottom: 0;
+}
+
+.stm_iconbox_style_7 .stm_iconbox__dots {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .stm_iconbox_style_7 .stm_iconbox__text {
+        margin-top: 15px;
+    }
+}

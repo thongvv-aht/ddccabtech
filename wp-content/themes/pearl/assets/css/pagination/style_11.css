@@ -1,0 +1,107 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+ul.page-numbers {
+    position: relative;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+ul.page-numbers:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    margin: 0;
+}
+
+ul.page-numbers li span,
+    ul.page-numbers li a {
+    padding: 0;
+    line-height: 1.4em;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul.page-numbers li span:hover,
+      ul.page-numbers li a:hover {
+    background-color: transparent !important;
+}
+
+ul.page-numbers .page-numbers {
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px 5px 0;
+    line-height: 0.5em;
+}
+
+ul.page-numbers .page-numbers .fa {
+    font-size: 8px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+ul.page-numbers .page-numbers.next {
+    margin-left: 15px;
+}
+
+ul.page-numbers .page-numbers.next i:before {
+    content: "\e6ae";
+    font-family: stmicons;
+}
+
+ul.page-numbers .page-numbers.prev {
+    margin-right: 15px;
+}
+
+ul.page-numbers .page-numbers.prev i:before {
+    content: "\e6ad";
+    font-family: stmicons;
+}
+
+ul.page-numbers .page-numbers.current {
+    background: transparent !important;
+}
+
+.woocommerce-pagination {
+    margin-top: 20px;
+}

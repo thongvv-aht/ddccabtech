@@ -1,0 +1,171 @@
+.stm_header_style_15 .stm-header {
+    margin-bottom: 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.stm_header_style_15 .stm-header__row_color_center {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stm_header_style_15 .stm-header__row_color .btn {
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    border: 0;
+}
+
+.stm_header_style_15 .stm-header__row_color .btn:not(:hover) {
+    background-color: #fff !important;
+}
+
+.stm_header_style_15 .stm-header__row_color .btn.btn_solid {
+    color: #222 !important;
+}
+
+.stm_header_style_15 .stm-header__row_color .btn:hover {
+    color: #fff !important;
+}
+
+.stm_header_style_15 .stm-header .stm-header__element_btn_solid .btn {
+    border-radius: 15px;
+    font-size: 11px;
+    line-height: 12px;
+    padding: 9px 10px;
+}
+
+.stm_header_style_15 .stm-navigation__default > ul > li > a {
+    padding: 0 25px;
+    letter-spacing: 2.6px;
+    line-height: 20px;
+}
+
+.stm_header_style_15 .stm-navigation__line_bottom > ul > li:hover:before {
+    bottom: -11px;
+}
+
+.stm_header_style_15 .stm-navigation__line_bottom > ul > li:before {
+    height: 3px;
+    left: 20px;
+    right: 20px;
+}
+
+.stm_header_style_15 .stm-navigation > ul > li > ul > li:hover > a {
+    color: #fff !important;
+}
+
+.stm_header_style_15 .stm-navigation > ul > li.current-menu-item:before {
+    opacity: 1;
+    visibility: visible;
+    bottom: -11px;
+}
+
+.stm_header_style_15 .stm-navigation .stm_megamenu > .sub-menu {
+    top: 50px !important;
+}
+
+.stm_header_style_15 .stm-socials {
+    margin: 0;
+}
+
+.stm_header_style_15 .stm-socials a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 5px;
+}
+
+.stm_header_style_15 .stm-socials a i {
+    font-size: 14px;
+}
+
+.stm_header_style_15 .stm-header__row_top .stm-navigation__default ul > li > a {
+    padding: 0 10px;
+    letter-spacing: 0;
+}
+
+.stm_header_style_15 .stm-header__row_top .stm-navigation__default ul > li > a:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    margin-right: 4px;
+}
+
+@media (max-width: 1023px) {
+    .stm_header_style_15 .stm_mobile__header {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #d1d1d1;
+    }
+
+    .stm_header_style_15 .stm-header__cell {
+        margin: 0;
+    }
+
+    .stm_header_style_15 .stm_slider,
+  .stm_header_style_15 .stm_titlebox {
+        margin-top: -30px;
+    }
+
+    .stm_header_style_15 .stm-header {
+        padding: 20px 0 20px 20px;
+        margin-bottom: 0 !important;
+    }
+
+    .stm_header_style_15 .stm-header .stm-header__row_color:before,
+    .stm_header_style_15 .stm-header .stm-header__row_color {
+        background: none !important;
+    }
+
+    .stm_header_style_15 .stm-logo {
+        display: none;
+    }
+
+    .stm_header_style_15 .stm_mobile__logo {
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+    .stm_header_style_15 .stm-navigation__default > ul {
+        margin: 0 -5px !important;
+    }
+
+    .stm_header_style_15 .stm-navigation {
+        margin-bottom: 30px;
+    }
+
+    .stm_header_style_15 .stm-navigation.stm-navigation__default ul {
+        margin: 0 -25px;
+    }
+
+    .stm_header_style_15 .stm-navigation.stm-navigation__default ul li.menu-item-has-children > a {
+        position: relative;
+        padding-right: 25px;
+    }
+
+    .stm_header_style_15 .stm-navigation.stm-navigation__default ul li.menu-item-has-children > a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -2px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 3.5px 0 3.5px;
+        border-color: #222 transparent transparent transparent;
+        transform: rotate(0deg) !important;
+    }
+
+    .stm_header_style_15 .stm-navigation.stm-navigation__default ul.sub-menu {
+        padding: 0 0 10px;
+        background: transparent;
+    }
+
+    .stm_header_style_15 .stm-navigation.stm-navigation__default ul.sub-menu ul.sub-menu {
+        margin: 15px 0 0 15px;
+        padding-bottom: 0;
+    }
+
+    .stm_header_style_15 .stm-navigation__default > ul > li > a {
+        padding: 15px 15px 15px 0;
+    }
+}

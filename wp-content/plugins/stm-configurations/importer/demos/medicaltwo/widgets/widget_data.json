@@ -1,0 +1,75 @@
+[
+  {
+    "default": [
+      "search-2",
+      "recent-posts-2",
+      "archives-2",
+      "categories-2"
+    ],
+    "footer": [
+      "stm_text-2",
+      "stm_custom_menu-2",
+      "contacts-2"
+    ]
+  },
+  {
+    "search": {
+      "2": {
+        "title": ""
+      },
+      "_multiwidget": 1
+    },
+    "recent-posts": {
+      "2": {
+        "title": "",
+        "number": 5
+      },
+      "_multiwidget": 1
+    },
+    "archives": {
+      "2": {
+        "title": "",
+        "count": 0,
+        "dropdown": 0
+      },
+      "_multiwidget": 1
+    },
+    "categories": {
+      "2": {
+        "title": "",
+        "style": "style_1"
+      },
+      "_multiwidget": 1
+    },
+    "stm_text": {
+      "2": {
+        "title": "",
+        "text": "Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus dipiscing elit.",
+        "filter": false,
+        "socials": false
+      },
+      "_multiwidget": 1
+    },
+    "stm_custom_menu": {
+      "2": {
+        "style": "style_3",
+        "title": "Services",
+        "nav_menu": 27
+      },
+      "_multiwidget": 1
+    },
+    "contacts": {
+      "2": {
+        "title": "Working hours",
+        "address": "",
+        "phone": "",
+        "fax": "",
+        "email": "",
+        "socials": false,
+        "open_hours": "Monday \u2014 Saturday: 9:00am \u2014 06:00pm <br>Sunday: CLOSED",
+        "style": "style_11"
+      },
+      "_multiwidget": 1
+    }
+  }
+]

@@ -1,0 +1,57 @@
+.stm_buttons_style_15 .btn {
+    letter-spacing: 2.2px;
+    padding: 20px 34px 19px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-bg .btn__icon {
+    top: 0;
+    bottom: 0;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-bg.btn_icon-right .btn__icon {
+    right: 0;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-bg.btn_icon-left .btn__icon {
+    left: 0;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-right .btn__label {
+    margin-right: 26px;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-right .btn__icon {
+    right: 17px;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-left .btn__label {
+    margin-left: 26px;
+}
+
+.stm_buttons_style_15 .btn.btn_icon-left .btn__icon {
+    left: 17px;
+}
+
+@media (max-width: 400px) {
+    .stm_buttons_style_15 .btn.btn_solid {
+        padding: 20px 25px 19px;
+    }
+}
+
+@media (max-width: 350px) {
+    .stm_buttons_style_15 .btn.btn_solid {
+        padding: 20px 25px 19px !important;
+    }
+
+    .stm_buttons_style_15 .btn.btn_solid span {
+        margin: 0 !important;
+    }
+
+    .stm_buttons_style_15 .btn.btn_solid .btn__icon {
+        display: none;
+    }
+}

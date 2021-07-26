@@ -1,0 +1,66 @@
+/*COLORS*/
+/*FONTS*/
+.stm_tilting_images.style_1 {
+    font-size: 0;
+    position: relative;
+    padding-bottom: 72px;
+}
+
+.stm_tilting_images.style_1 .stm_tilting_image__top {
+    max-width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.stm_tilting_images.style_1 .stm_tilting_image__bottom {
+    position: relative;
+    max-width: 100%;
+    bottom: -72px;
+    margin: 0 auto;
+    z-index: 30;
+}
+
+@media (max-width: 992px) {
+    .stm_tilting_images.style_1 .stm_tilting_image__bottom {
+        max-width: 80%;
+    }
+}
+
+.stm_tilting_images.style_1 .stm_tilting_image__bottom img {
+    border-radius: 17px;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.stm_tilting_images.style_1.active .tilter__caption,
+  .stm_tilting_images.style_1.active .tilter__figure {
+    transition: .1s ease;
+}
+
+.stm_tilting_images.style_1 .tilter {
+    position: relative;
+    display: block;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+    margin: 1.5em 2.5em;
+    color: #fff;
+    perspective: 1000px;
+}
+
+.stm_tilting_images.style_1 .tilter * {
+    pointer-events: none;
+}
+
+.stm_tilting_images.style_1 .tilter__figure > * {
+    transform: translateZ(0px);
+    /* Force correct stacking order */
+}
+
+.stm_tilting_images.style_1 .tilter__figure {
+    position: relative;
+}
+
+.stm_tilting_images.style_1 .tilter__caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

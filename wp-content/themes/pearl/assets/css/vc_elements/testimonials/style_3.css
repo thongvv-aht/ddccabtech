@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_testimonials {
+    margin: 0 -15px;
+}
+
+.stm_testimonials .owl-controls, .stm_testimonials__item {
+    margin: 0 15px;
+}
+
+.stm_testimonials_list_style {
+    margin: 0;
+}
+
+.stm_testimonials_style_3 {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0 15px;
+}
+
+.stm_testimonials_style_3 h2 {
+    margin-bottom: 50px;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__review {
+    position: relative;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    width: 100%;
+    letter-spacing: -0.5px;
+    color: #808080;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__item {
+    position: relative;
+    padding-left: 63px;
+    margin: 0;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__item:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    display: block;
+    position: absolute;
+    font-size: 34px;
+    line-height: 34px;
+    top: 3px;
+    left: 1px;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__meta {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__meta_align-center {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__avatar img {
+    max-width: 100%;
+    height: auto;
+    width: auto !important;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__avatar_rounded img {
+    border-radius: 50%;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__info {
+    margin-left: 21px;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__info h6 {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.stm_testimonials_style_3 .stm_testimonials__info span {
+    font-size: 13px;
+    color: #b2b2b2;
+}
+
+.stm_testimonials_style_3 .owl-dots {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.stm_testimonials_style_3 .owl-dots .owl-dot {
+    cursor: pointer;
+    transition: .3s ease;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+    margin-right: 15px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.stm_testimonials_style_3 .owl-dots .owl-dot span {
+    background: #7f8f9f;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+}
+
+.stm_testimonials_style_3 .owl-dots .owl-dot.active {
+    background: transparent !important;
+}
+
+.stm_testimonials_style_3 .owl-dots .owl-dot.active span {
+    opacity: 0;
+}
+
+@media (max-width: 1024px) {
+    .stm_testimonials_style_3 .stm_testimonials__review {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .stm_testimonials_style_3 .stm_testimonials__review {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .stm_testimonials_style_3 .stm_testimonials__review {
+        width: 100%;
+    }
+
+    .stm_testimonials_style_3 .stm_testimonials__item {
+        padding-left: 50px;
+    }
+
+    .stm_testimonials_style_3 .stm_testimonials__item:before {
+        font-size: 30px;
+        top: 0;
+    }
+
+    .stm_testimonials_style_3 .owl-dots {
+        margin-left: 36px;
+    }
+}
+
+.stm_layout_healthcoach .stm_testimonials_style_3 .owl-dots .owl-dot span {
+    background: transparent !important;
+}

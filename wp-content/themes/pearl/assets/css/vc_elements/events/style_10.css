@@ -1,0 +1,95 @@
+.stm_events_list.inverted .stm_event_single_list__alone {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone > * {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone .btn {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts span {
+    color: #fff !important;
+}
+
+.stm_event_single_list__subtitle {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #000000;
+    min-height: 250px;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__item img {
+    width: 100%;
+    transition: transform .3s;
+    height: 250px;
+    opacity: .5;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__item:hover > img {
+    transform: scale(1.1);
+}
+
+.stm_events_list_style_10 .stm_event_single_list__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    padding: 50px 20px 50px 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__title h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1;
+    color: #ffffff !important;
+    margin-bottom: 12px;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__info {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__address {
+    margin-right: 20px;
+}
+
+.stm_events_list_style_10 .stm_event_single_list__action {
+    margin-top: auto;
+}
+
+@media (max-width: 1199px) {
+    .stm_events_list_style_10 .stm_event_single_list__content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stm_events_list_style_10 .stm_event_single_list__content {
+        position: static;
+        background: #111;
+    }
+}

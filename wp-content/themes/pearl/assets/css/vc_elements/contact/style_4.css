@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_layout_portfolio .stm_contact__image {
+    position: relative;
+    top: 10px;
+}
+
+.stm_contact_style_4 {
+    margin-bottom: 25px;
+}
+
+.stm_contact_style_4:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.stm_contact_style_4.stm_contact_noname .stm_contact__info {
+    position: relative;
+    top: -4px;
+}
+
+.stm_contact_style_4 .stm_contact__image {
+    float: left;
+    margin: 5px 17px 0 0;
+    padding-bottom: 15px;
+}
+
+.stm_contact_style_4 .stm_contact__job {
+    margin: -3px 0 16px;
+    font-size: 13px;
+}
+
+.stm_contact_style_4 .stm_contact__row {
+    margin-bottom: -2px;
+}
+
+.stm_contact_style_4 .stm_contact__row span {
+    display: none;
+}
+
+.stm_contact_style_4 .stm_contact__row strong {
+    font-weight: 400;
+}
+
+.stm_contact_style_4 .stm_contact__row a {
+    text-decoration: none !important;
+}
+
+.stm_contact_style_4 .stm_contact__row:before {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.stm_contact_style_4 .stm_contact__row_phone:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_contact_style_4 .stm_contact__row_email:before {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    margin-right: 8px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_contact_style_4 .stm_contact__row_skype:before {
+    position: relative;
+    top: 2px;
+    left: -2px;
+    font-size: 14px;
+    margin-right: 8px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_contact_style_4.nameless {
+    position: relative;
+    top: 4px;
+}
+
+.stm_contact_style_4.nameless .stm_contact__image {
+    margin-top: 1px;
+}
+
+.stm_contact_style_4 h5 {
+    font-size: 15px;
+    margin: -5px 0 3px;
+}
+
+@media (max-width: 1024px) {
+    .stm_contact_style_4 .stm_contact__image {
+        float: none;
+        width: 100%;
+    }
+
+    .stm_contact_style_4 h5 {
+        margin-top: 0;
+    }
+}

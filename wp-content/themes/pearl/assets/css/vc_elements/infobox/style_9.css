@@ -1,0 +1,98 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_9 {
+    display: block;
+    text-align: right;
+    overflow: hidden;
+    text-decoration: none !important;
+}
+
+.stm_infobox_style_9 .stm_infobox__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.stm_infobox_style_9 .stm_infobox__image img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    transition: all .5s ease-in-out !important;
+}
+
+.stm_infobox_style_9 .stm_infobox__image .stm_infobox__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 268px;
+    min-height: 80px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: -40px 0 0 -134px;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.stm_infobox_style_9 .stm_infobox__image .stm_infobox__button span {
+    display: block;
+    position: relative;
+}
+
+.stm_infobox_style_9 .stm_infobox__image .stm_infobox__button .stm_infobox__title {
+    transition: all 0.4s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.stm_infobox_style_9 .stm_infobox__image .stm_infobox__button .stm_infobox__text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+
+.stm_infobox_style_9 .stm_infobox__image:hover img {
+    transform: scale(1.1);
+    transition: transform 1.05s ease-in-out;
+}
+
+.stm_infobox_style_9 .stm_infobox__image:hover .stm_infobox__button .stm_infobox__title {
+    transform: translateY(-120%);
+}
+
+.stm_infobox_style_9 .stm_infobox__image:hover .stm_infobox__button .stm_infobox__text {
+    opacity: 1;
+    visibility: visible;
+    bottom: -4px;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .stm_infobox_style_9 .stm_infobox__image .stm_infobox__button {
+        margin: -25px 0 0 -90px;
+        line-height: 50px;
+        min-width: 180px;
+        min-height: 50px;
+        font-size: 20px;
+    }
+
+    .stm_infobox_style_9 .stm_infobox__image:hover .stm_infobox__button .stm_infobox__text {
+        bottom: 0;
+    }
+}

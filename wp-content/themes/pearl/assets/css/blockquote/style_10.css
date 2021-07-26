@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*portfolio*/
+blockquote {
+    position: relative;
+    max-width: 540px;
+    padding: 41px 0 22px;
+    margin: 0 auto;
+    border: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+blockquote:after {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    margin-left: -11px;
+    font-size: 19px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    font-style: normal;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+blockquote p:after, blockquote p:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    background-color: #ccc;
+    height: 1px;
+}
+
+blockquote p:before {
+    left: 0;
+    right: 55%;
+}
+
+blockquote p:after {
+    left: 55%;
+    right: 0;
+}

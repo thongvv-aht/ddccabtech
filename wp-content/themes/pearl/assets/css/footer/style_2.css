@@ -1,0 +1,87 @@
+.stm_footer_layout_2 .stm-footer__bottom {
+    padding: 35px 0;
+    border-width: 1px;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm_markup__content,
+  .stm_footer_layout_2 .stm-footer__bottom .stm_markup__sidebar {
+    padding: 0;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm_markup {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm-socials__icon {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 8px;
+    text-align: left;
+    background: transparent;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm-socials__icon:hover {
+    background: transparent !important;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm-socials__icon:hover i {
+    color: #ffffff;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm_bottom_copyright {
+    max-width: 276px;
+    line-height: 24px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 13px;
+    color: #a5a5a5;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm_footer_bottom__right .btn {
+    position: relative;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 70px;
+    color: #ffffff !important;
+}
+
+.stm_footer_layout_2 .stm-footer__bottom .stm_footer_bottom__right .btn .btn__icon {
+    width: 54px;
+    margin-top: -3px;
+    color: #ffffff !important;
+}
+
+@media (max-width: 1023px) {
+    .stm_footer_layout_2 .stm-footer__bottom .stm-socials {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .stm_footer_layout_2 .stm-footer__bottom .stm-socials .stm-socials__icon {
+        display: inline-block;
+        float: none;
+    }
+
+    .stm_footer_layout_2 .stm-footer__bottom .stm_bottom_copyright {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .stm_footer_layout_2 .stm_markup__sidebar {
+        width: 100% !important;
+    }
+
+    .stm_footer_layout_2 .stm_markup__sidebar div {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}

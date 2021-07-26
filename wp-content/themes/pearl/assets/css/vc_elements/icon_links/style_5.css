@@ -1,0 +1,26 @@
+.stm_icon_links_style_5 {
+    text-align: center;
+}
+
+.stm_icon_links_style_5 a {
+    background-color: transparent !important;
+    font-size: 20px;
+    margin: 0 12.5px;
+    text-decoration: none;
+}
+
+.stm_icon_links_style_5 a:hover {
+    background-color: transparent !important;
+}
+
+.stm_icon_links_style_5 a span {
+    margin-left: 3px;
+}
+
+@media (max-width: 600px) {
+    .stm_icon_links_style_5 a {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+}

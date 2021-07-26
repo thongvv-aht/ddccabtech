@@ -1,0 +1,46 @@
+.btn {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-width: 2px;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.btn.btn_lg {
+    padding: 15px 52px !important;
+}
+
+.btn.btn_subtitle {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.btn_icon-bg .btn__icon {
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+}
+
+.btn .btn__label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+body .stm_slider .stm_slide__button a:after {
+    line-height: 45px;
+}
+
+.btn.btn_outline.btn_primary.btn_load:hover:before,
+.btn.btn_outline.btn_primary.btn_load:hover span,
+.btn.btn_outline.btn_primary:hover {
+    color: #fff !important;
+}
+
+@media (max-width: 1023px) {
+    .btn.btn_primary.btn_solid {
+        padding: 15px 30px;
+    }
+}

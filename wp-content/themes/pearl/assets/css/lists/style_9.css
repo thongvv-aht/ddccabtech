@@ -1,0 +1,66 @@
+.stm_lists_style_9 .comment-text ol,
+.stm_lists_style_9 .comment-text ul,
+.stm_lists_style_9 .stm_single_post__content ol,
+.stm_lists_style_9 .stm_single_post__content ul {
+    padding-left: 17px;
+    margin-bottom: 50px;
+}
+
+.stm_lists_style_9 .comment-text ol li,
+  .stm_lists_style_9 .comment-text ul li,
+  .stm_lists_style_9 .stm_single_post__content ol li,
+  .stm_lists_style_9 .stm_single_post__content ul li {
+    margin-bottom: 10px;
+}
+
+.stm_lists_style_9 .comment-text ol ol,
+  .stm_lists_style_9 .comment-text ol ul,
+  .stm_lists_style_9 .comment-text ul ol,
+  .stm_lists_style_9 .comment-text ul ul,
+  .stm_lists_style_9 .stm_single_post__content ol ol,
+  .stm_lists_style_9 .stm_single_post__content ol ul,
+  .stm_lists_style_9 .stm_single_post__content ul ol,
+  .stm_lists_style_9 .stm_single_post__content ul ul {
+    margin: 10px 0 0;
+}
+
+.stm_lists_style_9 .wpb_text_column ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.stm_lists_style_9 .wpb_text_column ul li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.stm_lists_style_9 .wpb_text_column ul li:before {
+    content: '';
+    font-size: 18px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 12px;
+    height: 2px;
+}
+
+.stm_lists_style_9 .wpb_text_column ol {
+    padding-left: 0;
+    list-style: none;
+    counter-reset: item;
+    margin: 0 0 26px;
+}
+
+.stm_lists_style_9 .wpb_text_column ol li {
+    margin-bottom: 9px;
+}
+
+.stm_lists_style_9 .wpb_text_column ol li:before {
+    content: counter(item) ".";
+    counter-increment: item;
+    margin-right: 10px;
+}

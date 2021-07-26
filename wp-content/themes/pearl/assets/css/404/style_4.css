@@ -1,0 +1,38 @@
+/*COLORS*/
+/*FONTS*/
+#wrapper {
+    padding-bottom: 0;
+}
+
+.stm_errorpage {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 50px 20px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.stm_errorpage__inner {
+    max-width: 500px;
+}
+
+.stm_errorpage__inner h1 {
+    margin-bottom: 40px;
+    font-size: 230px;
+    line-height: 230px;
+    color: #fff;
+}
+
+.stm_errorpage__inner h2 {
+    margin-bottom: 30px;
+    padding-right: 60px;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.stm_errorpage__inner p {
+    font-size: 20px;
+}

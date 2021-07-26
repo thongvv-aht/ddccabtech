@@ -1,0 +1,88 @@
+body.stm_header_style_8.stm_title_box_disabled.stm_breadcrumbs_enabled .stm-header {
+    margin-bottom: 0;
+}
+
+body.stm_header_style_8 .stm_page_bc .stm_breadcrumbs {
+    padding: 10px 45px 11px;
+    border-bottom: 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+body.stm_header_style_8 .stm_page_bc .stm_breadcrumbs a {
+    color: #fff;
+}
+
+body.stm_header_style_8 .stm-header .stm-socials a {
+    font-size: 23px;
+}
+
+body.stm_header_style_8 .stm-navigation.stm-navigation__default > ul > li ul li > a {
+    font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+    body.stm_header_style_8 .stm-header {
+        padding-bottom: 120px;
+    }
+
+    body.stm_header_style_8 .stm-header .fullwidth-header-part {
+        padding: 0 0 0 30px !important;
+    }
+
+    body.stm_header_style_8 .stm-header__element {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    body.stm_header_style_8 .stm-header .stm-socials {
+        margin-left: -25px;
+    }
+
+    body.stm_header_style_8 .stm-header__cell {
+        margin-bottom: 0;
+    }
+
+    body.stm_header_style_8 .stm-header .stm-logo {
+        display: none;
+    }
+
+    body.stm_header_style_8 .stm-navigation.stm-navigation__default ul li.menu-item-has-children > a {
+        position: relative;
+        padding-right: 25px;
+    }
+
+    body.stm_header_style_8 .stm-navigation.stm-navigation__default ul li.menu-item-has-children > a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -2px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 3.5px 0 3.5px;
+        border-color: #000 transparent transparent transparent;
+        transform: rotate(0deg) !important;
+    }
+
+    body.stm_header_style_8 .stm-navigation.stm-navigation__default ul li ul.sub-menu {
+        padding: 0 0 10px;
+        background: transparent;
+    }
+
+    body.stm_header_style_8 .stm-navigation.stm-navigation__default ul li ul.sub-menu li {
+        float: none;
+        border: 0;
+    }
+}
+
+body.stm_header_style_8 .stm_megaicon {
+    top: 3px;
+}
+
+.stm-navigation__default > ul > li ul:after {
+    height: 20px;
+    top: -20px;
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm-counter_style_4 {
+    text-align: center;
+}
+
+.stm-counter_style_4 .stm-counter__icon {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+    font-size: 40px;
+}
+
+.stm-counter_style_4 .stm-counter__value {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 55px;
+    font-weight: 400;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.stm-counter_style_4 .stm-counter__value:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    font-weight: 400;
+    font-size: 130px;
+    z-index: -1;
+}
+
+.stm-counter_style_4 .stm-counter__affix {
+    font-size: 25px;
+}
+
+.stm-counter_style_4 .stm-counter__prefix {
+    font-size: 25px;
+}
+
+.stm-counter_style_4 .stm-counter__label {
+    padding: 0 20px;
+    margin-top: 27px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.stm-counter_style_4.stm_icon_gradient i {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

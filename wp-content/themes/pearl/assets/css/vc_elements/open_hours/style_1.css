@@ -1,0 +1,95 @@
+.stm_opening_hours_table_style_1 .day {
+    border: 2px solid #e4e4e4;
+    margin: 0 0 10px;
+    width: 100%;
+    display: table;
+}
+
+.stm_opening_hours_table_style_1 .day > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.stm_opening_hours_table_style_1 .day .icon {
+    font-size: 17px;
+    padding: 40px 0;
+    width: 80px;
+    text-align: center;
+}
+
+.stm_opening_hours_table_style_1 .day .icon i {
+    position: relative;
+    top: 1px;
+}
+
+.stm_opening_hours_table_style_1 .day .day_title {
+    color: #4C4C4C;
+    padding: 40px 10px;
+    width: 140px;
+}
+
+.stm_opening_hours_table_style_1 .day .day_title strong {
+    font-weight: 500;
+}
+
+.stm_opening_hours_table_style_1 .day .working_time {
+    color: #4C4C4C;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 40px 0;
+}
+
+.stm_opening_hours_table_style_1 .day .lunch_time {
+    color: #B2B2B2;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 40px 30px;
+}
+
+.stm_opening_hours_table_style_1 .day .time_to_closing {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    visibility: hidden;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.stm_opening_hours_table_style_1 .day.opens .time_to_closing, .stm_opening_hours_table_style_1 .day.today .time_to_closing {
+    visibility: visible;
+}
+
+.stm_opening_hours_table_style_1 .day.output {
+    border: 2px solid #F57E57;
+}
+
+@media (max-width: 550px) {
+    .stm_opening_hours_table_style_1 .day {
+        padding: 20px 30px 0;
+    }
+
+    .stm_opening_hours_table_style_1 .day > * {
+        display: block;
+        padding: 15px 0 !important;
+        width: auto;
+    }
+
+    .stm_opening_hours_table_style_1 .day .day_title,
+    .stm_opening_hours_table_style_1 .day .icon {
+        display: inline-block;
+        width: auto;
+    }
+
+    .stm_opening_hours_table_style_1 .day .icon {
+        margin-right: 15px;
+    }
+
+    .stm_opening_hours_table_style_1 .day .lunch_time {
+        padding-bottom: 30px !important;
+    }
+
+    .stm_opening_hours_table_style_1 .day .time_to_closing {
+        margin: 0 -30px;
+    }
+}

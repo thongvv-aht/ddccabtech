@@ -1,0 +1,45 @@
+/*COLORS*/
+/*FONTS*/
+.stm_cta.style_3 {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 16px 30px 16px 54px;
+    margin-bottom: 30px;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_cta.style_3 .stm_cta__content {
+    padding-right: 20px;
+}
+
+.stm_cta.style_3 .stm_cta__content *:last-child {
+    margin-bottom: 0;
+}
+
+.stm_cta.style_3 .stm_cta__content span {
+    letter-spacing: 0.5px;
+}
+
+.stm_cta.style_3 .stm_cta__link {
+    margin: auto 0 0 auto;
+}
+
+@media (max-width: 550px) {
+    .stm_cta.style_3 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm_cta.style_3 .stm_cta__content {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .stm_cta.style_3 .stm_cta__link {
+        margin-left: 0;
+    }
+}

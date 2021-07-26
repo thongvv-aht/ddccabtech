@@ -1,0 +1,51 @@
+name: auto-bump-release
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+    branches:
+      - main
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+
+      - name: Checkout action-version-bump-by-label
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+        with:
+          repository: gdcorp-partners/action-version-bump-by-label
+          ref: '' # Can be version or branch. Default branch if blank.
+          token: ${{ secrets.MWC_GD_ACTIONS_REPO_PAT }}
+          path: action-version-bump-by-label
+          persist-credentials: false
+
+      - name: Version bump by label
+        id: version_bump
+        uses: ./action-version-bump-by-label
+        with:
+          github_token: ${{ github.token }}
+          default_bump_level:
+          label_prefix: bump
+
+      - name: Checkout release-action
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+        if: steps.version_bump.outputs.next_version
+        with:
+          repository: gdcorp-action-public-forks/ncipollo-release-action
+          ref: 8f5d96dce184346c942f7bdc68a77863ef5fe1cc # v1.8.2
+          token: ${{ secrets.MWC_GD_ACTIONS_REPO_PAT }}
+          path: release-action
+          persist-credentials: false
+
+      - name: Create GitHub release
+        uses: ./release-action
+        if: steps.version_bump.outputs.next_version
+        with:
+          tag: v${{ steps.version_bump.outputs.next_version }}
+          token: ${{ github.token }}

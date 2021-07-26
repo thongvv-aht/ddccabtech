@@ -1,0 +1,123 @@
+.stm-footer {
+    padding-top: 0;
+}
+
+.stm-footer .stm_wp_widget_text .textwidget {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.stm-footer .footer-widgets {
+    padding-top: 0;
+}
+
+.stm-footer .footer-widgets:before {
+    content: '';
+    display: block;
+    border-top: 4px solid #222;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0 15px;
+}
+
+.stm-footer .widget .widgettitle {
+    margin-bottom: 35px;
+}
+
+.stm-footer .widget .widgettitle h4 {
+    font-weight: 300;
+}
+
+.stm-footer .stm_bottom_copyright {
+    color: #fff;
+}
+
+.stm-footer .stm_footer_bottom__right {
+    color: #fff;
+}
+
+.stm-footer .stm-socials .stm-socials__icon:not(:hover) {
+    background-color: transparent !important;
+}
+
+.stm-footer .stm-socials .stm-socials__icon i {
+    color: #fff !important;
+}
+
+.stm-footer__bottom {
+    font-size: 13px;
+}
+
+@media (max-width: 1023px) {
+    .stm-footer .stm_markup__sidebar {
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .stm-footer .stm_markup__sidebar .stm_markup__sidebar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .stm-footer .stm-socials {
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm-footer .stm_footer_bottom__right {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+    }
+}
+
+.stm_markup__sidebar_divider .widget {
+    margin-bottom: 30px;
+}
+
+.stm_markup__sidebar_divider .widget .widgettitle {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+.stm_markup__sidebar_divider .widget .widgettitle h5 {
+    letter-spacing: 3.2px;
+}
+
+.stm_markup__sidebar_divider .widget .widgettitle:after, .stm_markup__sidebar_divider .widget .widgettitle:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -30px;
+}
+
+.stm_markup__sidebar_divider .widget .widgettitle:before {
+    background-color: #0b93d5;
+    width: 70px;
+    height: 3px;
+    z-index: 10;
+}
+
+.stm_markup__sidebar_divider .widget .widgettitle:after {
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 1.5px;
+    z-index: 5;
+    left: 75px;
+    right: 0;
+}
+
+.stm_markup__sidebar_divider .widget .mc4wp-form-fields {
+    border: 1px solid #eeeeee;
+    padding: 40px 24px 20px 25px;
+}
+
+.stm_markup__sidebar_divider .widget .mc4wp-form-fields input[type=submit] {
+    font-style: italic;
+}
+
+.stm_markup__sidebar_divider .widget .a-single.a-2 {
+    margin-bottom: 65px;
+}

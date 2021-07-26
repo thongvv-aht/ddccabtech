@@ -1,0 +1,49 @@
+.stm_sidebar_style_2 {
+  /*Only site widgets*/
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm_widget_categories.style_1,
+  .stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button,
+  .stm_sidebar_style_2 .site-content .stm_markup__sidebar_divider .widget {
+    position: relative;
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm_widget_categories.style_1:before,
+    .stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button:before,
+    .stm_sidebar_style_2 .site-content .stm_markup__sidebar_divider .widget:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.15) 5px, rgba(0, 0, 0, 0.15) 10px, transparent 10px, transparent 15px);
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm_widget_categories.style_1:last-child:before,
+    .stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button:last-child:before,
+    .stm_sidebar_style_2 .site-content .stm_markup__sidebar_divider .widget:last-child:before {
+    display: none;
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button.no_separator {
+    margin-bottom: 20px;
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button.no_separator:before {
+    display: none;
+}
+
+.stm_sidebar_style_2 .stm_markup__sidebar_divider .stm-button {
+    margin-bottom: 80px;
+}
+
+.stm_sidebar_style_2 .widget {
+    margin-bottom: 80px;
+}
+
+.stm_sidebar_style_2 .stm-footer__bottom {
+    padding: 24px 0;
+    border-top: 0;
+}

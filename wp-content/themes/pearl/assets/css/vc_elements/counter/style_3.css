@@ -1,0 +1,81 @@
+/*COLORS*/
+/*FONTS*/
+.stm-counter_style_3 .stm-counter .stm-counter__text {
+    display: inline-block;
+}
+
+.stm-counter_style_3 .stm-counter__icon {
+    position: relative;
+    display: inline-block;
+    font-size: 64px;
+    vertical-align: middle;
+    width: 77px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.stm-counter_style_3 .stm-counter__value {
+    font-size: 42px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 42px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.stm-counter_style_3 .stm-counter__affix {
+    font-size: 25px;
+}
+
+.stm-counter_style_3 .stm-counter__prefix {
+    font-size: 25px;
+}
+
+.stm-counter_style_3 .stm-counter__label {
+    margin: 15px 0 0 95px;
+    font-size: 16px;
+    position: relative;
+    line-height: 24px;
+    top: -15px;
+}
+
+.stm-counter_style_3.no_icon {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm-counter_style_3.no_icon .stm-counter__value {
+    font-weight: 500;
+    font-size: 60px;
+    padding-right: 30px;
+}
+
+.stm-counter_style_3.no_icon .stm-counter__label {
+    margin: 12px 0 0 0;
+    padding-right: 30px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: normal;
+    overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+    .stm-counter_style_3.no_icon {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm-counter_style_3.no_icon .stm-counter__value {
+        margin-bottom: 15px;
+    }
+
+    .stm-counter_style_3.no_icon .stm-counter__label {
+        padding-right: 40px;
+    }
+}
+
+.stm-counter_style_3.stm_icon_gradient i {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

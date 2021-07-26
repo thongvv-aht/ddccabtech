@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_posts-timeline_style_3 .owl-stage, .stm_posts-timeline_style_3 .owl-stage-outer {
+    overflow: visible !important;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images {
+    position: relative;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item {
+    position: relative;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item img {
+    width: 100%;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    background-color: #000;
+    opacity: .5;
+    z-index: 1;
+    transition: .3s;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item.current:before {
+    opacity: 0;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item:first-child, .stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item:last-child {
+    opacity: 0;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-item .content__year {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    transform: translateY(100%);
+    padding: 5px 0 5px 43px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-prev, .stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-next {
+    border: none;
+    font-size: 0;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-prev:hover, .stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-next:hover {
+    background-color: transparent !important;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-prev:hover:before, .stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-next:hover:before {
+    color: #fff !important;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-prev {
+    left: 30%;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-prev:before {
+    content: "󑀅" !important;
+    font-family: 'stmicons' !important;
+    transform: rotate(180deg);
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-next {
+    right: 30%;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .owl-controls .owl-next:before {
+    content: "󑀅" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .images__mask {
+    width: 50%;
+    position: absolute;
+    background-color: #000;
+    opacity: .5;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .images__mask.left {
+    left: -50%;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__images .images__mask.right {
+    left: 33.3%;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__content {
+    margin-left: 33.333333%;
+    margin-top: 65px;
+    border-left: 3px solid;
+    width: 33.3%;
+    position: relative;
+    padding: 10px 40px 10px 40px;
+}
+
+.stm_posts-timeline_style_3 .stm_posts-timeline__content .content__title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1023px) {
+    .stm_posts-timeline_style_3 .owl-item {
+        opacity: 1 !important;
+    }
+
+    .stm_posts-timeline_style_3 .owl-item:before {
+        display: none !important;
+    }
+
+    .stm_posts-timeline_style_3 .owl-controls .owl-prev {
+        left: 15px !important;
+    }
+
+    .stm_posts-timeline_style_3 .owl-controls .owl-next {
+        right: 15px !important;
+    }
+
+    .stm_posts-timeline_style_3 .stm_posts-timeline__content {
+        margin: 0;
+        width: 100% !important;
+        border: 0;
+    }
+
+    .stm_posts-timeline_style_3 .stm_posts-timeline__content .content__title {
+        margin-top: 65px;
+    }
+
+    .stm_posts-timeline_style_3 .stm_posts-timeline__content .content__year {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_posts-timeline_style_3 .content__year {
+        padding-left: 15px !important;
+    }
+
+    .stm_posts-timeline_style_3 .stm_posts-timeline__content {
+        padding: 10px 15px;
+    }
+}

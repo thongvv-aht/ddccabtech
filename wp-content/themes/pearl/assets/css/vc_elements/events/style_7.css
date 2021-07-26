@@ -1,0 +1,160 @@
+.stm_events_list.inverted .stm_event_single_list__alone {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone > * {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone .btn {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts span {
+    color: #fff !important;
+}
+
+.stm_event_single_list__subtitle {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.stm_events_list_style_7 .stm_event_single_list {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 25px;
+    margin: 0 15px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 5px 0 20px transparent;
+}
+
+.stm_events_list_style_7 .stm_event_single_list:hover {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div {
+    position: relative;
+    padding: 0 15px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div:first-child {
+    padding-left: 0;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div:last-child {
+    padding-right: 0;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div.hasTitle {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    padding-right: 10%;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div.hasTitle h3 {
+    position: relative;
+    top: 1px;
+    line-height: 24px !important;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 16px !important;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div.hasAddress, .stm_events_list_style_7 .stm_event_single_list > div.hasDate {
+    -ms-flex-preferred-size: 18%;
+    flex-basis: 18%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div.hasAddress .__icon, .stm_events_list_style_7 .stm_event_single_list > div.hasDate .__icon {
+    margin-right: 8px;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div.hasButton {
+    text-align: right;
+}
+
+.stm_events_list_style_7 .stm_event_single_list > div .__icon {
+    font-size: 16px;
+}
+
+.stm_events_list_style_7 .stm_event_single_list:last-child {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 570px) and (min-width: 551px) {
+    .stm_events_list_style_7 .stm_event_single_list .hasButton {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_events_list_style_7 .stm_event_single_list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list > div {
+        margin: 15px 0;
+        -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list > div .__icon {
+        left: 0;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list > div.hasDate {
+        margin-bottom: 0;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list > div.hasAddress, .stm_events_list_style_7 .stm_event_single_list > div.hasDate {
+        padding-left: 0;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list > div.hasButton {
+        padding-left: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 425px) {
+    .stm_events_list_style_7 .stm_event_single_list .stm_event_single_list__alone.hasTitle {
+        -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list .stm_event_single_list__alone.hasButton {
+        -ms-flex-preferred-size: 5%;
+        flex-basis: 5%;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list .stm_event_single_list__alone.hasDate {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+
+    .stm_events_list_style_7 .stm_event_single_list .stm_event_single_list__alone.hasAddress {
+        position: relative;
+        left: 5px;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+}

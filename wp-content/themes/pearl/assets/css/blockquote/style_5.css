@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*HC*/
+body blockquote {
+    border: none;
+    padding: 55px 60px 57px 130px;
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    font-style: normal;
+}
+
+body blockquote p {
+    margin-bottom: 0;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+body blockquote:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    font-size: 36px;
+    line-height: 1;
+    position: absolute;
+    left: 60px;
+    color: #fff !important;
+    z-index: 20;
+}
+
+body blockquote cite {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inherit;
+    color: #fff !important;
+}
+
+body blockquote cite em {
+    font-style: normal;
+    line-height: 18px !important;
+}
+
+@media (max-width: 550px) {
+    body blockquote {
+        padding: 30px;
+    }
+
+    body blockquote:before {
+        display: none;
+    }
+
+    body blockquote cite,
+      body blockquote p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    body blockquote cite {
+        display: block;
+        margin-top: 20px;
+        line-height: 24px !important;
+    }
+}

@@ -1,0 +1,58 @@
+/*COLORS*/
+/*FONTS*/
+.stm_cta.style_4 {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 18px 100px 18px 100px;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm_cta.style_4 .stm_cta__content {
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: -0.5px;
+}
+
+.stm_cta.style_4 .stm_cta__content p {
+    line-height: 1.1;
+}
+
+.stm_cta.style_4 .stm_cta__content h2 {
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+}
+
+.stm_cta.style_4 .stm_cta__content h2:after, .stm_cta.style_4 .stm_cta__content h2:before {
+    display: none;
+}
+
+.stm_cta.style_4 .stm_cta__content *:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+    .stm_cta.style_4 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_cta.style_4 .stm_cta__content {
+        margin-bottom: 20px;
+    }
+
+    .stm_cta.style_4 .stm_cta__content h2 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_cta.style_4 {
+        padding: 18px 15px;
+    }
+}

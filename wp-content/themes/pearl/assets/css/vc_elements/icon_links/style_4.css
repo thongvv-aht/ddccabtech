@@ -1,0 +1,17 @@
+/*Per Blog*/
+.stm_icon_links_style_4 {
+    margin: 0 -5px;
+}
+
+.stm_icon_links_style_4 a {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 5px 5px;
+    border-radius: 50%;
+    background: transparent !important;
+    border: 1px solid transparent;
+}

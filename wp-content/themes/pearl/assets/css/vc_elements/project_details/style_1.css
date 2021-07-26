@@ -1,0 +1,38 @@
+/*COLORS*/
+/*FONTS*/
+.stm_project_details_style_1 {
+    position: relative;
+    padding: 30px 34px;
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    -o-border-image: repeating-linear-gradient(-45deg, transparent 0px, transparent 5px, rgba(0, 0, 0, 0.1) 5px, rgba(0, 0, 0, 0.1) 10px) 4;
+    border-image: repeating-linear-gradient(-45deg, transparent 0px, transparent 5px, rgba(0, 0, 0, 0.1) 5px, rgba(0, 0, 0, 0.1) 10px) 4;
+}
+
+.stm_project_details_style_1 .stm_project_details__table {
+    display: table;
+    width: 100%;
+}
+
+.stm_project_details_style_1 .stm_project_details__single {
+    display: table-row;
+    vertical-align: middle;
+}
+
+.stm_project_details_style_1 .stm_project_details__single:last-child > * {
+    padding-bottom: 0;
+}
+
+.stm_project_details_style_1 .stm_project_details__label {
+    display: table-cell;
+    padding-bottom: 10px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.stm_project_details_style_1 .stm_project_details__value {
+    display: table-cell;
+    padding: 0 0 10px 15px;
+    width: 70%;
+    font-weight: 700;
+    vertical-align: middle;
+}

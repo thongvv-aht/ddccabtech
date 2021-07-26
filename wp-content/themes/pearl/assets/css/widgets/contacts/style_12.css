@@ -1,0 +1,31 @@
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext {
+    margin-bottom: 15px;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext i {
+    font-size: 24px;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext__address i:before {
+    content: "\989f" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext__phone i:before {
+    content: "\98a9" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext__email i:before {
+    content: "\98ae" !important;
+    font-family: 'stmicons' !important;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-icontext__text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.widget_contacts_style_12 .widget_contacts_inner .stm-socials {
+    margin-top: 25px;
+}

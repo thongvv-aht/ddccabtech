@@ -1,0 +1,99 @@
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs {
+    margin-bottom: 30px;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list {
+    margin-bottom: 20px;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a {
+    padding: 15px 25px !important;
+    display: inline-block;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text {
+    display: block;
+    font-size: 13px;
+    opacity: 1;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.25px;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text:before {
+    display: none;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a:before {
+    display: none;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab.vc_active a span.vc_tta-title-text {
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panels-container {
+    padding: 40px 10px 20px 10px;
+    margin-top: 0;
+}
+
+.stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-container {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1023px) {
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs {
+        margin-bottom: 30px;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panels {
+        padding: 30px 0;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panel .vc_tta-panel-heading {
+        margin: 0 -20px;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panel .vc_tta-panel-heading .vc_tta-title-text {
+        color: #666666;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panel.vc_active .vc_tta-panel-heading {
+        margin: 0 -20px;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-title-text {
+        color: #fff;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panel.vc_active a {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .stm_tabs_style_3 .vc_tta.vc_tta-tabs .vc_tta-panels-container {
+        padding: 0 !important;
+    }
+
+    .stm_tabs_style_3 .vc_tta-panel-heading .vc_tta-panel-title {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .stm_tabs_style_3 .vc_tta-panel-heading .vc_tta-panel-title:before, .stm_tabs_style_3 .vc_tta-panel-heading .vc_tta-panel-title:after {
+        display: none !important;
+    }
+
+    .stm_tabs_style_3 .vc_tta-panel-heading .vc_tta-panel-title > a {
+        padding: 11px 20px !important;
+        text-transform: none !important;
+        border: 2px solid #f7f7f7 !important;
+    }
+
+    .stm_tabs_style_3 .vc_tta-panel-heading .vc_tta-panel-title > a .vc_tta-title-text {
+        color: #666666;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+}

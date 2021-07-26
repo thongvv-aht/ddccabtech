@@ -1,0 +1,39 @@
+/*COLORS*/
+/*FONTS*/
+.stm_stories_list_style_1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 {
+    margin-bottom: 0;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 .inner {
+    border: 1px solid #e5e7e8;
+    padding: 20px 20px 26px 20px;
+    text-align: center;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 .inner img {
+    margin-bottom: 20px;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 .inner h4 {
+    margin-bottom: 3px;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 .inner h4:before {
+    margin: 0 auto 21px;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1 .inner h4:after {
+    display: none !important;
+}
+
+.stm_stories_list_style_1 .stm_loop__story_1:hover .inner {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.13);
+}

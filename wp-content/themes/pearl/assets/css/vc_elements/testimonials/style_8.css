@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_testimonials {
+    margin: 0 -15px;
+}
+
+.stm_testimonials .owl-controls, .stm_testimonials__item {
+    margin: 0 15px;
+}
+
+.stm_testimonials_list_style {
+    margin: 0;
+}
+
+.stm_testimonials_style_8 .stm_testimonials__review {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.stm_testimonials_style_8 .stm_testimonials__info h6 {
+    font-family: inherit !important;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.stm_testimonials_style_8 .stm_testimonials__info h6:before {
+    content: '—';
+    margin-right: 5px;
+    display: inline-block;
+    background-color: transparent !important;
+}
+
+.stm_testimonials_style_8 .owl-controls {
+    margin-top: 38px;
+}
+
+.stm_testimonials_style_8 .owl-controls .owl-dots .owl-dot {
+    padding: 0 10px;
+}
+
+.stm_testimonials_style_8 .owl-controls .owl-dots .owl-dot span {
+    transform: scale(0.667);
+}
+
+.stm_testimonials_style_8 .owl-controls .owl-dots .owl-dot.active span {
+    transform: scale(1);
+}

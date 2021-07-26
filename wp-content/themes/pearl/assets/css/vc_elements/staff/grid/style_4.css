@@ -1,0 +1,83 @@
+.stm_staff_grid_style_4 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.stm_staff_grid_style_4:hover .stm_staff__image:before {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.stm_staff_grid_style_4 .stm_staff__image {
+    overflow: hidden;
+}
+
+.stm_staff_grid_style_4 .stm_staff__image:before, .stm_staff_grid_style_4 .stm_staff__image:after {
+    content: '';
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.stm_staff_grid_style_4 .stm_staff__image:after {
+    z-index: -1;
+}
+
+.stm_staff_grid_style_4 .stm_staff__image img {
+    width: 100%;
+}
+
+.stm_staff_grid_style_4 .stm_staff__info {
+    position: relative;
+    text-align: center;
+    padding: 25px 30px;
+}
+
+.stm_staff_grid_style_4 .stm_staff__name {
+    margin-bottom: 7px;
+}
+
+.stm_staff_grid_style_4 .stm_staff__name:before, .stm_staff_grid_style_4 .stm_staff__name:after {
+    display: none !important;
+}
+
+.stm_staff_grid_style_4 .stm_staff__socials {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_staff_grid_style_4 .stm_staff__socials li {
+    padding: 0 13px;
+}
+
+.stm_staff_grid_style_4 .stm_staff__socials li a {
+    width: auto;
+    height: auto;
+    border: 0;
+}
+
+.stm_staff_grid_style_4 .stm_staff__socials li i {
+    font-size: 19px;
+}
+
+.stm_staff_grid_style_4 .stm_staff__links {
+    margin-bottom: 20px;
+}
+
+.stm_staff_grid_style_4 .stm_staff__job {
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 1023px) {
+    .stm_staff_grid_style_4 {
+        margin-bottom: 27px;
+    }
+}

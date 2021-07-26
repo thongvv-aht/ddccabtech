@@ -1,0 +1,326 @@
+/*COLORS*/
+/*FONTS*/
+.stm_schedule_style_2 {
+    margin-bottom: 15px;
+}
+
+.stm_schedule_style_2 .events_lessons_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs {
+    min-width: 33.333333%;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs a {
+    display: block;
+    box-sizing: border-box;
+    padding: 15px 33px 15px;
+    border: 1px solid #dddddd;
+    border-left: 0;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs a dfn {
+    text-transform: none;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.3px;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs a span {
+    display: none;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs:first-child a {
+    border-left: 1px solid #dddddd;
+}
+
+.stm_schedule_style_2 .event_lesson_tabs.active a {
+    color: #fff !important;
+}
+
+.stm_schedule_style_2 .event_lesson_info {
+    -ms-flex-order: 2;
+    order: 2;
+    display: none;
+    width: 100%;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding-left: 0;
+    list-style: none;
+    background-color: #fff;
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc {
+    display: block;
+    width: 185px;
+    padding-top: 11px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #231f20;
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc .event_lesson_info_times {
+    margin-right: 25px;
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc i {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 8px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc i.stmicon-time_b:before {
+    content: "\e984";
+}
+
+.stm_schedule_style_2 .event_lesson_info_time_loc i.stmicon-pin_b:before {
+    content: "\e988";
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap {
+    max-width: 490px;
+    padding: 10px 40px 0;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_title {
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #231f20;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_title.special_title {
+    font-weight: 400;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_description {
+    opacity: 0;
+    height: 0;
+    transition: all 0s;
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #231f20;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_full_description {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: all 0s;
+    line-height: 24px;
+    font-size: 14px;
+    color: #231f20;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_full_description ul {
+    padding: 0;
+    margin: 0;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_full_description ul li {
+    margin: 12px 0;
+    position: relative;
+    padding-left: 24px;
+    line-height: 16px;
+    list-style: none;
+    font-size: 13px;
+    color: #808080;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap .event_lesson_info_full_description ul li:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .no_speakers {
+    display: block;
+    min-width: 182px;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_thumbnail {
+    max-width: 40px;
+    margin-right: 14px;
+    margin-top: 1px;
+    float: left;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_thumbnail img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_name {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #231f20;
+}
+
+.stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_speakers li .event_speaker_content .event_speaker_description {
+    font-size: 12px;
+    color: #999999;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li {
+    display: table;
+    width: 100%;
+    padding: 28px 50px 28px 60px;
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li:hover:before {
+    opacity: 1;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li.active:before {
+    opacity: 1;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li.active .event_lesson_info_title_desc_wrap .event_lesson_info_description {
+    opacity: 1;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li.active .event_lesson_info_title_desc_wrap .event_lesson_info_full_description {
+    opacity: 1;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li.active:hover .event_lesson_info_title {
+    color: #231f20 !important;
+}
+
+.stm_schedule_style_2 .event_lesson_info > li > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+@media (max-width: 1199px) {
+    .stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap {
+        padding-left: 0;
+    }
+
+    .stm_schedule_style_2 .event_lesson_info > li {
+        display: block;
+        padding: 20px 30px;
+    }
+
+    .stm_schedule_style_2 .event_lesson_info > li > div {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .stm_schedule_style_2 .events_lessons_box {
+        display: block;
+    }
+
+    .stm_schedule_style_2 .event_lesson_tabs {
+        margin-bottom: 4px;
+    }
+
+    .stm_schedule_style_2 .event_lesson_tabs.active {
+        margin-bottom: 0;
+    }
+
+    .stm_schedule_style_2 .event_lesson_tabs a {
+        background-color: #000;
+        border: 1px solid #000;
+        color: #fff !important;
+    }
+
+    .stm_schedule_style_2 .event_lesson_tabs:first-child a {
+        border: 1px solid #000;
+    }
+
+    .stm_schedule_style_2 .event_lesson_info {
+        margin-bottom: 10px;
+    }
+
+    .stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content {
+        display: block;
+    }
+
+    .stm_schedule_style_2 .event_lesson_info_content_wrap .event_lesson_info_content .event_lesson_info_title_desc_wrap {
+        margin-bottom: 15px;
+    }
+}

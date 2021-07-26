@@ -1,0 +1,48 @@
+/*COLORS*/
+/*FONTS*/
+.stm_project_details_style_4 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.stm_project_details_style_4 .stm_project_details__single {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 30px 14px;
+    margin-bottom: 10px;
+    background-color: #f6f7f8;
+    vertical-align: middle;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.stm_project_details_style_4 .stm_project_details__label {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.stm_project_details_style_4 .stm_project_details__value {
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222;
+}
+
+@media (max-width: 550px) {
+    .stm_project_details_style_4 .stm_project_details__single {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_project_details_style_4 .stm_project_details__single > div {
+        width: 100%;
+    }
+
+    .stm_project_details_style_4 .stm_project_details__single > div.stm_project_details__value {
+        margin-top: 5px;
+    }
+}

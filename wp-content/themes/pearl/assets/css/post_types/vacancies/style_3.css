@@ -1,0 +1,106 @@
+.stm_vacancies_style_3 {
+    padding: 0 15px;
+}
+
+.stm_vacancies_style_3 h2 {
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.stm_vacancies_style_3 .stm_share {
+    margin-bottom: 40px;
+}
+
+.stm_vacancies_style_3 .stm_share a:first-child {
+    margin-left: 0;
+}
+
+.stm_vacancies_style_3 .btn_primary i {
+    display: none;
+}
+
+.stm_vacancies_style_3 .stm_details {
+    padding: 0;
+    background: none;
+    margin-bottom: 50px;
+}
+
+.stm_vacancies_style_3 .stm_details .info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    padding: 20px 30px 20px 30px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    margin-bottom: 10px;
+    background-color: #f6f7f8;
+}
+
+.stm_vacancies_style_3 .stm_details .info:last-child {
+    margin-bottom: 0;
+}
+
+.stm_vacancies_style_3 .stm_details .info .stm_details__title {
+    margin-bottom: 0;
+    color: #222 !important;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.stm_vacancies_style_3 .stm_details .info .stm_details__value {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.stm_vacancies_style_3 .stm_vacancies_single_list {
+    margin-bottom: 50px;
+}
+
+.stm_vacancies_style_3 .stm_vacancies_single_list a {
+    display: block;
+    padding: 17px 24px 14px;
+    margin-bottom: 1px;
+    background-color: #f2f2f2;
+}
+
+.stm_vacancies_style_3 .stm_vacancies_single_list a .stm_mf {
+    font-weight: 700;
+}
+
+.stm_vacancies_style_3 .stm_vacancies_single_list a.active, .stm_vacancies_style_3 .stm_vacancies_single_list a:hover {
+    color: #fff !important;
+}
+
+@media (max-width: 1024px) {
+    .stm_vacancies_style_3 .stm_markup > .stm_markup__content {
+        width: 100%;
+    }
+
+    .stm_vacancies_style_3 .stm_markup__sidebar {
+        display: none !important;
+        -ms-flex-order: 5 !important;
+        order: 5 !important;
+    }
+
+    .stm_vacancies_style_3 .stm_share {
+        margin-bottom: 30px !important;
+    }
+
+    .stm_vacancies_style_3 .stm_details {
+        margin: 0 0 30px;
+    }
+
+    .stm_vacancies_style_3 .stm_details .info {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_vacancies_style_3 .stm_details .info > div {
+        width: 100%;
+    }
+
+    .stm_vacancies_style_3 .stm_details .info .stm_details__title {
+        margin-bottom: 10px;
+    }
+}

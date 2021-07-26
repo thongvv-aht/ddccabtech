@@ -1,0 +1,35 @@
+.stm_widget_categories.widget {
+    position: relative;
+    padding: 40px 30px 40px 30px;
+    margin-bottom: 0;
+}
+
+.stm_widget_categories.style_2 {
+    border: 3px solid;
+}
+
+.stm_widget_categories.style_2 .cat-item {
+    position: static;
+    padding-left: 0;
+}
+
+.stm_widget_categories.style_2 .cat-item:before {
+    display: none;
+}
+
+.stm_widget_categories.style_2 .cat-item a {
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: normal;
+}
+
+.stm_widget_categories.style_2 .cat-item a:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    border: none;
+    position: static;
+    width: auto;
+    height: auto;
+    margin-right: 13px;
+}

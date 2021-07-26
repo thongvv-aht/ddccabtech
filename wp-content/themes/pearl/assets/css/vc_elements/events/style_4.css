@@ -1,0 +1,168 @@
+.stm_events_list.inverted .stm_event_single_list__alone {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone > * {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone .btn {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts span {
+    color: #fff !important;
+}
+
+.stm_event_single_list__subtitle {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.stm_events_list_style_4.not-inverted .stm_event_single_list {
+    border-color: #c2c2c2 !important;
+}
+
+.stm_events_list_style_4.not-inverted .stm_event_single_list:last-child {
+    border-color: #c2c2c2 !important;
+}
+
+.stm_events_list_style_4 .stm_event_single_list {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+    margin: 0 15px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 0 20px transparent;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div {
+    position: relative;
+    padding: 0 15px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div:first-child {
+    padding-left: 0;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div:last-child {
+    padding-right: 0;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasTitle {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    padding-right: 5%;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasTitle h3 {
+    position: relative;
+    top: 1px;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasTitle .stm_event_single_list__subtitle {
+    font-weight: 400;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasAddress {
+    -ms-flex-preferred-size: 26%;
+    flex-basis: 26%;
+    font-size: 15px;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasAddress i {
+    color: inherit !important;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasDate {
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasButton {
+    text-align: right;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasButton .btn {
+    min-width: 135px;
+    text-align: center;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasButton .btn:hover {
+    color: #fff !important;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div .__icon {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasDate .bottom_date,
+    .stm_events_list_style_4 .stm_event_single_list > div.hasDate .top_date {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.stm_events_list_style_4 .stm_event_single_list > div.hasDate .middle_date {
+    display: block;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.6px;
+}
+
+.stm_events_list_style_4 .stm_event_single_list:last-child {
+    margin-bottom: 30px;
+    /*SUPER HACK MYSTiC - 0.49*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.49);
+}
+
+@media (max-width: 550px) {
+    .stm_events_list_style_4 .stm_event_single_list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_events_list_style_4 .stm_event_single_list > div {
+        margin: 15px 0;
+        -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .stm_events_list_style_4 .stm_event_single_list > div .__icon {
+        left: 0;
+    }
+
+    .stm_events_list_style_4 .stm_event_single_list > div.hasAddress, .stm_events_list_style_4 .stm_event_single_list > div.hasDate {
+        padding-left: 45px;
+    }
+
+    .stm_events_list_style_4 .stm_event_single_list > div.hasButton {
+        padding-left: 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_events_list_style_4 .stm_event_single_list .stm_event_single_list__alone.hasTitle, .stm_events_list_style_4 .stm_event_single_list .stm_event_single_list__alone.hasDate {
+        padding-left: 0;
+    }
+}

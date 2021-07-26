@@ -1,0 +1,74 @@
+.stm_color_presentation_style_1 {
+    margin-bottom: 20px;
+}
+
+.stm_color_presentation_style_1 .stm_color_presentation__color {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.stm_color_presentation_style_1 .stm_color_presentation__text {
+    margin-right: 13px;
+    font-size: 13px;
+}
+
+.stm_color_presentation_style_1 .stm_color_presentation__text:last-child {
+    margin-right: 0;
+}
+
+.stm_color_presentation_style_1 > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+    .stm_color_presentation_style_1:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__color {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__text {
+        margin-right: 5px;
+        white-space: nowrap;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__text_1 {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm_color_presentation_style_1 .stm_color_presentation__text {
+        margin-top: 35px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_color_presentation_style_1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__color, .stm_color_presentation_style_1 .stm_color_presentation__text {
+        margin-top: 20px !important;
+        display: block;
+        text-align: center;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__color_2, .stm_color_presentation_style_1 .stm_color_presentation__text_2 {
+        margin-top: 5px !important;
+    }
+
+    .stm_color_presentation_style_1 .stm_color_presentation__color {
+        float: none;
+        margin: 0 auto 10px;
+    }
+}

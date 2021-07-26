@@ -1,0 +1,17 @@
+.btn {
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 12px 30px;
+}
+
+.btn__icon {
+    top: -2px;
+    bottom: -2px;
+    right: -2px !important;
+}
+
+.wpcf7-form button[type=submit] {
+    line-height: 25px;
+    padding: 10px 30px !important;
+}

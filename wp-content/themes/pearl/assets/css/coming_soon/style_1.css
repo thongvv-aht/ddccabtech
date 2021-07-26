@@ -1,0 +1,76 @@
+/*COLORS*/
+/*FONTS*/
+.stm_coming_soon {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 50px 20px;
+    background-size: cover;
+}
+
+#wrapper {
+    padding-bottom: 0;
+}
+
+.stm_coming_soon__inner h1 {
+    font-size: 100px;
+    line-height: 120px;
+    margin-bottom: 20px;
+}
+
+.stm_coming_soon__inner h2 {
+    line-height: 33px;
+}
+
+.stm_coming_soon__inner p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.stm_coming_soon .mc4wp-form {
+    max-width: 600px;
+}
+
+.stm_coming_soon .mc4wp-form-fields {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_coming_soon .mc4wp-form-fields input {
+    display: inline-block;
+}
+
+.stm_coming_soon .mc4wp-form-fields input[type="email"] {
+    border-radius: 99px;
+    margin-right: 15px;
+    background-color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.stm_coming_soon .mc4wp-form-fields input[type="submit"] {
+    padding: 6px 35px 8px;
+}
+
+@media (max-width: 550px) {
+    .stm_coming_soon {
+        padding: 0 20px 0;
+    }
+
+    .stm_coming_soon h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .stm_coming_soon .mc4wp-form-fields {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_coming_soon .mc4wp-form-fields input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

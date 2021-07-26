@@ -1,0 +1,61 @@
+/*COLORS*/
+/*FONTS*/
+.stm_layout_portfolio .stm_contact__image {
+    position: relative;
+    top: 10px;
+}
+
+.stm_contact_style_2 {
+    margin-bottom: 25px;
+}
+
+.stm_contact_style_2:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.stm_contact_style_2 .stm_contact__image {
+    float: left;
+    margin-right: 27px;
+    padding-bottom: 15px;
+}
+
+.stm_contact_style_2 .stm_contact__image img {
+    border-radius: 50%;
+}
+
+.stm_contact_style_2 .stm_contact__info {
+    overflow: hidden;
+}
+
+.stm_contact_style_2 .stm_contact__job {
+    margin: 0 0 -1px;
+    font-size: 14px;
+}
+
+.stm_contact_style_2 .stm_contact__row {
+    margin-bottom: 5px;
+}
+
+.stm_contact_style_2 h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+
+.stm_contact_style_2 h5.stm_mgb_5 {
+    margin-bottom: 0;
+}
+
+.stm_contact_style_2 .stm_contact__row {
+    margin-bottom: 0;
+}
+
+.stm_contact_style_2 .stm_contact__row span {
+    display: none;
+}
+
+.stm_contact_style_2 .stm_contact__row strong {
+    font-weight: 400;
+}

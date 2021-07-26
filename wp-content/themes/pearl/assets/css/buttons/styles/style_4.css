@@ -1,0 +1,42 @@
+.stm_buttons_style_4 .stm-button .btn {
+    padding: 13px 36px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.stm_buttons_style_4 .btn {
+    padding: 13px 36px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    line-height: 1;
+}
+
+.stm_buttons_style_4 .btn.btn_icon-left .btn__icon {
+    left: 0 !important;
+}
+
+.stm_buttons_style_4 .btn.btn_divider {
+    padding: 10px 36px;
+}
+
+.stm_buttons_style_4 .btn.btn_divider .btn__icon:after {
+    top: 15px;
+    bottom: 15px;
+    width: 2px;
+}
+
+.stm_buttons_style_4 .btn.btn_subtitle .btn__label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.stm_buttons_style_4 .btn .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.wpcf7-form-control[type=submit] {
+    padding: 12px 36px !important;
+    border: 2px solid transparent !important;
+    font-size: 14px;
+}

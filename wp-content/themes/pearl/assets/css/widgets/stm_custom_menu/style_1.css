@@ -1,0 +1,23 @@
+.stm_custom_menu_style_1 .menu li {
+    padding-left: 15px !important;
+    margin-bottom: 17px;
+    line-height: 1;
+}
+
+.stm_custom_menu_style_1 .menu li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 10px;
+    line-height: 1;
+    top: 0px;
+}
+
+.stm_custom_menu_style_1 .menu li a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .stm_custom_menu_style_1 .menu li:before {
+        top: 2px;
+    }
+}

@@ -1,0 +1,28 @@
+.stm_custom_menu_style_3 .menu {
+    margin: 0 0 0 -15px;
+}
+
+.stm_custom_menu_style_3 .menu li {
+    float: left;
+    width: 50%;
+    padding: 0 15px 0 15px !important;
+    margin-bottom: 0;
+}
+
+.stm_custom_menu_style_3 .menu li:before {
+    content: "\f105";
+    position: relative;
+    left: 0;
+    margin-right: 10px;
+    line-height: 32px;
+    top: 0;
+}
+
+.stm_custom_menu_style_3 .menu li a {
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.stm_custom_menu_style_3 .menu li a:hover {
+    color: #fff;
+}

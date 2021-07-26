@@ -1,0 +1,130 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+ul.page-numbers {
+    position: relative;
+    margin: 20px 0 40px 0;
+    padding: 30px 0 0 0;
+    border-top: 1px solid #cccccc;
+    text-align: left;
+}
+
+ul.page-numbers:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: none;
+    margin: 0 5px;
+    background-color: #f0f0f1;
+    border-radius: 50%;
+}
+
+ul.page-numbers li:last-child {
+    margin-right: 0;
+}
+
+ul.page-numbers li:first-child {
+    margin-left: 0;
+}
+
+ul.page-numbers .page-numbers {
+    position: relative;
+    display: block;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #222;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+ul.page-numbers .page-numbers.current {
+    color: #fff;
+}
+
+ul.page-numbers .page-numbers:hover {
+    color: #fff;
+}
+
+ul.page-numbers .page-numbers .fa {
+    font-size: 12px;
+}
+
+ul.page-numbers .page-numbers.next, ul.page-numbers .page-numbers.prev {
+    background-color: transparent !important;
+    border-radius: 99px;
+    font-size: 20px;
+    padding: 0;
+    line-height: 34px;
+}
+
+ul.page-numbers .stm_prev,
+  ul.page-numbers .stm_next {
+    background-color: transparent !important;
+}
+
+.stm_pagination_style_17 .owl-dots {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.stm_pagination_style_17 .owl-dots .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 10px !important;
+    transition: all 0.3s;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.stm_pagination_style_17 .owl-dots .owl-dot.active {
+    width: 20px;
+    border-radius: 8px;
+}
+
+.stm_pagination_style_17 .stm_gmap_wrapper.style_2 .gmap_addresses .owl-dots-wr .owl-dot.active {
+    background-color: #fff !important;
+}

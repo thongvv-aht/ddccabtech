@@ -1,0 +1,66 @@
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab {
+    position: relative;
+    margin-top: 2px;
+    font-family: inherit;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a {
+    padding: 12px 25px !important;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: none;
+    opacity: 1;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a span.vc_tta-title-text:before {
+    display: none;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab a:before {
+    display: none;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab.vc_active a span.vc_tta-title-text {
+    font-weight: 400;
+    color: #fff;
+}
+
+.stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-panels-container {
+    margin-top: 30px;
+}
+
+@media (max-width: 1023px) {
+    .stm_tabs_style_4 .vc_tta.vc_tta-tabs .vc_tta-tabs-list .vc_tta-tab {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_tabs_style_4 .vc_tta-panels-container .vc_tta-panel-body {
+        padding: 20px 0 !important;
+    }
+
+    .stm_tabs_style_4 .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading {
+        background: #ebebeb;
+    }
+
+    .stm_tabs_style_4 .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-title-text {
+        color: #fff !important;
+    }
+}

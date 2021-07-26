@@ -1,0 +1,16 @@
+.tag_cloud_style_2 .tagcloud > a {
+    display: inline-block;
+    vertical-align: top;
+    color: #999999;
+    background: rgba(85, 85, 85, 0.1);
+    padding: 3px 10px;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    font-size: 13px !important;
+    text-decoration: none;
+}
+
+.tag_cloud_style_2 .tagcloud > a:hover {
+    color: #fff;
+}

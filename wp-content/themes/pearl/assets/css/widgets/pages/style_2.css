@@ -1,0 +1,10 @@
+.stm_widget_pages ul li:before {
+    position: relative;
+    top: -1px;
+    content: "\f105";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.25);
+    vertical-align: middle;
+}

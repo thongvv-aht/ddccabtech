@@ -1,0 +1,128 @@
+/*COLORS*/
+/*FONTS*/
+.stm_layout_portfolio .stm_contact__image {
+    position: relative;
+    top: 10px;
+}
+
+.stm_contact_style_5 {
+    margin-bottom: 25px;
+}
+
+.stm_contact_style_5.stm_contact_noname .stm_contact__info {
+    position: relative;
+    padding: 0;
+    top: -4px;
+}
+
+.stm_contact_style_5 .stm_contact__image {
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 15px;
+}
+
+.stm_contact_style_5 .stm_contact__info {
+    color: #a5a5a5;
+}
+
+.stm_contact_style_5 .stm_contact__job {
+    position: relative;
+    margin-bottom: 22px;
+    padding-left: 35px;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.stm_contact_style_5 .stm_contact__job:before {
+    content: "\f11d";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 16px;
+}
+
+.stm_contact_style_5 .stm_contact__row {
+    margin-bottom: -2px;
+}
+
+.stm_contact_style_5 .stm_contact__row span {
+    display: none;
+}
+
+.stm_contact_style_5 .stm_contact__row strong {
+    font-weight: 400;
+}
+
+.stm_contact_style_5 .stm_contact__row a {
+    text-decoration: none !important;
+}
+
+.stm_contact_style_5 .stm_contact__row:before {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.stm_contact_style_5 .stm_contact__row_phone {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+}
+
+.stm_contact_style_5 .stm_contact__row_phone:before {
+    content: "\f095";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    font-size: 16px;
+}
+
+.stm_contact_style_5 .stm_contact__row_email {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+}
+
+.stm_contact_style_5 .stm_contact__row_email a:hover {
+    color: #fff;
+}
+
+.stm_contact_style_5 .stm_contact__row_email:before {
+    content: "\f2b7";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 16px;
+}
+
+.stm_contact_style_5 .stm_contact__row_skype {
+    position: relative;
+    padding-left: 35px;
+}
+
+.stm_contact_style_5 .stm_contact__row_skype:before {
+    content: "\f17e";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    font-size: 16px;
+}
+
+.stm_contact_style_5 h5 {
+    font-size: 15px;
+    margin: -5px 0 5px;
+}
+
+@media (max-width: 1023px) {
+    .stm_contact_style_5 .stm_contact__image {
+        float: none;
+        width: 100%;
+    }
+
+    .stm_contact_style_5 h5 {
+        margin-top: 0;
+    }
+}

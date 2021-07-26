@@ -1,0 +1,32 @@
+/*COLORS*/
+/*FONTS*/
+.stm_vacancies_style_3 {
+    margin-bottom: 50px;
+}
+
+.stm_vacancies_style_3 .stm_vacancies__single {
+    position: relative;
+    display: table;
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-bottom: 0;
+}
+
+.stm_vacancies_style_3 .stm_vacancies__single > div {
+    display: table-cell;
+    width: 25%;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 21px 30px;
+}
+
+@media (max-width: 550px) {
+    .stm_vacancies_style_3 .stm_vacancies__single > div {
+        display: block;
+        width: 100%;
+    }
+}
+
+.stm_vacancies_style_3 .stm_vacancies__single:last-child > div {
+    border-bottom: 1px solid #e8e8e8;
+}

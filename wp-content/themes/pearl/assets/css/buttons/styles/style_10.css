@@ -1,0 +1,212 @@
+.stm_buttons_style_10 .btn {
+    letter-spacing: 1.1px;
+    padding: 16px 40px 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm_buttons_style_10 .btn.btn_outline {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient:before, .stm_buttons_style_10 .btn.btn_outline.btn_gradient:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient:after {
+    top: auto;
+    bottom: 0;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient span {
+    display: block;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient span:before, .stm_buttons_style_10 .btn.btn_outline.btn_gradient span:after {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient span:after {
+    top: 50%;
+    bottom: auto;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient:hover {
+    color: #ffffff !important;
+    background: transparent !important;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient:hover span:before, .stm_buttons_style_10 .btn.btn_outline.btn_gradient:hover span:after {
+    height: 50%;
+    opacity: 1;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient.btn_white {
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient.btn_white:before, .stm_buttons_style_10 .btn.btn_outline.btn_gradient.btn_white:after {
+    background: #ffffff;
+}
+
+.stm_buttons_style_10 .btn.btn_outline.btn_gradient.btn_white span:before, .stm_buttons_style_10 .btn.btn_outline.btn_gradient.btn_white span:after {
+    background: #ffffff;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient {
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-bottom: 0;
+    background: transparent !important;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient:before, .stm_buttons_style_10 .btn.btn_solid.btn_gradient:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient:after {
+    top: auto;
+    bottom: 0;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient span {
+    display: block;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient span:before, .stm_buttons_style_10 .btn.btn_solid.btn_gradient span:after {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient span:after {
+    top: 50%;
+    bottom: auto;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient:hover {
+    color: #000000 !important;
+    background: transparent !important;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient:hover.btn_third {
+    color: #ffffff !important;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient:hover span:before, .stm_buttons_style_10 .btn.btn_solid.btn_gradient:hover span:after {
+    height: 0;
+    opacity: 0;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient.btn_white {
+    border-color: #ffffff !important;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient.btn_white:before, .stm_buttons_style_10 .btn.btn_solid.btn_gradient.btn_white:after {
+    background-color: #ffffff;
+}
+
+.stm_buttons_style_10 .btn.btn_solid.btn_gradient.btn_custom {
+    border-color: transparent !important;
+}
+
+.stm_buttons_style_10 .btn.btn_lg {
+    padding: 21px 60px 20px;
+}
+
+.stm_buttons_style_10 .btn.btn_sm {
+    padding: 11px 33px 10px;
+}
+
+.stm_buttons_style_10 .btn.btn_xs {
+    padding: 8px 15px 7px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.stm_buttons_style_10 .btn.btn_fullwidth {
+    text-align: center;
+}
+
+.stm_buttons_style_10 .btn.btn_icon-bg.btn_icon-right {
+    padding-left: 24px !important;
+}
+
+.stm_buttons_style_10 .btn.btn_icon-bg.btn_icon-left {
+    padding-right: 24px !important;
+}
+
+.stm_buttons_style_10 .btn.btn_icon-bg .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.stm_buttons_style_10 .btn.btn_slide:before, .stm_buttons_style_10 .btn.btn_slide:after {
+    transition: height 0.3s ease;
+}
+
+.stm_buttons_style_10 .btn.btn_slide span {
+    position: relative;
+    z-index: 2;
+}
+
+.stm_buttons_style_10 .btn.btn_slide span:before, .stm_buttons_style_10 .btn.btn_slide span:after {
+    display: none;
+}
+
+.stm_buttons_style_10 .btn.btn_slide:hover:before, .stm_buttons_style_10 .btn.btn_slide:hover:after {
+    height: 50%;
+}
+
+.stm_buttons_style_10 button.btn.btn_gradient span:before, .stm_buttons_style_10 button.btn.btn_gradient span:after {
+    z-index: 0 !important;
+}
+
+.stm_buttons_style_10 button.btn.btn_gradient span em {
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+}
+
+.stm_buttons_style_10 .stm_donation .stm_donation__details .btn {
+    padding: 10px 24px 9px;
+}
+
+@media (max-width: 1023px) {
+    .stm_buttons_style_10 .btn.btn_fullwidth {
+        max-width: 99% !important;
+    }
+}

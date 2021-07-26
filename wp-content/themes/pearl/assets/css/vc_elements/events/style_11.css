@@ -1,0 +1,213 @@
+.stm_events_list.inverted .stm_event_single_list__alone {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone > * {
+    color: #fff !important;
+}
+
+.stm_events_list.inverted .stm_event_single_list__alone .btn {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts {
+    border-color: #fff !important;
+}
+
+.btn_inverted.stm_load_posts span {
+    color: #fff !important;
+}
+
+.stm_event_single_list__subtitle {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.stm_events_list_style_11 .stm_event_single_list {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 30px 15px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(225, 255, 255, 0.1);
+    background-color: #000000;
+    box-shadow: none;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div {
+    position: relative;
+    padding: 0 15px 0 40px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div:first-child {
+    padding-left: 0;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div:last-child {
+    padding-right: 0;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div.hasTitle {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div.hasTitle h3 {
+    position: relative;
+    top: 1px;
+    line-height: 1.21em;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff !important;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div.hasAddress, .stm_events_list_style_11 .stm_event_single_list > div.hasDate {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    color: #ffffff !important;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div.hasButton {
+    text-align: right;
+    padding: 0;
+    border: 0;
+    max-width: 100px;
+    color: #ffffff !important;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div.hasButton .btn {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    min-height: 150px;
+    font-size: 16px;
+}
+
+.stm_events_list_style_11 .stm_event_single_list > div .__icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+    .stm_events_list_style_11 .stm_event_single_list > div.hasTitle {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasTitle h3 {
+        line-height: 1.2em;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 570px) and (min-width: 551px) {
+    .stm_events_list_style_11 .stm_event_single_list .hasButton {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm_events_list_style_11 .stm_event_single_list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div {
+        margin: 15px 0;
+        padding: 0;
+        -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div .__icon {
+        left: 0;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasTitle {
+        padding: 0;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasDate {
+        margin-bottom: 0;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasAddress, .stm_events_list_style_11 .stm_event_single_list > div.hasDate {
+        padding-left: 45px;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasButton {
+        max-width: none;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list > div.hasButton .btn {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 425px) {
+    .stm_events_list_style_11 .stm_event_single_list .stm_event_single_list__alone.hasTitle {
+        -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list .stm_event_single_list__alone.hasButton {
+        -ms-flex-preferred-size: 5%;
+        flex-basis: 5%;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list .stm_event_single_list__alone.hasButton .btn {
+        padding: 10px 20px;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list .stm_event_single_list__alone.hasDate {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+
+    .stm_events_list_style_11 .stm_event_single_list .stm_event_single_list__alone.hasAddress {
+        position: relative;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+}
+
+.stm_layout_medicall .stm_events_list_style_11 h3,
+.stm_layout_beauty .stm_events_list_style_11 h3,
+.stm_layout_rental .stm_events_list_style_11 h3 {
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.stm_layout_medicall .stm_events_list_style_11 h3:after,
+  .stm_layout_beauty .stm_events_list_style_11 h3:after,
+  .stm_layout_rental .stm_events_list_style_11 h3:after {
+    display: none !important;
+}
+
+.stm_layout_charity .stm_events_list_style_11 .stm_event_single_list > div.hasTitle h3,
+.stm_layout_healthcoach .stm_events_list_style_11 .stm_event_single_list > div.hasTitle h3 {
+    text-transform: none !important;
+    font-size: 22px;
+    line-height: 27px;
+}

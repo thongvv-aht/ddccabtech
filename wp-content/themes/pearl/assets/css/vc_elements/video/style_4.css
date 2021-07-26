@@ -1,0 +1,77 @@
+/*Charity*/
+/*COLORS*/
+/*FONTS*/
+.stm_video {
+    display: block;
+    position: relative;
+    background-size: cover;
+}
+
+.stm_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 100;
+}
+
+.has_poster {
+    background-position: 50% 0 !important;
+}
+
+.has_poster .stm_playb {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -55px 0 0 -55px;
+    opacity: 0.85;
+}
+
+.has_poster .stm_playb:hover {
+    opacity: 1;
+}
+
+.stm_video.stm_video_style_4 {
+    background-position: 50% 50%;
+}
+
+.stm_video.stm_video_style_4 .stm_playb {
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+}
+
+.stm_video.stm_video_style_4 .stm_playb:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.stm_video.stm_video_style_4 .stm_playb:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -8px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 21px;
+    border-left-color: #fff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    z-index: 20;
+}

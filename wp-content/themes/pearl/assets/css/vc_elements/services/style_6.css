@@ -1,0 +1,41 @@
+/*Medic-all*/
+/*COLORS*/
+/*FONTS*/
+.stm_services_style_6 .stm_loop__single_style6 .inner {
+    display: block;
+    height: 100%;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .image {
+    margin: -1px;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .image img {
+    width: 100%;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .inner_info {
+    position: relative;
+    padding: 35px 30px 25px;
+    border-top: 0;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .inner_info:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    width: 60px;
+    height: 5px;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .inner_info p:last-child {
+    margin-bottom: 0;
+}
+
+.stm_services_style_6 .stm_loop__single_style6 .inner .inner_info h5:before {
+    display: none !important;
+}

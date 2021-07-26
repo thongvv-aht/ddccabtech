@@ -1,0 +1,168 @@
+.stm_sidebar_style_11 .widget {
+    margin-bottom: 50px;
+}
+
+.stm_sidebar_style_11 .widgettitle {
+    margin-bottom: 17px;
+}
+
+.stm_sidebar_style_11 .widgettitle h5 {
+    text-transform: none;
+    font-size: 30px;
+}
+
+.stm_sidebar_style_11 .widget_contacts_style_3 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__text {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.stm_sidebar_style_11 .widget_contacts_style_3 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    position: relative;
+    top: 3px;
+}
+
+.stm_sidebar_style_11 .widget.widget_archive ul li:before,
+.stm_sidebar_style_11 .widget.widget_meta ul li:before,
+.stm_sidebar_style_11 .widget_recent_comments ul li:before {
+    top: 7px;
+}
+
+.stm_sidebar_style_11 .widget.widget-default.widget_search {
+    margin-bottom: 30px;
+}
+
+.stm_sidebar_style_11 .widget.widget-default.widget_search .search-form input[name="s"] {
+    padding-left: 20px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: transparent !important;
+    color: #090909;
+    transition: .3s ease;
+}
+
+.stm_sidebar_style_11 .widget.widget-default.widget_search .search-form input[name="s"]::-webkit-input-placeholder {
+    color: #090909;
+}
+
+.stm_sidebar_style_11 .widget.widget-default.widget_search .search-form input[name="s"]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 {
+    margin-bottom: 50px;
+    padding: 42px 29px 31px 25px;
+    border: 1px solid #ccc !important;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 .widgettitle {
+    margin-bottom: 29px;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 h5.no_line:before {
+    display: none !important;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 ul li {
+    padding-left: 30px;
+    margin-bottom: 12px;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 ul li:before {
+    top: 14px;
+    left: -1px;
+    width: 12px;
+    height: 2px;
+    background-color: #000;
+    border: 0;
+}
+
+.stm_sidebar_style_11 .stm_widget_categories.style_1 ul li a {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2.4px;
+}
+
+.stm_sidebar_style_11 .widget.widget_recent_entries ul li {
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+
+.stm_sidebar_style_11 .widget.widget_recent_entries ul li:before {
+    display: none !important;
+}
+
+.stm_sidebar_style_11 .widget.widget_recent_entries ul li a {
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.stm_sidebar_style_11 .widget.widget_recent_entries ul li a:after {
+    display: none;
+}
+
+.stm_sidebar_style_11 .widget.widget_recent_entries ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.stm_sidebar_style_11 .widget_tag_cloud .tagcloud a {
+    padding: 0 10px;
+    color: #000;
+}
+
+.stm_sidebar_style_11 .widget_tag_cloud .tagcloud a:hover {
+    color: #fff;
+}
+
+.stm_sidebar_style_11 .stm-footer {
+    padding: 0;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom {
+    margin: 30px 0 70px;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom .stm_markup > div {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom .stm_markup .stm_bottom_copyright {
+    margin-bottom: 30px;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom .stm_markup .stm-socials a {
+    margin: 0 10px;
+    line-height: 32px;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom .stm_markup .stm-socials a:hover {
+    background-color: transparent !important;
+}
+
+.stm_sidebar_style_11 .stm-footer__bottom .stm_markup .stm-socials a i {
+    transition: .3s ease;
+    font-size: 20px;
+    text-indent: 1px;
+}
+
+@media (max-width: 1023px) {
+    .stm_sidebar_style_11 .stm-footer__bottom {
+        margin: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .stm_sidebar_style_11 .stm-footer__bottom {
+        margin: 20px 0 50px;
+    }
+}

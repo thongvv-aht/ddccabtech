@@ -1,0 +1,350 @@
+.stm_title_box_disabled.stm_breadcrumbs_disabled .vc_container-fluid-force {
+    margin-top: -60px;
+}
+
+@media (max-width: 1023px) {
+    .stm_title_box_disabled.stm_breadcrumbs_disabled .vc_container-fluid-force {
+        margin-top: 0;
+    }
+
+    .stm_single_stm_events .stm_event_single__calendar {
+        margin-bottom: 20px;
+    }
+}
+
+.stm_single_stm_events .stm_event_single__calendar {
+    width: 100px;
+    height: 90px;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_second-page, .stm_single_stm_events .stm_event_single__calendar_third-page {
+    width: 100px;
+    left: 0;
+    right: 0;
+    border: 1px solid #cdcdcd;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: .3s ease;
+    position: absolute;
+    top: 30px;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_main-page {
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    z-index: 30;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_main-page .calendar {
+    fill: #fff;
+    stroke: #cdcdcd;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+    fill-rule: evenodd;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_main-page .day {
+    z-index: 1;
+    position: relative;
+    margin-bottom: 0;
+    line-height: 36px;
+    padding-top: 25px;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_main-page .month {
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #838383;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_second-page {
+    z-index: 20;
+    bottom: -2px;
+}
+
+.stm_single_stm_events .stm_event_single__calendar_third-page {
+    z-index: 10;
+    bottom: -4px;
+}
+
+.stm_single_stm_events .stm_event_single__calendar .puncher-holes {
+    display: block;
+    width: 100%;
+    height: 11px;
+    padding: 10px 12px;
+    margin-bottom: 5px;
+}
+
+.stm_single_stm_events .stm_event_single__calendar .puncher-holes:after, .stm_single_stm_events .stm_event_single__calendar .puncher-holes:before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+}
+
+.stm_single_stm_events .stm_event_single__calendar .puncher-holes:before {
+    float: left;
+}
+
+.stm_single_stm_events .stm_event_single__calendar .puncher-holes:after {
+    float: right;
+}
+
+.stm_single_stm_events .stm_event_single__breadcrumbs {
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    font-size: 14px;
+}
+
+.stm_single_stm_events .stm_event_single__breadcrumbs a {
+    color: #fff;
+}
+
+.stm_single_stm_events .vc_container-fluid-force {
+    position: relative;
+    left: -15px;
+    padding: 77px 0;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: left;
+}
+
+.stm_single_stm_events .vc_container-fluid-force:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    opacity: .6;
+}
+
+.stm_single_stm_events .vc_container-fluid-force .inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 20;
+}
+
+.stm_single_stm_events .vc_container-fluid-force .inner h2 {
+    -ms-flex: 1;
+    flex: 1;
+    margin-bottom: 0;
+    max-width: 520px;
+}
+
+@media (max-width: 550px) {
+    .stm_single_stm_events .vc_container-fluid-force {
+        padding: 40px 0;
+    }
+
+    .stm_single_stm_events .vc_container-fluid-force .inner {
+        padding: 0;
+    }
+
+    .stm_single_stm_events .vc_container-fluid-force .inner .date {
+        position: relative;
+        transform: none !important;
+    }
+}
+
+.stm_single_stm_events.stm_markup_full {
+    padding: 0 15px;
+}
+
+.stm_single_stm_events .stm_single_event_details {
+    position: relative;
+    margin-top: -183px;
+    border-radius: 10px;
+    border: 1px solid #e5e7e8;
+    background-color: #fff;
+    z-index: 40;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail {
+    padding: 19px 25px 0;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail.address .title i {
+    position: relative;
+    top: 2px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail.address p {
+    min-height: 48px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail .title i {
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail p {
+    line-height: 24px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail.date_time {
+    border-bottom: 1px solid #e5e7e8;
+    padding-bottom: 15px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail.date_time i {
+    top: 2px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail .stm_event_date_info {
+    margin-bottom: 10px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail .stm_event_date_info .stm_event_label {
+    margin-bottom: -5px;
+}
+
+.stm_single_stm_events .stm_single_event_details .stm_single_event_detail .stm_event_date_info strong {
+    color: #404040;
+    display: block;
+    margin-bottom: -5px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.stm_single_stm_events .stm_single_event_details #gmap {
+    height: 250px;
+    margin: 25px -25px 0;
+}
+
+@media (max-width: 1023px) {
+    .stm_single_stm_events .stm_single_event_details {
+        margin-top: 0;
+    }
+
+    .stm_single_stm_events .stm_single_event_details .stm_event_wide_details .stm_single_event_part-label {
+        display: block;
+        max-width: 121px;
+        margin: 0 auto 20px;
+    }
+}
+
+.stm_single_event__form {
+    margin-bottom: 50px;
+    background-color: #fafafa;
+    padding: 40px 50px 50px 50px;
+}
+
+.stm_single_event__form .btn_loading {
+    padding: 14px 30px !important;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.stm_single_event__form h3 {
+    margin-bottom: 30px;
+}
+
+.stm_single_event__form .stm_mgb_40 {
+    margin-bottom: 0 !important;
+}
+
+.stm_single_event__form input[type=text] {
+    font-size: 16px;
+    height: 50px;
+}
+
+.stm_single_event__form .stm_input_wrapper_checkbox {
+    min-width: 17px;
+}
+
+@media (max-width: 1024px) {
+    .stm_single_event__form .form_actions {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .stm_single_event__form .agreement {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 50%;
+        flex: 50%;
+    }
+
+    .stm_single_event__form .agreement .stm_input_wrapper {
+        position: relative;
+        top: 6px;
+        margin-right: 10px;
+    }
+
+    .stm_single_event__form a {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_single_event__form {
+        padding: 40px 40px 50px 40px;
+    }
+
+    .stm_single_event__form .agreement {
+        margin-bottom: 20px;
+    }
+}
+
+.stm_event_wide_details {
+    padding: 25px 50px 40px 50px;
+}
+
+.stm_event_wide_details .stm_single_event_part-label {
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 10px 20px;
+    margin-bottom: 25px;
+    min-width: 121px;
+    min-height: 121px;
+    font-size: 36px;
+    border-radius: 50%;
+}
+
+.stm_event_wide_details .stm_single_event_part-label i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.stm_event_wide_details .btn {
+    color: #fff !important;
+    padding: 14px 30px !important;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.stm_page_bc .stm_breadcrumbs {
+    margin-bottom: 0;
+    border-bottom: 0;
+}

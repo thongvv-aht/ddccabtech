@@ -1,0 +1,116 @@
+.stm_services_text_carousel_style_4 .stm_services_carousel_wr {
+    margin: 0 -7.5px;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel_wr .owl-stage-outer {
+    overflow: unset;
+}
+
+.stm_services_text_carousel_style_4 .owl-stage {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_services_text_carousel_style_4 .owl-stage .owl-item {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_services_text_carousel_style_4 .owl-stage .item {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm_services_text_carousel_style_4 .owl-stage .item_wr {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item {
+    min-width: 264px;
+    min-height: 310px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    margin-right: 28px;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.4s;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item:hover {
+    top: -10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: url(../../../../assets/img/icon_bg.svg) -10% -16% #ffffff no-repeat;
+    background-size: contain;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item:hover .item_icon i {
+    color: #fff !important;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .item_icon {
+    margin: 15px 0 0 15px !important;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .item_icon i {
+    font-size: 50px;
+    transition: .3s;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 0 0;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content h5 {
+    margin-bottom: 16px;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content h5:before {
+    display: none !important;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content h5 a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content .stm_read_more_link {
+    margin-bottom: 26px;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content .stm_read_more_link a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.stm_services_text_carousel_style_4 .stm_services_carousel .item .content .excerpt {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.94px;
+}
+
+.stm_services_text_carousel_style_4 .owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+    .stm_services_text_carousel_style_4 .owl-dots {
+        margin-bottom: 5px;
+    }
+}

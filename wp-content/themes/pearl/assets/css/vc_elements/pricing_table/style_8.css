@@ -1,0 +1,111 @@
+.stm_pricing-table_style_8 {
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    padding: 30px 30px 0;
+    margin-top: 19px;
+    margin-bottom: 55px;
+    transition: all .3s;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__inner {
+    background-color: #fff;
+    margin: 0 auto -26px;
+    width: 220px;
+    text-align: center;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__head {
+    margin-bottom: 32px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__head h5 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 35px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__pricing {
+    font-size: 0;
+    font-weight: 900;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__pricing:before, .stm_pricing-table_style_8 .stm_pricing-table__pricing:after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #dddddd;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__pricing:before {
+    margin-right: 20px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__pricing:after {
+    margin-left: 20px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__prefix {
+    font-size: 38px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__price {
+    font-size: 38px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__postfix {
+    font-size: 24px;
+    margin-top: 8px;
+    line-height: 30px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__content {
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__content ul {
+    padding-left: 0;
+    line-height: 30px;
+    list-style-type: none;
+    margin: 0 -20px;
+}
+
+@media (max-width: 768px) {
+    .stm_pricing-table_style_8 .stm_pricing-table__content ul {
+        margin: 0;
+    }
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__content ul li {
+    position: relative;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__content ul li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    top: 12px;
+    left: -17px;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__footer .btn {
+    background-color: #fff !important;
+    box-shadow: none;
+}
+
+.stm_pricing-table_style_8 .stm_pricing-table__footer .btn:hover {
+    color: #ffffff !important;
+    box-shadow: 0 10px 30px 0 rgba(31, 213, 129, 0.3);
+}

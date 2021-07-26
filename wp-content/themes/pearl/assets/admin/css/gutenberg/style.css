@@ -1,0 +1,241 @@
+#editor.block-editor__container .editor-styles-wrapper .wp-block {
+    max-width: 1200px;
+    font-family: 'Open Sans';
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714em;
+}
+
+#editor.block-editor__container .editor-styles-wrapper strong {
+    font-weight: 600;
+}
+
+#editor.block-editor__container .editor-styles-wrapper p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper a {
+    color: #3c98ff;
+    outline: 0 !important;
+    text-decoration: none;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h1, #editor.block-editor__container .editor-styles-wrapper h2, #editor.block-editor__container .editor-styles-wrapper h3, #editor.block-editor__container .editor-styles-wrapper h4, #editor.block-editor__container .editor-styles-wrapper h5, #editor.block-editor__container .editor-styles-wrapper h6, #editor.block-editor__container .editor-styles-wrapper .h1, #editor.block-editor__container .editor-styles-wrapper .h2, #editor.block-editor__container .editor-styles-wrapper .h3, #editor.block-editor__container .editor-styles-wrapper .h4, #editor.block-editor__container .editor-styles-wrapper .h5, #editor.block-editor__container .editor-styles-wrapper .h6, #editor.block-editor__container .editor-styles-wrapper .heading_font {
+    font-family: 'Exo';
+    color: #3c98ff;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 8px;
+    line-height: 1.1;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h1 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h2 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h3 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h4 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h3 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h4 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h5 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper h6 {
+    font-family: 'Exo';
+    color: #3c98ff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper blockquote {
+    font-family: 'Exo';
+    background-color: #eeeff2;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    padding: 26px 30px;
+    margin: 0 0 20px;
+    border-left: 5px solid #3c98ff !important;
+}
+
+#editor.block-editor__container .editor-styles-wrapper blockquote p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+#editor.block-editor__container .editor-styles-wrapper code, #editor.block-editor__container .editor-styles-wrapper kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+}
+
+#editor.block-editor__container .editor-styles-wrapper kbd {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#editor.block-editor__container .editor-styles-wrapper code {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+#editor.block-editor__container .editor-styles-wrapper table {
+    width: 100%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#editor.block-editor__container .editor-styles-wrapper table tr th {
+    padding: 15px 30px;
+    background: #eee;
+    font-family: "Exo";
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#editor.block-editor__container .editor-styles-wrapper table tr td {
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+#editor.block-editor__container .editor-styles-wrapper table tr td a {
+    font-weight: 700;
+}
+
+#editor.block-editor__container .editor-styles-wrapper dl {
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+#editor.block-editor__container .editor-styles-wrapper dl dt {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#editor.block-editor__container .editor-styles-wrapper dl dt:first-child {
+    border-top: 0;
+}
+
+#editor.block-editor__container .editor-styles-wrapper dl dd {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper ol,
+#editor.block-editor__container .editor-styles-wrapper ul {
+    padding-left: 17px;
+    margin-bottom: 50px;
+}
+
+#editor.block-editor__container .editor-styles-wrapper ol li,
+  #editor.block-editor__container .editor-styles-wrapper ul li {
+    margin-bottom: 10px;
+    display: list-item;
+}
+
+#editor.block-editor__container .editor-styles-wrapper ol ol,
+  #editor.block-editor__container .editor-styles-wrapper ol ul,
+  #editor.block-editor__container .editor-styles-wrapper ul ol,
+  #editor.block-editor__container .editor-styles-wrapper ul ul {
+    margin: 10px 0 0;
+}
+
+#editor.block-editor__container .editor-styles-wrapper ul ul, #editor.block-editor__container .editor-styles-wrapper ol ul {
+    list-style-type: circle;
+}
+
+#editor.block-editor__container .editor-styles-wrapper ol ol ul, #editor.block-editor__container .editor-styles-wrapper ol ul ul, #editor.block-editor__container .editor-styles-wrapper ul ol ul, #editor.block-editor__container .editor-styles-wrapper ul ul ul {
+    list-style-type: square;
+}
+
+#editor.block-editor__container .editor-styles-wrapper address {
+    margin-bottom: 20px;
+    line-height: 1.42857;
+    font-style: normal;
+}

@@ -1,0 +1,45 @@
+/*COLORS*/
+/*FONTS*/
+.stm-counter_style_14 {
+    text-align: center;
+    padding: 26px 45px;
+    font-size: 0;
+    line-height: 39px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    min-height: 130px;
+}
+
+.stm-counter_style_14 .stm-counter__value, .stm-counter_style_14 .stm-counter__affix, .stm-counter_style_14 .stm-counter__prefix {
+    font-size: 32px;
+}
+
+.stm-counter_style_14 .stm-counter__label {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.stm-counter_style_14.stm_icon_gradient i {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 992px) {
+    .stm-counter_style_14 {
+        padding: 26px 18px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm-counter_style_14 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .stm-counter_style_14 {
+        padding: 26px 10px 0;
+    }
+}

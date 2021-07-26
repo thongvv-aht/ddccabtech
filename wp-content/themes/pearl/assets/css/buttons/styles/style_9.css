@@ -1,0 +1,56 @@
+.stm_buttons_style_9 .btn {
+    text-transform: none;
+    padding: 16px 34px !important;
+    border-radius: 25px;
+    border-width: 2px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+}
+
+.stm_buttons_style_9 .btn_lg {
+    padding: 15px 30px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.84px;
+    font-size: 14px !important;
+}
+
+.stm_buttons_style_9 .btn_lg.btn_outline {
+    padding: 16px 62px;
+}
+
+.stm_buttons_style_9 .btn_icon-left .btn__icon {
+    text-indent: 1em;
+}
+
+.stm_buttons_style_9 .btn__icon {
+    top: -2px;
+    bottom: -2px;
+}
+
+.stm_buttons_style_9 .btn_icon-right .btn__icon {
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+.stm_buttons_style_9 .btn_icon-right .btn__icon:before {
+    position: relative;
+    left: -2px;
+}
+
+.stm_buttons_style_9 .btn_icon-left .btn__icon {
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+
+.stm_buttons_style_9 .btn_icon-left .btn__icon:before {
+    position: relative;
+    right: -2px;
+}
+
+.stm_buttons_style_9 .btn.btn_icon-bg.btn_icon-left .btn__icon {
+    text-indent: 0;
+}
+
+.stm_buttons_style_9 .btn .btn_subtitle_label {
+    margin: 4px 0;
+}

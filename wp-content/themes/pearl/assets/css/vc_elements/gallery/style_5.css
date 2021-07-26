@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*Artist*/
+.stm_gallery_masonry__title {
+    margin: 0 15px 10px 0;
+}
+
+.stm_gallery_masonry__link {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+}
+
+.stm_projects_carousel__item {
+    width: 33.33%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 1;
+}
+
+.stm_projects_carousel__item .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 0;
+}
+
+[class*='stm_projects_grid'] .stm_projects_carousel__item_preloaded {
+    display: none;
+}
+
+.stm_projects_grid_style_5 .stm_gallery_masonry__title {
+    margin-right: 70px;
+    font-size: 50px;
+}
+
+.stm_projects_grid_style_5 .stm_projects_carousel__btn,
+.stm_projects_grid_style_5 .stm_projects_carousel__name {
+    z-index: 999;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid__switcher {
+    margin-left: 15px;
+    display: none;
+}
+
+.stm_projects_grid_style_5 .stm_gallery_masonry__link {
+    position: relative;
+    margin: 4px 0 10px 15px;
+    padding-right: 44px;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+
+.stm_projects_grid_style_5 .stm_gallery_masonry__link:after {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    text-indent: 1px;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    color: #fff !important;
+}
+
+.stm_projects_grid_style_5 .stm_projects_carousel__tab:first-child {
+    margin-left: -5px;
+}
+
+.stm_projects_grid_style_5 .stm_projects_carousel__tab a {
+    margin-left: 10px;
+    padding: 7px 14px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm_projects_grid_style_5 .stm_loop .stm_loop__grid {
+    width: 33.3%;
+}
+
+.stm_projects_grid_style_5 .stm_loop.active .stm_loop__grid {
+    width: 25%;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item {
+    display: block;
+    overflow: hidden;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    background-color: #000;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 90;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item:hover:before {
+    opacity: 0.7;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item:hover .stm_projects_carousel__overlay i:after {
+    transform: scale(1);
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay span {
+    display: block;
+    width: 100%;
+    padding: 0 70px;
+    text-align: center;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay span:before {
+    content: attr(data-title);
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay span:before:first-letter {
+    text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+    .stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay span {
+        padding: 0 15px;
+    }
+
+    .stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay span:before {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay i {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 48px;
+    transform: translate(0, 0);
+    margin-bottom: 15px;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay i:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease;
+    z-index: -10;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid .stm_projects_carousel__item .stm_projects_carousel__overlay i:before {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid.active .stm_projects_carousel__item {
+    padding: 0 3px;
+    margin-bottom: 6px;
+}
+
+.stm_projects_grid_style_5 .stm_projects_grid.active .stm_projects_carousel__item:before,
+  .stm_projects_grid_style_5 .stm_projects_grid.active .stm_projects_carousel__item .stm_projects_carousel__overlay {
+    left: 3px;
+    right: 3px;
+}
+
+.stm_projects_grid_style_5 .btn.btn_primary.btn_outline.btn_load:hover span {
+    color: #fff !important;
+}
+
+@media (max-width: 1023px) {
+    .stm_projects_grid_style_5 .stm_projects_carousel__item {
+        width: 33.33% !important;
+    }
+
+    .stm_projects_grid_style_5 .stm_flex.stm_flex_center.stm_flex_last .stm_gallery_masonry__title {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .stm_projects_grid_style_5 .stm_flex.stm_flex_center.stm_flex_last .stm_gallery__btns {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_projects_grid_style_5 .stm_projects_carousel__item {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_projects_grid_style_5 .stm_projects_grid__sorting {
+        text-align: center;
+    }
+}

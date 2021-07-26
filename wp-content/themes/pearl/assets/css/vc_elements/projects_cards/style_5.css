@@ -1,0 +1,261 @@
+.stm_projects_cards_style_5 {
+    margin: 0 -10px;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__filter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 54px 0;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__filter li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s;
+    text-transform: lowercase;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__filter li:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__filter li a {
+    text-decoration: none;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__info {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    padding: 0 35px;
+    margin-bottom: 22px;
+    line-height: 1.1em;
+    font-weight: 400;
+    color: #fff;
+    z-index: 199;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__tags {
+    position: relative;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    transition: opacity 0.35s, transform 0.35s;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__title {
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff !important;
+    transition: opacity 0.35s, transform 0.35s;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card {
+    position: relative;
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card_2x {
+    width: 50%;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card_4x .stm_projects_cards__info {
+    padding: 0 25px;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card_4x .stm_projects_cards__title {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    transform: translateZ(0);
+    transition: all 0.35s;
+    z-index: 100;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card:hover:after {
+    opacity: 1;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card:hover .stm_projects_cards__tags {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card:hover .stm_projects_cards__title {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.stm_projects_cards_style_5 .stm_projects_card:hover .stm_projects_cards__image img {
+    transform: scale(1.15) translate3D(0, 0, 0);
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__image {
+    overflow: hidden;
+}
+
+.stm_projects_cards_style_5 .stm_projects_cards__image img {
+    transform: scale(1.15) translate3D(0, 15px, 0);
+    transition: transform 0.35s;
+}
+
+.stm_projects_cards_style_5 .btn.loading {
+    border-color: transparent !important;
+    color: #fff;
+}
+
+.stm_projects_cards_style_5 .btn.loading:before {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: none;
+    animation: scaleout 1.0s infinite ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin: -16px 0 0 -13px;
+    content: '';
+    background-color: #000;
+}
+
+.stm_projects_cards_style_5 .btn.infinite {
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+.stm_projects_cards_style_5 .btn.infinite span {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.stm_projects_cards_style_5 .btn:hover span {
+    color: #fff !important;
+}
+
+@media (max-width: 1199px) {
+    .stm_projects_cards_style_5 {
+        margin: 0 -8px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card {
+        padding: 0 8px !important;
+        margin-bottom: 16px !important;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        left: 7px;
+        right: 7px;
+    }
+}
+
+@media (max-width: 991px) {
+    .stm_projects_cards_style_5 {
+        margin: 0 -6px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card {
+        padding: 0 6px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card_4x .stm_projects_cards__title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card .stm_projects_cards__tags {
+        transform: rotate(0) !important;
+        white-space: normal;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card .stm_projects_cards__title {
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card:after {
+        left: 5px;
+        right: 5px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card .stm_projects_cards__info {
+        margin-bottom: 0;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_projects_cards_style_5 .stm_projects_cards__filter {
+        padding: 0;
+        margin: 25px 0;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_cards__filter li {
+        padding: 10px 0;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_cards__filter li:after {
+        bottom: 5px;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card {
+        width: 100%;
+        margin-bottom: 15px !important;
+    }
+
+    .stm_projects_cards_style_5 .stm_projects_card img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*COLORS*/
+/*FONTS*/
+.stm_services_style_2 .stm_services__title {
+    position: relative;
+    top: -1px;
+    padding: 24px 33px 26px;
+    min-height: 88px;
+    width: 100%;
+}
+
+.stm_services_style_2 .stm_services__title .h6 {
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.stm_services_style_2 .stm_services__title .h6:before {
+    display: none !important;
+}
+
+.stm_services_style_2 .stm_services__image {
+    position: relative;
+    overflow: hidden;
+}
+
+.stm_services_style_2 .stm_services__image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.stm_services_style_2 .stm_services__image i {
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+    color: #fff;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-monitor_graph {
+    font-size: 70px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-aircraft_case {
+    font-size: 80px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-brain_lamp_idea {
+    font-size: 73px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-document_page_list {
+    font-size: 73px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-key_gear {
+    font-size: 65px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-up_arrow_progress_graph {
+    font-size: 72px;
+}
+
+.stm_services_style_2 .stm_services__image i.stmicon-magnifier_chart {
+    font-size: 72px;
+}
+
+.stm_services_style_2 .stm_services__image:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    bottom: 1px;
+    top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: 10;
+}
+
+.stm_services_style_2 .stm_loop__single {
+    padding-bottom: 30px;
+}
+
+.stm_services_style_2 .stm_loop__single:hover .stm_services__image:before {
+    top: 0;
+    opacity: 1;
+}
+
+.stm_services_style_2 .stm_loop__single:hover .stm_services__image i {
+    top: 50%;
+    opacity: 1;
+}
+
+.stm_services_style_2 .stm_loop__single:hover .stm_services__title {
+    background-color: transparent;
+}
+
+@media (max-width: 1023px) {
+    .stm_services_style_2.stm_loop .stm_loop__grid_4 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .stm_services_style_2.stm_loop .stm_loop__grid_4 img {
+        width: 100%;
+    }
+
+    .stm_services_style_2 .stm_loop__single_style2 .stm_services__title {
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_services_style_2.stm_loop .stm_loop__grid_4 {
+        width: 100%;
+    }
+
+    .stm_services_style_2 .stm_loop__single_style2 {
+        margin: 0 auto;
+    }
+
+    .stm_services_style_2 .stm_services_style_2 .stm_services__title {
+        min-height: inherit;
+    }
+}
+
+.stm_layout_charity .stm_services_style_2 .stm_services__title {
+    line-height: 1em;
+}
+
+.stm_layout_charity .stm_services_style_2 .stm_services__title span {
+    text-transform: none !important;
+}

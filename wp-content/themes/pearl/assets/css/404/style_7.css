@@ -1,0 +1,90 @@
+/*COLORS*/
+/*FONTS*/
+#wrapper {
+    padding-bottom: 0;
+}
+
+.stm_errorpage {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 50px 20px;
+    background-size: cover;
+}
+
+.stm_errorpage__inner {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.stm_errorpage__inner h1 {
+    margin-bottom: 10px;
+    font-size: 280px;
+    line-height: 280px;
+    color: #ffffff;
+}
+
+.stm_errorpage__inner h2 {
+    line-height: 1.1em;
+    color: #ffffff;
+}
+
+.stm_errorpage__inner .stm_icon_separator {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.stm_errorpage__inner .stm_icon_separator:before, .stm_errorpage__inner .stm_icon_separator:after {
+    content: '';
+    display: block;
+    height: 2px;
+    border-top: 1px solid;
+    -ms-flex: 5%;
+    flex: 5%;
+}
+
+.stm_errorpage__inner .stm_icon_separator:before {
+    margin-right: 120px;
+}
+
+.stm_errorpage__inner .stm_icon_separator:after {
+    margin-left: 120px;
+}
+
+.stm_errorpage__inner .btn span:before, .stm_errorpage__inner .btn span:after {
+    z-index: 1 !important;
+}
+
+.stm_errorpage__inner .btn em {
+    color: #ffffff;
+    font-style: normal;
+    z-index: 2 !important;
+    position: relative;
+}
+
+.stm_errorpage__description {
+    line-height: 30px;
+    font-size: 30px;
+}
+
+@media (max-width: 550px) {
+    .stm_errorpage {
+        padding: 0 15px 20px;
+    }
+
+    .stm_errorpage__inner h1 {
+        font-size: 170px;
+        line-height: 1.2;
+    }
+}

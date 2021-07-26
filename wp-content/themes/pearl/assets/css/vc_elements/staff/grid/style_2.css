@@ -1,0 +1,167 @@
+.stm_staff_container_grid .stm_staff_grid_style_2 {
+    border: 1px solid #e6e6e6;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__image {
+    margin: -1px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__image img {
+    width: 100%;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__name {
+    font-size: 18px;
+    margin: 0 0 5px;
+    line-height: 1.1;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__job {
+    margin: 0 0 30px;
+    font-size: 14px;
+}
+
+@media (max-width: 550px) {
+    .stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__job {
+        margin-bottom: 15px;
+    }
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__contacts {
+    font-size: 14px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__contact i {
+    vertical-align: middle;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__info {
+    height: 96px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__info-inner {
+    padding: 25px 30px 10px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__image {
+    position: relative;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__links {
+    opacity: 0;
+    bottom: 21px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials li a {
+    border: 0;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials i {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials i:before {
+    line-height: 32px;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials i:hover {
+    color: #fff;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials .fa-facebook {
+    background-color: #3a5897;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials .fa-twitter {
+    background-color: #00aced;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials .fa-linkedin {
+    background-color: #0077b5;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__socials .fa-google-plus {
+    background-color: #db4437;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2:hover {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+    border-color: transparent;
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2:hover .stm_staff__info-inner {
+    transform: translateY(-50%);
+}
+
+.stm_staff_container_grid .stm_staff_grid_style_2:hover .stm_staff__links {
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__image img {
+        width: 100%;
+    }
+
+    .stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__job {
+        margin-bottom: 5px !important;
+    }
+
+    .stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__links {
+        opacity: 1;
+    }
+
+    .stm_staff_container_grid .stm_staff_grid_style_2 .stm_staff__info {
+        height: auto;
+    }
+
+    .stm_staff_container_grid .stm_staff_grid_style_2:hover .stm_staff__info-inner {
+        transform: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stm_staff_container_grid.style_2 .stm_staff_grid_style_2 .stm_staff__info-inner {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm_staff_container_grid.style_2 .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_staff_container_grid.style_2 .row .col-sxs-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_staff_container_grid.style_2 .row .col-sxs-4 {
+        width: 100%;
+    }
+}

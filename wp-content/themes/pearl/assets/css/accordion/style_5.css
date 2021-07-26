@@ -1,0 +1,48 @@
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels {
+    position: relative;
+}
+
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ebebeb;
+}
+
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title {
+    font-family: inherit;
+}
+
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a {
+    padding: 18px 20px !important;
+    text-transform: none !important;
+    border-width: 2px !important;
+    border-color: #ebebeb;
+}
+
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-title > a .vc_tta-title-text {
+    font-family: inherit;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stm_accordions_style_5 .vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-body {
+    padding: 30px 20px;
+    border-right: 2px solid #ebebeb !important;
+    border-left: 2px solid #ebebeb !important;
+}
+
+.stm_accordions_style_5 .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-controls-icon {
+    color: #fff !important;
+}
+
+@media (max-width: 550px) {
+    .stm_accordions_style_5 .vc_tta-tabs .vc_tta-panel-body {
+        margin: 30px 0 !important;
+    }
+}

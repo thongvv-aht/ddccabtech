@@ -1,0 +1,7 @@
+<Translation>
+    <File
+        HoPath="languages/mwc-core.pot"
+        HbPath="languages/mwc-core-{Culture}.json"
+        Cultures="fr_CA, qa_PS"
+	/>
+</Translation>

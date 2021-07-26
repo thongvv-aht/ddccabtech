@@ -1,0 +1,40 @@
+/*COLORS*/
+/*FONTS*/
+.stm_widget_media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    margin: -15px -7.5px 0;
+}
+
+.stm_widget_media__single {
+    display: block;
+    width: 33.333%;
+    padding: 15px 7.5px 0;
+}
+
+@media (max-width: 1024px) {
+    .stm_widget_media__single img {
+        width: 100%;
+    }
+}
+
+.stm_wp_widget_post_gallery_style_2 .widgettitle {
+    margin-bottom: 31px;
+}
+
+.stm_wp_widget_post_gallery_style_2 .widgettitle h4 {
+    margin-bottom: 0;
+}
+
+.stm_wp_widget_post_gallery_style_2 .stm_widget_media__single {
+    width: auto !important;
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+}
+
+.stm_wp_widget_post_gallery_style_2 .stm_widget_media__single img {
+    border: 5px solid #fff;
+    width: 100%;
+}

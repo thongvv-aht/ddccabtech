@@ -1,0 +1,113 @@
+.stm_widget_posts__video_label {
+    display: none;
+}
+
+.stm_widget_posts.style_7 {
+    max-width: 100%;
+}
+
+.stm_widget_posts.style_7 .stmicon-magazine-view {
+    font-size: 11px;
+}
+
+.stm_widget_posts.style_7 .post-views {
+    opacity: .7;
+}
+
+.stm_widget_posts.style_7 ul {
+    padding-left: 0;
+}
+
+.stm_widget_posts.style_7 ul li {
+    position: relative;
+    padding: 0;
+}
+
+.stm_widget_posts.style_7 ul li .stm_widget_posts__wrapper {
+    overflow: hidden;
+}
+
+.stm_widget_posts.style_7 ul li a {
+    display: block;
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.stm_widget_posts.style_7 ul li img {
+    float: left;
+    width: 70px;
+    margin-right: 25px;
+}
+
+.stm_widget_posts.style_7 ul li .stm_widget_posts__title {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 13px;
+    margin-top: -5px;
+}
+
+.stm_widget_posts.style_7 ul li .post-date {
+    position: absolute;
+    bottom: 30px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #949ba0;
+}
+
+.stm_widget_posts.style_7 ul li .post-date:before {
+    margin-right: 8px;
+    content: "\f073";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stm_widget_posts.style_7 ul li:last-child a {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.stm_widget_posts.style_7 ul li:last-child .post-date {
+    bottom: 0;
+}
+
+.stm_widget_posts.style_7 .post-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    opacity: .7;
+}
+
+.stm_widget_posts.style_7 .post-info .info-item {
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.stm_widget_posts.style_7 .post-info .info-item .stmicon-magazine-view {
+    font-size: 10px;
+}
+
+.stm_widget_posts.style_7 .post-categories {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_widget_posts.style_7 .post-categories .post-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid;
+}

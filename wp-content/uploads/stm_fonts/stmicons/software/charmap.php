@@ -1,0 +1,12 @@
+<?php $icons = array();
+$icons['stmicons']['calendar-sync'] = array("class"=>'calendar-sync',"tags"=>'calendar-sync');
+$icons['stmicons']['crm-integrations'] = array("class"=>'crm-integrations',"tags"=>'crm-integrations');
+$icons['stmicons']['custom-fields'] = array("class"=>'custom-fields',"tags"=>'custom-fields');
+$icons['stmicons']['lead-enrichment'] = array("class"=>'lead-enrichment',"tags"=>'lead-enrichment');
+$icons['stmicons']['lead-routing'] = array("class"=>'lead-routing',"tags"=>'lead-routing');
+$icons['stmicons']['open-api'] = array("class"=>'open-api',"tags"=>'open-api');
+$icons['stmicons']['top-down-architecture'] = array("class"=>'top-down-architecture',"tags"=>'top-down-architecture');
+$icons['stmicons']['world-time-zones'] = array("class"=>'world-time-zones',"tags"=>'world-time-zones');
+$icons['stmicons']['reload1'] = array("class"=>'reload1',"tags"=>'reload');
+$icons['stmicons']['responsive'] = array("class"=>'responsive',"tags"=>'responsive');
+$icons['stmicons']['click'] = array("class"=>'click',"tags"=>'click');

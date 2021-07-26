@@ -1,0 +1,109 @@
+.stm_slider_style_2.stm_slider .stm_slide__overlay {
+    top: 55%;
+}
+
+.stm_slider_style_2.stm_slider .stm_slide__title span {
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.stm_slider_style_2.stm_slider .stm_slide__content {
+    max-width: 630px;
+    padding-right: 30px;
+}
+
+.stm_slider_style_2.stm_slider .stm_slide__button a {
+    padding: 18px 45.5px 19px;
+    background: transparent !important;
+}
+
+.stm_slider_style_2.stm_slider .stm_slide__button a:after {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .stm_slider_style_2.stm_slider .stm_slide__overlay {
+        padding: 0 30px;
+    }
+
+    .stm_slider_style_2.stm_slider .owl-dots {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .stm_slider_style_2.stm_slider .stm_slide__overlay {
+        top: 50%;
+        padding: 0 30px;
+    }
+
+    .stm_slider_style_2.stm_slider .stm_slide__content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_slider_style_2.stm_slider .stm_slide__overlay {
+        padding-right: 30px;
+        top: 30%;
+    }
+
+    .stm_slider_style_2.stm_slider .stm_slide__overlay br {
+        display: none !important;
+    }
+
+    .stm_slider_style_2.stm_slider .stm_slide__title span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .stm_slider_style_2.stm_slider .stm_slide__content span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.stm_slider_style_2 .owl-controls {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+}
+
+.stm_slider_style_2 .owl-dots {
+    display: block !important;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.stm_slider_style_2 .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    transform: rotate(45deg) scale(1);
+}
+
+.stm_slider_style_2 .owl-dots .owl-dot.active {
+    border-color: transparent;
+    transform: rotate(45deg) scale(0.6);
+}
+
+@media (max-width: 550px) {
+    .stm_slider, .stm_slider .stm_slide {
+        height: 550px !important;
+    }
+
+    .stm_slider_style_2.stm_slider .stm_slide__overlay {
+        top: 40%;
+    }
+
+    .stm_slider_style_2 .owl-dots {
+        text-align: left;
+    }
+}

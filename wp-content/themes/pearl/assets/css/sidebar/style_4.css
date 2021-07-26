@@ -1,0 +1,82 @@
+.stm-footer {
+    padding-top: 60px;
+}
+
+.stm-footer .footer-widgets .widget {
+    font-size: 13px;
+}
+
+.stm-footer .footer-widgets .widget .widgettitle {
+    margin-bottom: 31px;
+}
+
+.stm-footer .footer-widgets .widget .widgettitle h4 {
+    margin-bottom: 0;
+    text-transform: none !important;
+    font-size: 18px;
+}
+
+.stm-footer .footer-widgets .widget .widgettitle h4:before, .stm-footer .footer-widgets .widget .widgettitle h4:after {
+    display: none;
+}
+
+.stm-footer .footer-widgets .stm_wp_widget_text .widgettitle {
+    margin-bottom: 25px;
+}
+
+.stm-footer .footer-widgets .stm_wp_widget_text .textwidget {
+    line-height: 24px;
+}
+
+.stm-footer .stm-socials .stm-socials__icon {
+    opacity: .5;
+    margin-right: 20px;
+}
+
+.stm-footer .stm-socials .stm-socials__icon:hover {
+    opacity: 1;
+}
+
+.stm-footer .stm-footer__bottom {
+    border: 0;
+    padding: 20px 0 20px 0;
+}
+
+.stm-footer .stm-footer__bottom .stm_bottom_copyright {
+    opacity: .5;
+}
+
+.stm_markup__sidebar .widget, .stm_markup__sidebar_divider .widget {
+    padding: 30px 0 0 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.stm_markup__sidebar .widget .widgettitle h5, .stm_markup__sidebar_divider .widget .widgettitle h5 {
+    text-transform: none;
+}
+
+.stm_markup__sidebar .widget .widgettitle h5:after, .stm_markup__sidebar .widget .widgettitle h5:before, .stm_markup__sidebar_divider .widget .widgettitle h5:after, .stm_markup__sidebar_divider .widget .widgettitle h5:before {
+    display: block;
+}
+
+.stm_markup__sidebar .widget .textwidget, .stm_markup__sidebar_divider .widget .textwidget {
+    font-size: 13px;
+}
+
+.stm_markup__sidebar .widget:first-child, .stm_markup__sidebar_divider .widget:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.widget.wpb_content_element {
+    margin-bottom: 35px;
+}
+
+.widget_tp_widget_recent_tweets .tp_recent_tweets ul li a {
+    color: #333;
+}
+
+.widget_contacts_style_5 .widget_contacts_inner .stm-icontext_style2 .stm-icontext__icon {
+    position: relative;
+    top: 2px;
+}

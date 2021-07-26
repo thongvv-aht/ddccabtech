@@ -1,0 +1,1159 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Login and Access\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-11 11:32-0400\n"
+"PO-Revision-Date: 2015-04-07 18:05+0100\n"
+"Last-Translator: Nabil Kadimi <nabil@kadimi-x-no-spam-x.com>\n"
+"Language-Team: PressApps\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: admin/class-pressapps-login-access-admin.php:130
+#: includes/skelet/functions/actions.php:57
+msgid "Loading..."
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:131
+#: admin/class-pressapps-login-access-admin.php:798
+msgid "Approve"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:132
+#: admin/class-pressapps-login-access-admin.php:800
+msgid "Disable"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:141
+msgid "Login & Access Modal Link"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:184
+msgid "Settings"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:199
+msgid "Help"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:474
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:487
+msgid "Password Missing"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:489
+msgid "Passwords Doesn't Match"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:497
+msgid "Please accept the Terms and Condition"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:511
+#, php-format
+msgid ""
+"<strong>ERROR CODE</strong> %s Check the <a href=\"https://developers."
+"google.com/recaptcha/docs/verify#error-code-reference\">error code "
+"reference</a>"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:522
+#: admin/class-pressapps-login-access-admin.php:662
+#: includes/pressapps-login-access-pluggable.php:93
+#: includes/pressapps-login-access-pluggable.php:95
+msgid "Captcha Verification Failed!"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:711
+#: admin/class-pressapps-login-access-admin.php:715
+#: includes/class-pressapps-login-access-helper.php:549
+#: includes/class-pressapps-login-access-social.php:180
+#: includes/class-pressapps-login-access-social.php:189
+#: includes/class-pressapps-login-access-social.php:191
+#: includes/class-pressapps-login-access-social.php:197
+#: includes/class-pressapps-login-access-social.php:242
+#: public/class-pressapps-login-access-public.php:741
+#: public/class-pressapps-login-access-public.php:771
+#: public/class-pressapps-login-access-public.php:808
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/class-pressapps-login-access-admin.php:779
+msgid "Status"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:216
+#: includes/pressapps-login-access-pluggable.php:645
+#, php-format
+msgid "Archive %s"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:238
+#: includes/pressapps-login-access-pluggable.php:544
+msgid "All Posts"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:239
+#: includes/pressapps-login-access-pluggable.php:545
+msgid "Archive"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:279
+#: includes/pressapps-login-access-pluggable.php:684
+msgid "All Pages"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:371
+#, php-format
+msgid "[%s] Account has been approved."
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:377
+msgid "Your account has been approved and you can now login to the site."
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:379
+#: includes/class-pressapps-login-access-helper.php:397
+#: includes/pressapps-login-access-pluggable.php:202
+#, php-format
+msgid "If you have any concerns, please contact us at %s."
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:390
+#, php-format
+msgid "[%s] Account has been disabled."
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:396
+msgid "Your account has been disabled."
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:642
+#: public/class-pressapps-login-access-public.php:612
+#: public/class-pressapps-login-access-public.php:613
+msgid "Password"
+msgstr ""
+
+#: includes/class-pressapps-login-access-helper.php:647
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/class-pressapps-login-access-recaptcha.php:185
+#, php-format
+msgid "<strong>%s</strong>: %s"
+msgstr ""
+
+#: includes/class-pressapps-login-access-social.php:160
+msgid "Account has been created and waiting for approval."
+msgstr ""
+
+#: includes/class-pressapps-login-access-social.php:219
+msgid ""
+"Account is pending for approval or has been disabled. Please contact the "
+"administrator."
+msgstr ""
+
+#: includes/options/framework.config.php:9
+#: includes/options/framework.config.php:10
+msgid "Login & Access"
+msgstr ""
+
+#: includes/options/framework.config.php:39
+msgid "Forms"
+msgstr ""
+
+#: includes/options/framework.config.php:44
+#: includes/options/framework.config.php:49
+msgid "WP Login"
+msgstr ""
+
+#: includes/options/framework.config.php:54
+msgid "Logo Image"
+msgstr ""
+
+#: includes/options/framework.config.php:59
+msgid "Background Image"
+msgstr ""
+
+#: includes/options/framework.config.php:62
+#: includes/options/framework.config.php:73
+#: includes/skelet/fields/background/background.php:32
+#: includes/skelet/fields/background/background.php:33
+#: includes/skelet/fields/upload/upload.php:25
+#: includes/skelet/fields/upload/upload.php:26
+msgid "Upload"
+msgstr ""
+
+#: includes/options/framework.config.php:63
+msgid "Select an image"
+msgstr ""
+
+#: includes/options/framework.config.php:64
+msgid "Use this image"
+msgstr ""
+
+#: includes/options/framework.config.php:70
+msgid "Background Video"
+msgstr ""
+
+#: includes/options/framework.config.php:74
+msgid "Select a video"
+msgstr ""
+
+#: includes/options/framework.config.php:75
+msgid "Use this video"
+msgstr ""
+
+#: includes/options/framework.config.php:81
+#: includes/options/framework.config.php:156
+msgid "Background Color"
+msgstr ""
+
+#: includes/options/framework.config.php:87
+#: includes/options/framework.config.php:162
+msgid "Form Background Color"
+msgstr ""
+
+#: includes/options/framework.config.php:92
+#: includes/options/framework.config.php:169
+msgid "Text Color"
+msgstr ""
+
+#: includes/options/framework.config.php:97
+msgid "Link Color"
+msgstr ""
+
+#: includes/options/framework.config.php:102
+#: includes/options/framework.config.php:183
+#: includes/options/framework.config.php:213
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/options/framework.config.php:107
+#: includes/options/framework.config.php:189
+#: includes/options/framework.config.php:219
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/options/framework.config.php:112
+#: includes/options/framework.config.php:231
+msgid "Full Width Button"
+msgstr ""
+
+#: includes/options/framework.config.php:119
+#: includes/options/framework.config.php:124
+msgid "Modal Forms"
+msgstr ""
+
+#: includes/options/framework.config.php:129
+msgid "Form Size"
+msgstr ""
+
+#: includes/options/framework.config.php:131
+msgid "Small"
+msgstr ""
+
+#: includes/options/framework.config.php:132
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/options/framework.config.php:139
+msgid "Effect"
+msgstr ""
+
+#: includes/options/framework.config.php:141
+msgid "Huge Inc"
+msgstr ""
+
+#: includes/options/framework.config.php:142
+msgid "Corner"
+msgstr ""
+
+#: includes/options/framework.config.php:143
+msgid "Slide Down"
+msgstr ""
+
+#: includes/options/framework.config.php:144
+msgid "Scale"
+msgstr ""
+
+#: includes/options/framework.config.php:145
+msgid "Door"
+msgstr ""
+
+#: includes/options/framework.config.php:147
+msgid "Content Scale"
+msgstr ""
+
+#: includes/options/framework.config.php:148
+msgid "Simple Genie"
+msgstr ""
+
+#: includes/options/framework.config.php:203
+#: includes/options/framework.config.php:208
+msgid "Embed Forms"
+msgstr ""
+
+#: includes/options/framework.config.php:225
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: includes/options/framework.config.php:251
+msgid "Input Border Color"
+msgstr ""
+
+#: includes/options/framework.config.php:257
+msgid "Input Border Focus Color"
+msgstr ""
+
+#: includes/options/framework.config.php:263
+msgid "Bottom Border Only"
+msgstr ""
+
+#: includes/options/framework.config.php:270
+msgid "Placeholders"
+msgstr ""
+
+#: includes/options/framework.config.php:271
+msgid "Display placeholders instead of labels, applies to text fields only."
+msgstr ""
+
+#: includes/options/framework.config.php:285
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/framework.config.php:290
+msgid "Custom Styles"
+msgstr ""
+
+#: includes/options/framework.config.php:295
+msgid "Front End Custom CSS"
+msgstr ""
+
+#: includes/options/framework.config.php:296
+msgid "Enter custom CSS for the front-end"
+msgstr ""
+
+#: includes/options/framework.config.php:303
+msgid "WP Login Custom CSS"
+msgstr ""
+
+#: includes/options/framework.config.php:304
+msgid "Enter custom CSS for WP login page"
+msgstr ""
+
+#: includes/options/framework.config.php:318
+msgid "Access"
+msgstr ""
+
+#: includes/options/framework.config.php:323
+msgid "Front End Access"
+msgstr ""
+
+#: includes/options/framework.config.php:328
+msgid "Role Based Access Control"
+msgstr ""
+
+#: includes/options/framework.config.php:329
+#: includes/options/framework.config.php:885
+#: includes/options/framework.config.php:886
+msgid "Add New Rule"
+msgstr ""
+
+#: includes/options/framework.config.php:330
+msgid "Access Control Details"
+msgstr ""
+
+#: includes/options/framework.config.php:335
+msgid "Redirect To"
+msgstr ""
+
+#: includes/options/framework.config.php:336
+msgid "Redirect unauthorised users."
+msgstr ""
+
+#: includes/options/framework.config.php:338
+msgid "Login Page"
+msgstr ""
+
+#: includes/options/framework.config.php:339
+#: includes/options/framework.config.php:346
+msgid "Custom URL"
+msgstr ""
+
+#: includes/options/framework.config.php:352
+#: includes/options/framework.config.php:455
+#: includes/options/framework.config.php:892
+msgid "User Role"
+msgstr ""
+
+#: includes/options/framework.config.php:353
+msgid "Authorize user roles to access content."
+msgstr ""
+
+#: includes/options/framework.config.php:357
+#: includes/options/framework.config.php:385
+#: includes/options/framework.config.php:460
+msgid "Select a page"
+msgstr ""
+
+#: includes/options/framework.config.php:365
+msgid "Content"
+msgstr ""
+
+#: includes/options/framework.config.php:366
+msgid "Authorize or block content except for the content below."
+msgstr ""
+
+#: includes/options/framework.config.php:371
+msgid "Action"
+msgstr ""
+
+#: includes/options/framework.config.php:373
+msgid "Authorize All Content"
+msgstr ""
+
+#: includes/options/framework.config.php:374
+msgid "Block All Content"
+msgstr ""
+
+#: includes/options/framework.config.php:381
+msgid "Except: Page"
+msgstr ""
+
+#: includes/options/framework.config.php:393
+msgid "Except: Post Type"
+msgstr ""
+
+#: includes/options/framework.config.php:397
+msgid "Select a post type"
+msgstr ""
+
+#: includes/options/framework.config.php:405
+msgid "Except: Taxonomy"
+msgstr ""
+
+#: includes/options/framework.config.php:409
+msgid "Select a taxonomy"
+msgstr ""
+
+#: includes/options/framework.config.php:417
+msgid "Except: Post"
+msgstr ""
+
+#: includes/options/framework.config.php:421
+msgid "Select a post"
+msgstr ""
+
+#: includes/options/framework.config.php:429
+msgid "Except: Category"
+msgstr ""
+
+#: includes/options/framework.config.php:433
+msgid "Select a category"
+msgstr ""
+
+#: includes/options/framework.config.php:444
+msgid "Dashboard Access"
+msgstr ""
+
+#: includes/options/framework.config.php:449
+msgid "Restrict Dashboard Access"
+msgstr ""
+
+#: includes/options/framework.config.php:468
+#: includes/options/framework.config.php:898
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/options/framework.config.php:485
+msgid "reCaptcha"
+msgstr ""
+
+#: includes/options/framework.config.php:490
+msgid "Google reCaptcha"
+msgstr ""
+
+#: includes/options/framework.config.php:495
+msgid "Enable reCaptcha"
+msgstr ""
+
+#: includes/options/framework.config.php:497
+#: public/class-pressapps-login-access-public.php:330
+#: public/class-pressapps-login-access-public.php:592
+#: public/class-pressapps-login-access-public.php:604
+msgid "Login"
+msgstr ""
+
+#: includes/options/framework.config.php:498
+#: public/class-pressapps-login-access-public.php:351
+#: public/class-pressapps-login-access-public.php:594
+#: public/class-pressapps-login-access-public.php:638
+#: public/class-pressapps-login-access-public.php:655
+msgid "Register"
+msgstr ""
+
+#: includes/options/framework.config.php:499
+msgid "Password Reset"
+msgstr ""
+
+#: includes/options/framework.config.php:506
+msgid "Site Key"
+msgstr ""
+
+#: includes/options/framework.config.php:511
+msgid "Secret Key"
+msgstr ""
+
+#: includes/options/framework.config.php:526
+#: includes/options/framework.config.php:531
+msgid "Social Login"
+msgstr ""
+
+#: includes/options/framework.config.php:536
+#: includes/options/framework.config.php:541
+msgid "Facebook Login"
+msgstr ""
+
+#: includes/options/framework.config.php:547
+msgid "App ID"
+msgstr ""
+
+#: includes/options/framework.config.php:553
+msgid "App Secret"
+msgstr ""
+
+#: includes/options/framework.config.php:559
+msgid "Facebook Login Button Text"
+msgstr ""
+
+#: includes/options/framework.config.php:586
+#: includes/options/framework.config.php:591
+msgid "Twitter Login"
+msgstr ""
+
+#: includes/options/framework.config.php:597
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: includes/options/framework.config.php:603
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: includes/options/framework.config.php:609
+msgid "Twitter Login Button Text"
+msgstr ""
+
+#: includes/options/framework.config.php:631
+#: includes/options/framework.config.php:636
+msgid "Google Login"
+msgstr ""
+
+#: includes/options/framework.config.php:642
+msgid "Client ID"
+msgstr ""
+
+#: includes/options/framework.config.php:648
+msgid "Client Secret"
+msgstr ""
+
+#: includes/options/framework.config.php:654
+msgid "Google Login Button Text"
+msgstr ""
+
+#: includes/options/framework.config.php:685
+#: includes/options/framework.config.php:690
+msgid "Registration"
+msgstr ""
+
+#: includes/options/framework.config.php:695
+msgid "User Set Passwords"
+msgstr ""
+
+#: includes/options/framework.config.php:696
+msgid "Allow users to set password during registration"
+msgstr ""
+
+#: includes/options/framework.config.php:702
+msgid "Display Confirm Password Field"
+msgstr ""
+
+#: includes/options/framework.config.php:709
+msgid "Login User After Registration"
+msgstr ""
+
+#: includes/options/framework.config.php:716
+msgid "Approve New User Registration"
+msgstr ""
+
+#: includes/options/framework.config.php:717
+msgid ""
+"Users registration must be approved by admin before user can login to "
+"site."
+msgstr ""
+
+#: includes/options/framework.config.php:724
+msgid "Approved User Notification Emails"
+msgstr ""
+
+#: includes/options/framework.config.php:725
+msgid "Send users email notification when their account is approved."
+msgstr ""
+
+#: includes/options/framework.config.php:736
+msgid "Approved User Email Template"
+msgstr ""
+
+#: includes/options/framework.config.php:742
+#: includes/options/framework.config.php:783
+msgid ""
+"Leave blank to use the default template. Use %user% to include the user "
+"on the message field."
+msgstr ""
+
+#: includes/options/framework.config.php:747
+#: includes/options/framework.config.php:788
+msgid "From Email"
+msgstr ""
+
+#: includes/options/framework.config.php:752
+#: includes/options/framework.config.php:793
+msgid "Subject"
+msgstr ""
+
+#: includes/options/framework.config.php:757
+#: includes/options/framework.config.php:798
+msgid "Message"
+msgstr ""
+
+#: includes/options/framework.config.php:765
+msgid "Disabled Account Notification Emails"
+msgstr ""
+
+#: includes/options/framework.config.php:766
+msgid "Send users email notification when their account is disabled."
+msgstr ""
+
+#: includes/options/framework.config.php:777
+msgid "Disabled Account Email Template"
+msgstr ""
+
+#: includes/options/framework.config.php:805
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/options/framework.config.php:806
+msgid "Require users to accept terms and conditions during registration."
+msgstr ""
+
+#: includes/options/framework.config.php:811
+msgid "Terms and Condition Page"
+msgstr ""
+
+#: includes/options/framework.config.php:818
+msgid "Form Custom Fields"
+msgstr ""
+
+#: includes/options/framework.config.php:819
+msgid "Add New Field"
+msgstr ""
+
+#: includes/options/framework.config.php:820
+msgid "Field Details"
+msgstr ""
+
+#: includes/options/framework.config.php:825
+msgid "Type"
+msgstr ""
+
+#: includes/options/framework.config.php:827
+msgid "Checkbox"
+msgstr ""
+
+#: includes/options/framework.config.php:828
+msgid "Radio"
+msgstr ""
+
+#: includes/options/framework.config.php:829
+msgid "Select"
+msgstr ""
+
+#: includes/options/framework.config.php:830
+msgid "Text"
+msgstr ""
+
+#: includes/options/framework.config.php:831
+msgid "Textarea"
+msgstr ""
+
+#: includes/options/framework.config.php:837
+msgid "Label"
+msgstr ""
+
+#: includes/options/framework.config.php:838
+msgid "Name of the field that will be displayed on the form."
+msgstr ""
+
+#: includes/options/framework.config.php:843
+msgid "Options"
+msgstr ""
+
+#: includes/options/framework.config.php:844
+msgid "Add each option on a new line. For select or radio type only."
+msgstr ""
+
+#: includes/options/framework.config.php:850
+msgid "Whether this field is required for user to fill in."
+msgstr ""
+
+#: includes/options/framework.config.php:851
+msgid "Required"
+msgstr ""
+
+#: includes/options/framework.config.php:863
+#: includes/options/framework.config.php:868
+msgid "Redirection"
+msgstr ""
+
+#: includes/options/framework.config.php:873
+msgid "Login Redirect"
+msgstr ""
+
+#: includes/options/framework.config.php:875
+msgid "Redirect To WP Dashboard"
+msgstr ""
+
+#: includes/options/framework.config.php:876
+msgid "Redirect All Users To URL"
+msgstr ""
+
+#: includes/options/framework.config.php:877
+msgid "Redirect Users Based On Their Role"
+msgstr ""
+
+#: includes/options/framework.config.php:884
+msgid "Login Role Redirection Rules"
+msgstr ""
+
+#: includes/options/framework.config.php:905
+msgid "Login Redirect URL"
+msgstr ""
+
+#: includes/options/framework.config.php:911
+msgid "Logout Redirect URL "
+msgstr ""
+
+#: includes/options/framework.config.php:916
+msgid "Redirect After Registration"
+msgstr ""
+
+#: includes/options/shortcode.config.php:12
+msgid "LOGIN & ACCESS"
+msgstr ""
+
+#: includes/options/shortcode.config.php:16
+msgid "Insert Login Form"
+msgstr ""
+
+#: includes/options/shortcode.config.php:20
+msgid "Insert Register Form"
+msgstr ""
+
+#: includes/options/shortcode.config.php:24
+msgid "Insert Reset Password Form"
+msgstr ""
+
+#: includes/options/shortcode.config.php:28
+msgid "Insert Modal Login"
+msgstr ""
+
+#: includes/options/shortcode.config.php:33
+msgid "Login Link Text"
+msgstr ""
+
+#: includes/options/shortcode.config.php:39
+msgid "Logout Link Text"
+msgstr ""
+
+#: includes/options/shortcode.config.php:46
+msgid "Insert Modal Register"
+msgstr ""
+
+#: includes/options/shortcode.config.php:51
+msgid "Register Link Text"
+msgstr ""
+
+#: includes/options/shortcode.config.php:57
+msgid "Registered Link Text"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:47
+msgid "Invalid username or incorrect password."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:63
+#: includes/pressapps-login-access-pluggable.php:65
+msgid ""
+"Your account is pending for approval. Please contact the administrator."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:80
+#, php-format
+msgid ""
+"<strong>ERROR CODE</strong>: %s Check the <a href=\"https://developers."
+"google.com/recaptcha/docs/verify#error-code-reference\">error code "
+"reference</a>"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:144
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:145
+#: includes/pressapps-login-access-pluggable.php:191
+#: includes/pressapps-login-access-pluggable.php:222
+#: includes/pressapps-login-access-pluggable.php:228
+#: includes/pressapps-login-access-pluggable.php:302
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:146
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:149
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:190
+#: includes/pressapps-login-access-pluggable.php:221
+#, php-format
+msgid "[%s] Account created and pending for approval"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:195
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:199
+#: includes/pressapps-login-access-pluggable.php:223
+msgid "Your account has been created, but still pending for approval."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:224
+#: includes/pressapps-login-access-pluggable.php:229
+msgid "To set your password, visit the following address:"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:227
+#, php-format
+msgid "[%s] Your account information."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:233
+#, php-format
+msgid "If you have any problems, please contact us at %s."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:259
+msgid "Enter a username or email address."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:263
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:286
+msgid "Invalid username or email."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:300
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:303
+msgid ""
+"If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:304
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:316
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:344
+msgid "The email could not be sent."
+msgstr ""
+
+#: includes/pressapps-login-access-pluggable.php:344
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:197
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:202
+msgid "Default options restored."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:221
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:405
+msgid "Settings saved."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Save Changes"
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Saving..."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:407
+msgid "Restore"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:126
+msgid "CONFIG"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:132
+msgid "USAGE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:138
+msgid "VALUE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:214
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:83
+#: includes/skelet/fields/textarea/textarea.php:29
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/skelet/fields/background/background.php:34
+#: includes/skelet/fields/upload/upload.php:27
+msgid "Use Image"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:22
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:23
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:28
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:29
+msgid "or"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:30
+msgid "!!! Reset All Options !!!"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:31
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:23
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:24
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:25
+msgid "Clear"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:45
+#: includes/skelet/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:27
+#: includes/skelet/functions/actions.php:55
+msgid "Add Icon"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:28
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/skelet/fields/image/image.php:24
+msgid "Add Image"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:26
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:27
+msgid "Disabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "on"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "off"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:75
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:81
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:109
+#: includes/skelet/functions/actions.php:30
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/skelet/functions/actions.php:56
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:50
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:610
+msgid "Select media"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:659
+#, php-format
+msgid "The option type <code>%s</code> is not yet implemented"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: pressapps-login-access.php:44
+msgid ""
+"The minimum PHP version required for this plugin is 5.3.0 Please upgrade "
+"the PHP version or contact your hosting provider to do it for you."
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:109
+msgid "Processing"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:331
+msgid "Logout"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:352
+msgid "You are already registered"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:593
+msgid "Forgot password?"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:606
+#: public/class-pressapps-login-access-public.php:607
+#: public/class-pressapps-login-access-public.php:640
+#: public/class-pressapps-login-access-public.php:641
+msgid "Username"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:620
+msgid "Remember Me"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:646
+#: public/class-pressapps-login-access-public.php:647
+msgid "Email"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:652
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:668
+msgid "Reset Password"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:669
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:671
+msgid "Username or Email:"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:679
+msgid "Get New Password"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:709
+msgid "Please allow membership on the site."
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:787
+msgid "Registration Successful!"
+msgstr ""
+
+#: public/class-pressapps-login-access-public.php:813
+msgid "Password reset has been sent to your email!"
+msgstr ""

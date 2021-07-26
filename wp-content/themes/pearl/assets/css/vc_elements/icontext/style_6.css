@@ -1,0 +1,39 @@
+/*COLORS*/
+/*FONTS*/
+.stm_icontext {
+    vertical-align: top;
+}
+
+.stm_icontext a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.stm_icontext__text {
+    vertical-align: top;
+}
+
+.stm_icontext__text span {
+    display: block;
+    overflow: hidden;
+}
+
+.stm_icontext__icon {
+    float: left;
+}
+
+.stm_icontext_style_6 a {
+    display: block;
+}
+
+.stm_icontext_style_6 .stm_icontext__text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.stm_icontext_style_6 .stm_icontext__icon {
+    position: relative;
+    top: 3px;
+}

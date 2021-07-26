@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*rental*/
+.stm_blockquote_style_9 blockquote {
+    position: relative;
+    background: #eeeeee;
+    border: 0;
+    margin-top: 30px;
+    padding: 29px 20px 32px 65px;
+}
+
+.stm_blockquote_style_9 blockquote:before {
+    content: "\ec8e" !important;
+    content: "" !important;
+    font-family: 'stmicons' !important;
+    position: absolute;
+    top: 26px;
+    left: 19px;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.stm_blockquote_style_9 blockquote p {
+    font-size: 18px;
+    line-height: 30px;
+    font-style: normal;
+    color: #282828;
+}
+
+.stm_blockquote_style_9 blockquote cite {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 14px;
+    font-style: normal;
+    font-size: 16px;
+    color: #555555;
+}

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+.stm_gallery_masonry__title {
+    margin: 0 15px 10px 0;
+}
+
+.stm_gallery_masonry__link {
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+}
+
+.stm_projects_carousel__item {
+    width: 33.33%;
+}
+
+.stm_projects_carousel__item:hover .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 1;
+}
+
+.stm_projects_carousel__item .stm_projects_carousel__overlay [data-title]:before {
+    opacity: 0;
+}
+
+[class*='stm_projects_grid'] .stm_projects_carousel__item_preloaded {
+    display: none;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting {
+    width: 100%;
+    text-align: center;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li {
+    position: relative;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li:not(:last-child):after {
+    content: "񈥙" !important;
+    font-family: 'stmicons' !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+    right: 0;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a {
+    margin-left: 0;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    height: 1px;
+    opacity: 0;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a:hover {
+    background-color: transparent !important;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a:hover:after {
+    opacity: 1;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a.active {
+    background-color: transparent !important;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__sorting li a.active:after {
+    opacity: 1;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid__switcher {
+    display: none;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid > a.stm_projects_carousel__item .stm_projects_carousel__overlay {
+    display: none;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid > a.stm_projects_carousel__item .stm_projects_carousel__name {
+    position: static;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid > a.stm_projects_carousel__item .stm_projects_carousel__btn {
+    display: none;
+}
+
+.stm_projects_grid_style_9 .stm_projects_grid > a.stm_projects_carousel__item:hover {
+    text-decoration: none;
+}

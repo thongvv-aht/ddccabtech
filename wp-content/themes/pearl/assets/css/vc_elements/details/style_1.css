@@ -1,0 +1,22 @@
+/*COLORS*/
+/*FONTS*/
+.stm_details {
+    position: relative;
+    background: #f6f6f6;
+    padding: 47px 50px 27px;
+}
+
+.stm_details__title {
+    font-weight: 700;
+}
+
+.stm_details__value {
+    font-size: 13px;
+}
+
+@media (max-width: 769px) {
+    .stm_details {
+        padding: 25px;
+        margin: 0 15px 30px;
+    }
+}

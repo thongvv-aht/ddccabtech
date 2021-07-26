@@ -1,0 +1,56 @@
+/*COLORS*/
+/*FONTS*/
+.stm_infobox_style_11 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.stm_infobox_style_11 .stm_infobox__image {
+    margin-bottom: 22px;
+}
+
+.stm_infobox_style_11 .stm_infobox__content {
+    background-color: transparent !important;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.stm_infobox_style_11 .stm_infobox__content h1, .stm_infobox_style_11 .stm_infobox__content h2, .stm_infobox_style_11 .stm_infobox__content h3, .stm_infobox_style_11 .stm_infobox__content h4, .stm_infobox_style_11 .stm_infobox__content h5, .stm_infobox_style_11 .stm_infobox__content h6 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-bottom: 17px;
+}
+
+@media (max-width: 767px) {
+    .stm_infobox_style_11 .stm_infobox__content h1, .stm_infobox_style_11 .stm_infobox__content h2, .stm_infobox_style_11 .stm_infobox__content h3, .stm_infobox_style_11 .stm_infobox__content h4, .stm_infobox_style_11 .stm_infobox__content h5, .stm_infobox_style_11 .stm_infobox__content h6 {
+        font-size: 24px !important;
+    }
+}
+
+.stm_infobox_style_11 .stm_infobox__content p {
+    margin-bottom: 16px;
+}
+
+.stm_infobox_style_11 .stm_infobox__link a {
+    position: relative;
+    text-decoration: none;
+}
+
+.stm_infobox_style_11 .stm_infobox__link a:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.3s;
+}
+
+.stm_infobox_style_11 .stm_infobox__link a:hover:after {
+    width: 0;
+}

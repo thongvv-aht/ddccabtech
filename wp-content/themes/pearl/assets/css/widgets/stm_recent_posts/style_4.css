@@ -1,0 +1,18 @@
+.stm_widget_posts__video_label {
+    display: none;
+}
+
+.stm_widget_posts.style_4 > ul li {
+    position: relative;
+    padding: 25px 0 20px;
+}
+
+.stm_widget_posts.style_4 > ul li .post-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stm_widget_posts.style_4 > ul li .stm_widget_posts__title {
+    font-weight: 500;
+}

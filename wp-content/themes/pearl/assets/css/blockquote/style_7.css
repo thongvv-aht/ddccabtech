@@ -1,0 +1,36 @@
+/*Medicall*/
+.stm_blockquote_style_7 blockquote {
+    position: relative;
+    font-size: 24px;
+    border: 0 !important;
+    padding: 40px 20% 0 !important;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.stm_blockquote_style_7 blockquote p {
+    font-size: 24px;
+}
+
+.stm_blockquote_style_7 blockquote:before {
+    content: '';
+    display: block;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    content: "\f10d";
+}
+
+@media (max-width: 1023px) {
+    .stm_blockquote_style_7 blockquote {
+        padding: 40px 0 0 !important;
+    }
+}

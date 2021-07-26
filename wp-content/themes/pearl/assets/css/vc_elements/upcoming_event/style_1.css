@@ -1,0 +1,358 @@
+.stm_upcoming_event_style_1 {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.stm_upcoming_event_style_1 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__info {
+    padding-left: 55px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__title {
+    padding-right: 25px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__title h5 {
+    line-height: 1.1em;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__title a {
+    text-decoration: none;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__date {
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 26px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__date-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__date-sep {
+    color: #434343;
+    margin: 0 12px;
+    font-size: 13px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__date-string {
+    font-size: 13px;
+    color: #838383;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__counter-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter {
+    position: relative;
+    width: 77px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    background-color: #fff;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter__label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter__value {
+    display: block;
+    font-size: 26px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 15px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #cacaca;
+    background: red;
+    z-index: -1;
+    top: auto;
+    bottom: -3px;
+    left: -1px;
+    right: -1px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__actions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-right: 55px;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__actions-button {
+    width: 130px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+}
+
+.stm_upcoming_event_style_1 .stm_upcoming_event__actions-button:not(:last-child) {
+    margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions {
+        text-align: right;
+        width: 20%;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .stm_flex_row {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn:last-child {
+        margin-top: 15px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter {
+        margin-right: 10px !important;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter {
+        margin-right: 10px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter .counter:last-child {
+        margin-right: 0;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__info {
+        width: 46.6%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .stm_upcoming_event_style_1 .row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_upcoming_event_style_1 .stm_flex_col {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__title {
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter {
+        width: 55%;
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter {
+        margin: 0 10px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions {
+        width: 45%;
+        padding: 0 0 0 55px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn {
+        width: 120px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn:last-child {
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 667px) {
+    .stm_upcoming_event_style_1 .row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm_upcoming_event_style_1 .stm_flex_col {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__title {
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter {
+        margin: 0 10px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions {
+        width: 100%;
+        padding: 0 0 0 55px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn {
+        width: 120px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn:last-child {
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .stm_upcoming_event_style_1 {
+        padding-top: 25px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter {
+        width: 100%;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container {
+        padding: 0 15px;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter {
+        margin: 0 5px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter:first-child {
+        margin-left: 0;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter:last-child {
+        margin-right: 0;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter__label {
+        font-size: 10px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__counter-container .counter__value {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__info {
+        padding: 0 35px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date-title {
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date-sep {
+        display: none;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__date-string {
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions {
+        width: 100%;
+        padding: 0 30px !important;
+        margin-bottom: 20px;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .stm_flex_row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex: 1;
+        flex: 1;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-line-pack: center;
+        align-content: center;
+    }
+
+    .stm_upcoming_event_style_1 .stm_upcoming_event__actions .btn {
+        margin: 0 !important;
+        width: 120px;
+    }
+}

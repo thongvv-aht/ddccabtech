@@ -1,0 +1,67 @@
+.working_hours_style_3 .widget_inner {
+    padding-left: 35px;
+    position: relative;
+}
+
+.working_hours_style_3 .widget_inner:before {
+    content: "\e675";
+    font-family: stmicons;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.working_hours_style_3 .table_working_hours {
+    margin-bottom: 0;
+}
+
+.working_hours_style_3 .table_working_hours tr {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.working_hours_style_3 .table_working_hours tr td {
+    display: -ms-flexbox;
+    display: flex;
+    border: 0;
+    padding: 0px 2px 5px;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.working_hours_style_3 .table_working_hours tr td.day_label {
+    padding-right: 13px;
+    -ms-flex: 1%;
+    flex: 1%;
+    font-weight: bold;
+}
+
+.working_hours_style_3 .table_working_hours tr td.day_sep {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.working_hours_style_3 .table_working_hours tr td.day_sep:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px dotted #a8a8a8;
+    margin-bottom: 6px;
+}
+
+.working_hours_style_3 .table_working_hours tr td.day_value {
+    -ms-flex: 20%;
+    flex: 20%;
+    white-space: nowrap !important;
+    text-align: right;
+    padding-left: 13px;
+    opacity: 0.75;
+}
+
+.working_hours_style_3 .stm-socials a {
+    width: 50px;
+    height: 50px;
+    line-height: 52px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+}

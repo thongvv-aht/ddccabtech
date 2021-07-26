@@ -1,0 +1,16 @@
+.stm_icon_links_style_6 a {
+    display: inline-block;
+    min-width: 30px;
+    min-height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.stm_icon_links_style_6 a:not(:last-child) {
+    margin-right: 15px;
+}
+
+.stm_icon_links_style_6 a i {
+    font-size: 14px;
+}

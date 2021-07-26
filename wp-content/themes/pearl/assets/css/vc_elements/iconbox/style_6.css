@@ -1,0 +1,130 @@
+/*COLORS*/
+/*FONTS*/
+.stm_iconbox__link {
+    text-decoration: none !important;
+}
+
+.stm_iconbox__icon {
+    display: block;
+}
+
+.stm_iconbox__icon-left .stm_iconbox__icon {
+    float: left;
+}
+
+.stm_iconbox__icon-right .stm_iconbox__icon {
+    float: right;
+}
+
+.stm_iconbox__icon-top .stm_iconbox__icon {
+    float: none;
+    width: auto !important;
+}
+
+.stm_iconbox__icon-center {
+    text-align: center;
+}
+
+.stm_iconbox__icon-center .stm_iconbox__icon {
+    float: none;
+    margin: 0 auto !important;
+}
+
+.stm_iconbox__text {
+    overflow: hidden;
+}
+
+.stm_iconbox__text h5:before {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.3) !important;
+    margin: 0 0 18px;
+}
+
+.stm_iconbox__text h5 p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.stm_iconbox.text-center.stm_iconbox__icon-top .stm_iconbox__icon {
+    margin: 0 auto;
+}
+
+body:not(.stm_headings_line) .stm_iconbox__text h5:before {
+    display: none;
+}
+
+.stm_iconbox_style_6 {
+    position: relative;
+    padding: 44px 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm_iconbox_style_6:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .9;
+    z-index: 10;
+}
+
+.stm_iconbox_style_6 > div {
+    position: relative;
+    z-index: 20;
+}
+
+.stm_iconbox_style_6.stm_iconbox__icon-top .stm_iconbox__icon {
+    margin-bottom: 15px !important;
+}
+
+.stm_iconbox_style_6.stm_iconbox__icon-top .stm_iconbox__text h5 {
+    margin-bottom: 15px;
+}
+
+.stm_iconbox_style_6 .stm_iconbox__icon {
+    margin-right: 38px;
+    min-width: 98px;
+    min-height: 98px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stm_iconbox_style_6 .stm_iconbox__icon i {
+    line-height: 98px;
+}
+
+.stm_iconbox_style_6 .stm_iconbox__text {
+    overflow: visible;
+}
+
+.stm_iconbox_style_6 .stm_iconbox__text .stm_iconbox__desc p:last-child {
+    margin-bottom: 0;
+}
+
+.stm_iconbox_style_6.text-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.stm_iconbox_style_6.text-right .stm_iconbox__icon {
+    -ms-flex-order: 10;
+    order: 10;
+    margin-left: 38px;
+    margin-right: 0;
+}
+
+@media (max-width: 550px) {
+    .stm_iconbox_style_6 .stm_iconbox__text {
+        margin-top: 15px;
+    }
+}

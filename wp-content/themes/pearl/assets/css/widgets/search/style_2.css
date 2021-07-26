@@ -1,0 +1,45 @@
+.stm_widget_search.style_2 .widget.widget_search {
+    margin-bottom: 35px;
+}
+
+.stm_widget_search.style_2 .widget.widget_search:before {
+    display: none !important;
+}
+
+.stm_widget_search.style_2 .widget.widget_search .search-form {
+    position: relative;
+}
+
+.stm_widget_search.style_2 .widget.widget_search .search-form .form-control {
+    border-radius: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 44px;
+    padding-right: 30px;
+}
+
+.stm_widget_search.style_2 .widget.widget_search .search-form .form-control:focus + button {
+    background-color: transparent !important;
+}
+
+.stm_widget_search.style_2 .widget.widget_search .search-form button {
+    color: #808080;
+    background: transparent !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    border: none;
+    outline: none;
+    background: none;
+    margin: 0;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    padding: 0 !important;
+    line-height: 44px;
+}
+
+.stm_widget_search.style_2 .widget.widget_search .search-form button:after {
+    display: none;
+}

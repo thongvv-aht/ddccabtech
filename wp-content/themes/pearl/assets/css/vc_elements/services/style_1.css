@@ -1,0 +1,11 @@
+/*COLORS*/
+/*FONTS*/
+.stm_services_style_1 .stm_loop__single img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.stm_services_style_1 .stm_loop__single:hover .stm_separator_doubled:before {
+    right: 0;
+    opacity: 1;
+}

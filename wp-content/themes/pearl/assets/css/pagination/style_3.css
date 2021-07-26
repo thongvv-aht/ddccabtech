@@ -1,0 +1,139 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+ul.page-numbers {
+    position: relative;
+    margin: 15px 0 40px 0;
+    padding: 30px 0 0 6px;
+    border-top: 1px solid #e5e8ec;
+    text-align: center;
+}
+
+ul.page-numbers:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: none;
+    margin: 0 12.5px;
+}
+
+ul.page-numbers .page-numbers {
+    position: relative;
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 800;
+    color: #222;
+    z-index: 15;
+    line-height: 30px;
+}
+
+ul.page-numbers .page-numbers:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    background-color: #eeeff2;
+    z-index: -1;
+}
+
+ul.page-numbers .page-numbers .fa {
+    font-size: 12px;
+}
+
+ul.page-numbers .page-numbers.next {
+    line-height: 30px;
+}
+
+ul.page-numbers .page-numbers.prev {
+    padding-top: 6px;
+    padding-right: 5px;
+    line-height: 19px;
+}
+
+ul.page-numbers .page-numbers.current {
+    color: #fff;
+    background-color: transparent !important;
+}
+
+ul.page-numbers .page-numbers:hover {
+    color: #fff;
+}
+
+.stm_services_text_carousel .owl-dots {
+    margin-left: -8px;
+    text-align: left;
+}
+
+.stm_projects_carousel__carousel .owl-dots {
+    display: none !important;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dots .owl-dot {
+    display: inline-block;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    transform: rotate(45deg) scale(1);
+    transition: all 0.3s ease;
+}
+
+.owl-dots .owl-dot.active {
+    border-color: transparent;
+    transform: rotate(45deg) scale(0.6);
+}
+
+.stm_carousel_dots_bottom .owl-controls .owl-dots .owl-dot {
+    margin: auto 12px !important;
+}

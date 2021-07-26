@@ -1,0 +1,20 @@
+.vc_tta-accordion .vc_tta-panels-container {
+    padding: 0;
+}
+
+.vc_tta-accordion .vc_tta-panel .vc_tta-panel-title > a {
+    padding: 16px 20px !important;
+    text-transform: none !important;
+    border: 2px solid #f7f7f7 !important;
+}
+
+.vc_tta-accordion .vc_tta-panel .vc_tta-panel-title > a .vc_tta-title-text {
+    font-weight: 700;
+    color: #666666;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title > a:hover {
+    color: #fff !important;
+}

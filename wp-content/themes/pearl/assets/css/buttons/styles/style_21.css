@@ -1,0 +1,71 @@
+.stm_buttons_style_21 .btn {
+    border-width: 2px;
+    padding: 17px 25px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.stm_buttons_style_21 .btn_solid:not(.btn_white) {
+    border: none;
+    padding: 19px 25px;
+}
+
+.stm_buttons_style_21 .btn_solid:not(.btn_white):hover {
+    color: #fff !important;
+}
+
+.stm_buttons_style_21 .btn.btn_lg {
+    padding: 22px 42px !important;
+}
+
+.stm_buttons_style_21 .btn.btn_sm {
+    padding: 10px 20px;
+}
+
+.stm_buttons_style_21 .btn.btn_subtitle {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.stm_buttons_style_21 .btn_icon-bg .btn__icon {
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+}
+
+.stm_buttons_style_21 .btn_icon-right {
+    padding-right: 50px !important;
+}
+
+.stm_buttons_style_21 .btn_icon-left {
+    padding-left: 50px !important;
+}
+
+.stm_buttons_style_21 .btn_icon i {
+    top: 0;
+    bottom: 0;
+    width: 55px;
+}
+
+.stm_buttons_style_21 .btn .btn__label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+body .stm_slider .stm_slide__button a:after {
+    line-height: 45px;
+}
+
+.btn.btn_outline.btn_primary.btn_load:hover:before,
+.btn.btn_outline.btn_primary.btn_load:hover span,
+.btn.btn_outline.btn_primary:hover {
+    color: #fff !important;
+}
+
+@media (max-width: 1023px) {
+    .btn.btn_primary.btn_solid {
+        padding: 15px 30px;
+    }
+}
