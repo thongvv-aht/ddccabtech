@@ -2644,3 +2644,509 @@ body .subscribe-newsletter .left-left-content form button[type="submit"]:hover {
         width: 100%;
     }
 }
+
+/* DCIM page */
+.page-what-is-ddc-dcim-software .stm_titlebox_style_2 {
+    padding-top: 135px !important;
+    padding-bottom: 65px !important;
+}
+.page-what-is-ddc-dcim-software .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+    font-size: 51.54px;
+    line-height: 1.3em;
+    text-transform: uppercase !important;
+    font-family: "Barlow" !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+@media only screen and (max-width: 1023px) {
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 {
+        padding-top: 145px !important;
+        padding-bottom: 50px !important;
+        margin-top: 0 !important;
+    }
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 {
+        padding-top: 135px !important;
+        padding-bottom: 40px !important;
+    }
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 .stm_titlebox__title.h1 {
+        font-size: 32px !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .page-what-is-ddc-dcim-software .stm_titlebox_style_2 {
+        padding-top: 40px !important;
+    }
+}
+
+.page-what-is-ddc-dcim-software .patented-dynamic {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .video-embed p {
+    margin-top: -26px;
+    margin-bottom: -14px;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .btn {
+    font-size: 10.14px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.3em !important;
+    background-color: #3768b2;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    color: #fff !important;
+    padding: 10px 30px !important;
+    border: none;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .btn:hover,
+.page-what-is-ddc-dcim-software .patented-dynamic .btn:focus,
+.page-what-is-ddc-dcim-software .patented-dynamic .btn:active {
+    background-color: #3768b2 !important;
+    opacity: 0.8;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic a {
+    font-size: 10.14px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    background-color: #3768b2 !important;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic a:hover,
+.page-what-is-ddc-dcim-software .patented-dynamic a:focus,
+.page-what-is-ddc-dcim-software .patented-dynamic a:active {
+    opacity: 0.8;
+    text-decoration: none;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .section-details {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .section-details h2 {
+    font-size: 30.42px;
+    line-height: 38px;
+    text-transform: uppercase !important;
+    font-weight: 500;
+    margin-bottom: 7px;
+    letter-spacing: 0;
+    color: #000;
+}
+.page-what-is-ddc-dcim-software .patented-dynamic .section-details p {
+    font-size: 14.36px;
+    line-height: 20px;
+    max-width: 91%;
+    color: #000;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .patented-dynamic {
+        padding-bottom: 35px;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .video-embed p {
+        margin-top: -50px;
+        margin-bottom: -39px;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details h2 {
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details p {
+        font-size: 14px;
+        line-height: 1.3em;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .patented-dynamic .video-embed p {
+        margin: 0;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .video-embed iframe {
+        height: 200px;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details {
+        padding-top: 0;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details h2 {
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .patented-dynamic {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .video-embed {
+        margin-bottom: 15px !important;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .video-embed iframe {
+        width: 100%;
+    }
+    .page-what-is-ddc-dcim-software .patented-dynamic .section-details {
+        text-align: center;
+    }
+}
+
+.page-what-is-ddc-dcim-software .capabilities-block {
+    padding-top: 45px !important;
+    padding-bottom: 45px;
+}
+.page-what-is-ddc-dcim-software .capabilities-block h2 {
+    font-size: 30.42px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-bottom: 14px;
+    color: #000;
+}
+.page-what-is-ddc-dcim-software .capabilities-block ul li {
+    margin-bottom: 8px;
+    color: #000;
+    padding-left: 20px;
+    font-size: 13.52px;
+}
+.page-what-is-ddc-dcim-software .capabilities-block ul li:last-child {
+    margin-bottom: 0;
+}
+.page-what-is-ddc-dcim-software .capabilities-block ul li:before {
+    width: 5px;
+    height: 5px;
+}
+.page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper {
+    text-align: center;
+}
+.page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper img {
+    max-width: 90%;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .capabilities-block {
+        padding-top: 35px !important;
+        padding-bottom: 35px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block h2 {
+        font-size: 24px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block ul li {
+        margin-bottom: 5px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper img {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .capabilities-block h2 {
+        font-size: 20px !important;
+        margin-bottom: 10px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block ul li {
+        line-height: 1.3em;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper {
+        padding-top: 25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .capabilities-block {
+        padding-top: 30px !important;
+        padding-bottom: 30px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block {
+        text-align: center;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block ul {
+        list-style: disc inside;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block ul li {
+        padding-left: 0;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block ul li:before {
+        display: none;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper {
+        padding-top: 0;
+        margin-top: 15px;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block .vc_single_image-wrapper img {
+        max-width: 290px;
+    }
+}
+
+.page-what-is-ddc-dcim-software .block-content {
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+.page-what-is-ddc-dcim-software .block-content h2 {
+    font-size: 30.42px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-bottom: 7px;
+    color: #000;
+}
+.page-what-is-ddc-dcim-software .block-content p {
+    line-height: 36px;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 13.52px;
+}
+.page-what-is-ddc-dcim-software .block-content p:last-child {
+    margin-bottom: 0;
+}
+.page-what-is-ddc-dcim-software .block-content a {
+    display: inline-block;
+    border: 2px solid #3768b2;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    padding: 8px 27px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.page-what-is-ddc-dcim-software .block-content a:hover,
+.page-what-is-ddc-dcim-software .block-content a:focus,
+.page-what-is-ddc-dcim-software .block-content a:active {
+    background-color: #3768b2;
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .block-content {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .page-what-is-ddc-dcim-software .block-content h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .block-content h2 {
+        font-size: 20px !important;
+    }
+    .page-what-is-ddc-dcim-software .block-content p {
+        line-height: 1.3em;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .block-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+.page-what-is-ddc-dcim-software .list-icons {
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+.page-what-is-ddc-dcim-software .list-icons h3 {
+    font-size: 30.42px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-bottom: 70px;
+    color: #000;
+}
+.page-what-is-ddc-dcim-software .list-icons .vc_col-sm-4 {
+    margin-bottom: 60px;
+}
+.page-what-is-ddc-dcim-software .list-icons .container:last-child .vc_col-sm-4 {
+    margin-bottom: 0;
+}
+.page-what-is-ddc-dcim-software .list-icons h5 {
+    font-weight: normal;
+    font-size: 15.21px;
+    line-height: 18px;
+    color: #000;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .list-icons {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons h3 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons .vc_col-sm-4 {
+        margin-bottom: 15px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons .vc_col-sm-2 .vc_column-inner {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .list-icons h3 {
+        font-size: 20px !important;
+    }
+    .page-what-is-ddc-dcim-software .list-icons h5 {
+        font-size: 13.52px;
+        line-height: 1.3em;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .list-icons {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons {
+        text-align: center;
+    }
+    .page-what-is-ddc-dcim-software .list-icons .vc_col-sm-4 {
+        margin-bottom: 25px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons .vc_col-sm-2 .vc_column-inner {
+        padding: 0 15px;
+    }
+    .page-what-is-ddc-dcim-software .list-icons img {
+        margin-bottom: 10px;
+    }
+}
+
+.page-what-is-ddc-dcim-software .capabilities-block + .vc_section {
+    padding-top: 6px !important;
+    padding-bottom: 30px;
+    position: relative;
+    height: 346px;
+    background-image: linear-gradient(#fff, #efefef);
+}
+.page-what-is-ddc-dcim-software .capabilities-block + .vc_section .container {
+    position: absolute;
+    width: 100%;
+    top: 6px;
+    left: 0;
+}
+.page-what-is-ddc-dcim-software .owl-item {
+    padding: 0 !important;
+    position: relative;
+}
+.page-what-is-ddc-dcim-software .owl-item:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.page-what-is-ddc-dcim-software .owl-item:hover:before {
+    display: block;
+}
+.page-what-is-ddc-dcim-software .owl-item .stm_carousel__single a {
+    height: 310px;
+    overflow: hidden;
+    display: block;
+}
+.page-what-is-ddc-dcim-software .owl-item .stm_carousel__single img {
+    height: 100%;
+    width: 100%;
+}
+.page-what-is-ddc-dcim-software .owl-item .stm_carousel__description {
+    z-index: 1;
+}
+.page-what-is-ddc-dcim-software .owl-item .stm_carousel__description .stm_carousel__title {
+    font-size: 20.28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 24px;
+    padding: 15px;
+    color: #fff !important;
+    text-align: left;
+    display: none;
+}
+.page-what-is-ddc-dcim-software .owl-item:hover .stm_carousel__description .stm_carousel__title {
+    display: block;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .owl-item .stm_carousel__single img {
+        height: 100%;
+        width: auto;
+        max-width: unset;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .owl-item .stm_carousel__description .stm_carousel__title {
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+}
+@media only screen and (max-width: 549px) {
+    .page-what-is-ddc-dcim-software .capabilities-block + .vc_section {
+        position: static;
+        height: auto;
+    }
+    .page-what-is-ddc-dcim-software .capabilities-block + .vc_section .container {
+        position: static;
+    }
+    .page-what-is-ddc-dcim-software .owl-item .stm_carousel__single a {
+        height: auto;
+    }
+    .page-what-is-ddc-dcim-software .owl-item .stm_carousel__single img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.page-what-is-ddc-dcim-software .custom-form-quote .uvc-main-heading {
+    text-align: left !important;
+}
+.page-what-is-ddc-dcim-software .custom-form-quote h2 {
+    font-weight: 700 !important;
+    line-height: 1.3em !important;
+    margin-bottom: 35px !important;
+}
+.page-what-is-ddc-dcim-software .frm-request-a-quote-content .form-row > span::before {
+    display: block;
+}
+@media only screen and (max-width: 1199px) {
+    .page-what-is-ddc-dcim-software .custom-form-quote h2 {
+        margin-bottom: 15px !important;
+        font-size: 24px !important;
+    }
+    .page-what-is-ddc-dcim-software .custom-form-quote p {
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .page-what-is-ddc-dcim-software .custom-form-quote .vc_col-sm-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .page-what-is-ddc-dcim-software .custom-form-quote h2 {
+        font-size: 20px !important;
+        letter-spacing: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-what-is-ddc-dcim-software .custom-form-quote h2 {
+        text-align: center;
+    }
+    .page-what-is-ddc-dcim-software .custom-form-quote p {
+        text-align: center;
+    }
+}

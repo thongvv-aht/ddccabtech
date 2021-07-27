@@ -8,6 +8,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet"> 
     <?php wp_head(); ?>
 	<?php do_action('pearl_head_end'); ?>
 
