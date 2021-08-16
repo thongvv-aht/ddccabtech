@@ -199,7 +199,7 @@ if (!empty($images)): ?>
 
                 var owl_big = $('#' + big_carousel).owlCarousel({
                     rtl: owlRtl,
-                    items: <?php echo esc_js($images_qty) ?>,
+                    items: 5,
                     dots: <?php echo esc_js($dots)?>,
                     nav: <?php echo esc_js($navigation)?>,
                     slideBy: 1,
@@ -210,19 +210,22 @@ if (!empty($images)): ?>
                     loop: <?php echo esc_js($loop) ?>,
                     responsive: {
                         0: {
-                            items: 1,
+                            items: 1
                         },
                         550: {
-                            items: <?php echo intval($mobile_num); ?>
+                            items: 2
                         },
                         768: {
-                            items: <?php echo intval($tablet_num); ?>
+                            items: 2
                         },
                         900: {
-                            items: <?php echo intval($tablet_landscape); ?>
+                            items: 3
                         },
                         1025: {
-                            items: <?php echo intval($images_qty); ?>
+                            items: 3
+                        },
+                        1500: {
+                            items: 5
                         }
                     }
                 }).on('changed.owl.carousel', function (e) {

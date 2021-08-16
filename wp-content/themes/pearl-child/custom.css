@@ -2653,7 +2653,6 @@ body .subscribe-newsletter .left-left-content form button[type="submit"]:hover {
 .page-what-is-ddc-dcim-software .stm_titlebox_style_2 .stm_titlebox__title.h1 {
     font-size: 51.54px;
     line-height: 1.3em;
-    text-transform: uppercase !important;
     font-family: "Barlow" !important;
     font-weight: 700;
     letter-spacing: 1px;
@@ -3084,8 +3083,8 @@ body .subscribe-newsletter .left-left-content form button[type="submit"]:hover {
 @media only screen and (max-width: 1199px) {
     .page-what-is-ddc-dcim-software .owl-item .stm_carousel__single img {
         height: 100%;
-        width: auto;
-        max-width: unset;
+        width: 100%;
+        max-width: 100%;
     }
 }
 @media only screen and (max-width: 767px) {
